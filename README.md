@@ -18,6 +18,10 @@ The probability of a network fork occurring is a function of a parameter that Si
 
 ### What are the drawbacks of Algorand?
 
+### Where can I view the metrics for the Algorand Mainnet?
+
+View them [here](https://metrics.algorand.org/).
+
 ### Who are some noteworthy members of the Algorand team?
 
 ### Who is Silvio Micali?
@@ -79,7 +83,7 @@ You might also consider the risk that the seller might take the money and disapp
 
 2) Control
 
-With tokens, there is a distinctio between who owns it, and who created it. The person who created it can sell it while at the same time raiting certain rights. Algorand notably has a clawback function, meaning that if specified, any token could be brought back to the owner of the clawback address. E.g., if a user of am membership rewards program broke some kind of code of conduct.
+With tokens, there is a distinction between who owns it at any given point in time, and who created it. The person who created it can sell it while at the same time raiting certain rights. Algorand notably has a clawback function, meaning that if specified, any token could be brought back to the owner of the clawback address. E.g., if a user of am membership rewards program broke some kind of code of conduct.
 
 Algorand also offers the freeze function. An asset being frozen means that it cannot be transferred anywhere, so the owner can own it but not send it to anyone else. Consider a music artist minting an NFT of a song they made, representing the rights to it. They sell it off to Record Label A, which starts to collect revenue on it, but the artist could choose to freeze it in the label's account. One day, Record Label A decides to sell it off to Record Label B. With smart contracts, a chain of logic could be set that measn the artist will unfreeze the asset for transfer, but only if they receive some kind of reward for it.
 

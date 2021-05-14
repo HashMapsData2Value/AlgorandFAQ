@@ -27,7 +27,7 @@ The heart of Algorand, and what makes it stick out, is its deceptively simple co
 - Carbon Neutrality
 - Automatic Staking
  
-Algorand is not the absolute fastest blockchain out there, or the cheapest. There are other blockchains that claim to be able to handle higher TPS. But the combination of all of these properties  makes Algorand uniquely suited for a number of applications.
+But the combination of all of these properties makes Algorand uniquely suited for a number of applications.
 
 On a more subjective note, the following have also been praised:
 - The quality of the developer docs.

@@ -33,7 +33,7 @@ On a more subjective note, the following have also been praised:
 - The quality of the developer docs.
 - The UI of the official mobile Algorand app.
 
-### Sorry, what? Algorand solves the Trilemma? How?
+### How does Algorand solve the Blockchain Trilemma?
 
 [Refer to this talk](https://www.youtube.com/watch?v=Lbje18-zxc8) by Silvio Micali at the Algorand Boston Meetup.
 
@@ -42,6 +42,15 @@ On a more subjective note, the following have also been praised:
 The probability of a network fork occurring is a function of a parameter that the team behind Algorand set at its creation. It was decided to set it to have a 1 in 1 000 000 000 000 000 000 (1/10^-18) risk of a fork. Note that the the age of the Universe is estimated at around 4.3 x 10^17 seconds. Thus, the probability of a fork taking place is pretty much non-existent. 
 
 Refer to the [paper](https://www.algorand.com/Algorand_%20A%20secure%20and%20efficient%20distributed%20ledger.pdf) for more information.
+
+### Okay, so it cannot fork. Why should I care?
+
+Forks are very damaging to the blockchain. Any kind of suggestion or expectaton of a fork can divide a community and alter stakeholder incentives. The value of a blockchain, like any marketplace or network technology, is not proportional to the number of connected users but the square of that number (Metcalfe's Law). In other words, if a network is split into two, the value of each resulting half is 1/4th. 
+
+If there are _n_ users, they can make _n_(_n_-1)/2 connections. Consider that 2 users can make 1 connection, 5 users can make 10 connections, and 10 users can make 45 connections.
+
+Tokens do not get split up. For NFTs, which are proofs of ownership, this is fundamental. Consider the intellectual property of a creative or inventor being represented on the blockchain by an NFT. A network fork would mean that the intellectual property would be split in two, and any transfer of the property to another entity would require two transactions. Even worse, two different entities (e.g., record label A and record label B) might each buy the NFT on each respective fork and confusion arises as to who is the actual owner.
+
 
 ### What are the drawbacks of Algorand?
 

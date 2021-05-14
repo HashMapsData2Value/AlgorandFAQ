@@ -10,11 +10,32 @@ Note that Algorand has an [official FAQ on their website](https://algorand.found
 
 ### What is Algorand?
 
+Algorand is a blockchain-based cryptocurrency platform that aims to be secure, scalable, and decentralized. The Algorand platform supports smart contract functionality and its consensus algorithm is based on a proof-of-stake and Byzantine Agreement protocol.[5][2][6][7][8] Algorand’s native cryptocurrency is called Algo.
+
+From the Wikipedia page [(currently in draft)](https://en.wikipedia.org/wiki/Draft:Algorand).
+
 ### What are the benefits and Unique Selling Points of Algorand?
+
+The heart of Algorand, and what makes it stick out, is its deceptively simple consensus mechanism that results in Pure Proof of Stake. This allows it to solve the Blockchain Trilemma of Scaleable, Secure and Decentralized.
+
+- Transactions per Second: ~1k (by end of 2021 -> 46k) 
+- Transaction Finality: ~4.5s (by end of 2021 -> ~2.5s)
+- Transaction Cost: 1000 microAlgos/0.001 Algos, approximately $0.0015 or 0.15 cents (2021-05-14).
+- Guaranteed to never fork!
+- Layer 1 Smart Contracts, part of the consensus protocol
+- Algorand Standard Assets being first-class citizens (Fungible & Non-Fungible Tokens)
+- Carbon Neutrality
+- Automatic Staking
+ 
+Algorand is not the absolute fastest blockchain out there, or the cheapest. There are other blockchains that claim to be able to handle higher TPS. But the combination of all of these properties  makes Algorand uniquely suited for a number of applications.
+
+On a more subjective note, the following have also been praised:
+- The quality of the developer docs.
+- The UI of the official mobile Algorand app.
 
 ### How is Algorand guaranteed to never fork?
 
-The probability of a network fork occurring is a function of a parameter that the team behind Algorand set at its creation. It was decided to set it to have a 1 in 1 000 000 000 000 000 000 (1/10^-18) risk of a fork. Note that the the age of the Universe is estimated at around 13.772 billion years, which is roughly 4.3 x 10^17 seconds. Thus, the probability of a fork taking place is pretty much non-existent. 
+The probability of a network fork occurring is a function of a parameter that the team behind Algorand set at its creation. It was decided to set it to have a 1 in 1 000 000 000 000 000 000 (1/10^-18) risk of a fork. Note that the the age of the Universe is estimated at around 4.3 x 10^17 seconds. Thus, the probability of a fork taking place is pretty much non-existent. 
 
 Refer to the [paper](https://www.algorand.com/Algorand_%20A%20secure%20and%20efficient%20distributed%20ledger.pdf) for more information.
 
@@ -24,9 +45,28 @@ Refer to the [paper](https://www.algorand.com/Algorand_%20A%20secure%20and%20eff
 
 View them [here](https://metrics.algorand.org/).
 
-### Who are some noteworthy members of the Algorand team?
+### Who are some noteworthy people associated with Algorand?
+
+- Founder: Silvio Micali. Turing Award Winner (2012), RSA Award Winner (2004) Gödel Prize Winner (1993), ACM Fellow (2017). He is also known for his foundational work in Cryptography, including (but not limtied to) the fields of public-key cryposystems, pseudorandom functions, digital signatures, zero-knowledge proofs (co-inventor), oblivious transfers, and secure multiparty computaton. Currently a professor at MIT.
+- Advisor: Shafrira Goldwasser. Turing Award Winner (2012), Gödel Prize Winner (1993), Gödel Prize Winner (2001), RSA Award Winner (1998), ACM Grace Murray Hopper Award Winner (1996), Suffrage Science Award (2016)...
+- Advisor: Paul Milgrom. Nobel Prize (2020).
+
+These are just a few examples of the many prominent people associated with Algorand. The explore the list of people more, refer to the following pages: 
+- [Algorand Foundation](https://algorand.foundation/about-us/who-we-are) 
+- [Algorand Inc.](https://www.algorand.com/about/our-team) 
+
 
 ### Who is Silvio Micali?
+
+Silvio Micali is the founder of Algorand.
+
+He has been on the faculty at MIT, Electrical Engineering and Computer Science Department, since 1983. Silvio’s research interests are cryptography, zero knowledge, pseudorandom generation, secure protocols, and mechanism design and blockchain. In particular, Silvio is the co-inventor of probabilistic encryption, Zero-Knowledge Proofs, Verifiable Random Functions and many of the protocols that are the foundations of modern cryptography. 
+
+[Silvio Micali | The Path to Algorand](https://www.youtube.com/watch?v=QOMpPZZeguQ)
+[Silvio Micali's Lecture on Algorand](https://www.youtube.com/watch?v=NykZ-ZSKkxM)
+[Silvio Micali: Cryptocurrency, Blockchain, Algorand, Bitcoin & Ethereum | Lex Fridman Podcast #168](https://www.youtube.com/watch?v=zNdhgOk4-fE)
+
+
 
 ### What is the difference between Algorand (inc) and Algorand the Foundation? 
 

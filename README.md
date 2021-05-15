@@ -175,7 +175,10 @@ You can find more tutorials here:
 - Tutorial Development using Raspberry Pi shows in the first two parts how to set up a participation node. ([Part 1](https://developer.algorand.org/tutorials/development-on-algorand-using-raspberry-pi-part-1/), [Part 2](https://developer.algorand.org/tutorials/development-on-algorand-using-raspberry-pi-part-2/)) 
 - [Participate in Consensus from Ledger Nano S/X](https://developer.algorand.org/tutorials/participate-consensus-ledger-nano/). 
 
-### Where can I view transactions?
+### Where can I view transactions and other activity on the blockchain?
+
+https://algoexplorer.io/
+
 
 ## Wallet
 
@@ -183,11 +186,49 @@ You can find more tutorials here:
 
 ### How do I keep my coins safe?
 
+**DO NOT SHARE YOUR SEED PHRASE!!!**.
+**DO NOT SHARE YOUR SEED PHRASE!!!**.
+**DO NOT SHARE YOUR SEED PHRASE!!!**.
+**DO NOT SHARE YOUR SEED PHRASE!!!**.
+
+If anyone asks you to do it...
+**DO NOT SHARE YOUR SEED PHRASE!!!**.
+
+Whatever you do **DO NOT SHARE YOUR SEED PHRASE!!!**.
+
+With that said, some services like Algodesk.io will require you to enter a seed phrase to a wallet if you want to create an Algorand Standard Asset (FT/NFT). It provides a web graphical user interface and abstracts away the underlying blockchain interactions. They, and others, claim that they do not store your keys, and only provide a dumb client-web app.
+
+The best practice here is to go to your wallet, create a new account (i.e., generate a NEW 24/25 seed phrase), and send the necessary amount (e.g., 0.5 Algo) to that account.
+Then, you can enter the seed phrase for that into the NFT-minting service. After minting, you can transfer the asset to any other account you have. If, on the other hand, it is a scam, or it is unsecure, or your computer had gotten hacked just efore, you will only have lost the <0.5 Algos you put in. It also goes without saying that you should consider that account "tainted" and never use it to store any significant amount of Algos.
+
+But remember...
+**DO NOT SHARE YOUR SEED PHRASE!!!**
+**DO NOT SHARE YOUR SEED PHRASE!!!**
+**DO NOT SHARE YOUR SEED PHRASE!!!**
+**DO NOT SHARE YOUR SEED PHRASE!!!**
+
+If you ever find yourself typing the words in your phrase, STOP! It should feel sketchy!
+
+### How do I keep my privacy on a public, permissionless blockchain like Algorand?
+
+As the question suggest, everything on Algorand is open. Unlike Monero or Z-Cash, there is no inherent mechanism for obfuscating transactions and their contents. This is by design, to avoid Algorand being banned by governments.
+
+If you wish to send Algos from address A to address B, without any other observer being able to create the link, the best way to do so is to use an intermediary, like an exchange. Since the exchange processes thousands of transactions in and out, it will be difficult to pinpoint that it was you. Note that when you send from the exchange to account B, try to send it in multiple transactions of different amounts to create further obfuscation.
+
+From the PoV of law enforcement and tax agencies, they are free to reach out to the exchange and get your information. But to any observer on the blockchain, you will have maintained your privacy.
+
+
 ## Staking
 
 ### What does it mean to "stake"?
 
+
+
 ### Where should I stake my ALGOs?
+
+Any arrangement where **you** own the keys will give the maximum amount of rewards. This includes the official mobile wallet and any hardware wallet (e.g. Ledger).
+
+
 
 ### What is Governance staking?
 You will receive governance rewards for locking a fixed number of ALGOs for at least 3 months and voting on each proposal in that quarter. Rewards are determined by the number of algos pledged and calculated as the ratio of total algos pledged to the total reward pool for that period. The document provides an example: "For example, in 2022, approximately 300 million algo will be allocated for Governance Rewards, which means approximately 75 million reward algo in each quarter." If only you commit your ALGOs to the governance process, you would get 75M ALGOs for that quarter. The more people participate, the less rewards for everyone. In 2022, participation rewards will be phased out and replaced with governance rewards. This also means that the staking rewards you get from simply holding ALGOs will be phased out for now. The governance process will be rolled out in Q4 2021, so there will be a brief opportunity to earn both staking and governance rewards for that quarter. Technical details on how to participate in the governance process will be announced in advance. However, you will be able to participate via the app. Anyone can participate in the governance process. You also have the option to delegate your voting rights to the foundation if you lack expertise in a topic or do not have time to look at the proposals beforehand. Later, other institutions will follow to which you can delegate your voting rights.

@@ -93,6 +93,14 @@ He has been on the faculty at MIT, Electrical Engineering and Computer Science D
 
 ### Where can I talk to other Algonauts?
 
+### Where is the Wikipedia Page?
+
+It's currently in draft: https://en.wikipedia.org/wiki/Draft:Algorand
+
+### Why is Silvio and the team not Twitter verified?
+
+Twitter's verification program is currently on hold: https://help.twitter.com/en/managing-your-account/about-twitter-verified-accounts
+
 ## Tokens
 
 ### What is a token?
@@ -154,6 +162,19 @@ Algorand also offers the freeze function. An asset being frozen means that it ca
 
 ### How do I run a node?
 
+If you are planning to operate a node, you should know that there are different types of nodes: relay nodes and non-relay nodes. You can find more information about this here. You will probably want to run a participation node. The first thing you need to do is to set up a node. This is a simple copy and paste process. [Here](https://developer.algorand.org/docs/run-a-node/setup/install/) you can find a tutorial. For Windows there is an [exhttps://github.com/randlabs/algorand-windows-node/releasestable program](url) or you can [compile Algorand node software](https://developer.algorand.org/tutorials/compile-and-run-the-algorand-node-natively-windows/#1-environment-setup) for yourself and then run it.
+
+To participate in the consensus protocol, one must also register a participation key and perform a key registration transaction. [Here](https://developer.algorand.org/docs/run-a-node/participate/) you can find more information. This is again a simple copy and paste process, but there are some small changes you need to make, adding your address and changing roundFirstValid and roundLastValid at addpartkey and firstvalid and lastvalid at changeonlinestatus to a block number in the future. For security reasons I would recommend to authorize the key registration transaction offline on a different machine than the participation node.
+
+In case someone wonders how much the costs are. u/cysec_ uses Linode to host his participation node. The cost is currently 20 USD/EUR per month (Shared CPU - Linode 4GB). You can also run a participation node using a Raspberry Pi. At least two CPU cores and 4 GB of RAM are recommended. Hardware requirements may increase over time.
+
+Currently there are no rewards for running a participation node.
+
+You can find more tutorials here: 
+- Here a Youtube tutorial from a community member: https://youtu.be/ahCqIE7Ih_0, https://youtu.be/sbGoXaWOIcA.
+- Tutorial Development using Raspberry Pi shows in the first two parts how to set up a participation node. ([Part 1](https://developer.algorand.org/tutorials/development-on-algorand-using-raspberry-pi-part-1/), [Part 2](https://developer.algorand.org/tutorials/development-on-algorand-using-raspberry-pi-part-2/)) 
+- [Participate in Consensus from Ledger Nano S/X](https://developer.algorand.org/tutorials/participate-consensus-ledger-nano/). 
+
 ### Where can I view transactions?
 
 ## Wallet
@@ -169,10 +190,19 @@ Algorand also offers the freeze function. An asset being frozen means that it ca
 ### Where should I stake my ALGOs?
 
 ### What is Governance staking?
+You will receive governance rewards for locking a fixed number of ALGOs for at least 3 months and voting on each proposal in that quarter. Rewards are determined by the number of algos pledged and calculated as the ratio of total algos pledged to the total reward pool for that period. The document provides an example: "For example, in 2022, approximately 300 million algo will be allocated for Governance Rewards, which means approximately 75 million reward algo in each quarter." If only you commit your ALGOs to the governance process, you would get 75M ALGOs for that quarter. The more people participate, the less rewards for everyone. In 2022, participation rewards will be phased out and replaced with governance rewards. This also means that the staking rewards you get from simply holding ALGOs will be phased out for now. The governance process will be rolled out in Q4 2021, so there will be a brief opportunity to earn both staking and governance rewards for that quarter. Technical details on how to participate in the governance process will be announced in advance. However, you will be able to participate via the app. Anyone can participate in the governance process. You also have the option to delegate your voting rights to the foundation if you lack expertise in a topic or do not have time to look at the proposals beforehand. Later, other institutions will follow to which you can delegate your voting rights.
+
+For more information on governance: 
+- Website: [Decentralizing Algorand Governance](https://algorand.foundation/the-algo/algo-governance). [FAQ](https://algorand.foundation/gov-faq). 
+- Video: [April Community All-Hands: Decentralizing Algorand Governance](https://www.youtube.com/watch?v=-t7pARZYrr0), [Blockchain Acceleration Foundation: Decentralizing Algorand Governance](https://www.youtube.com/watch?v=FWRrEiYYNyA)
 
 ## Ecosystem
 
 ### Where can I see a list of companies using Algorand?
+
+https://www.algorand.com/ecosystem
+https://www.algorand.com/ecosystem/use-cases
+
 
 ### Where can I buy Algorand?
 

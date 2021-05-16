@@ -282,7 +282,7 @@ If you ever find yourself typing the words in your phrase, STOP! It should feel 
 
 ## How do I keep my privacy on a public, permissionless blockchain like Algorand?
 
-As the question suggest, everything on Algorand is open. Unlike Monero or Z-Cash, there is no inherent mechanism for obfuscating transactions and their contents. This is by design, to avoid Algorand being banned by governments.
+As the question suggest, everything on Algorand is open. Unlike Monero or Z-Cash, there is no inherent mechanism for obfuscating transactions and their contents.
 
 If you wish to send Algos from address A to address B, without any other observer being able to create the link, the best way to do so is to use an intermediary, like an exchange. Since the exchange processes thousands of transactions in and out, it will be difficult to pinpoint that it was you. Note that when you send from the exchange to account B, try to send it in multiple transactions of different amounts to create further obfuscation.
 

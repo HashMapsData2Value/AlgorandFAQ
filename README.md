@@ -33,41 +33,37 @@ On a more subjective note, the following have also been praised:
 - The quality of the developer docs.
 - The UI of the official mobile Algorand app.
 
-## How does Algorand solve the Blockchain Trilemma? What does "PURE" Proof-of-Stake mean?
+## How does Algorand solve the Blockchain Trilemma? 
 
 [Refer to this talk](https://www.youtube.com/watch?v=Lbje18-zxc8) by Silvio Micali at the Algorand Boston Meetup.
 
+## What does "PURE" Proof-of-Stake mean?
 Blockchains are just blocks of transactions cryptographically chained together. Blocks containing these transactions are proposed to the network, validated by the network, until consensus has been reached that the specific block is "correct" and everybody can move on to the next block to add.
 
 The challenge is - who gets to propose blocks? Why should we trust them? What is stopping a malicious actor from taking over a majority of the validation and compromising the integrity of the network? E.g., by creating fake transactions, stealing money from others, etc.
 
-In PoS, we make the assumption that actors with a big personal stake in the blockchain should fundamentally be trusted over those without.
-
-Different variants of PoS exist, all trying to tackle this while at the same time trying to figure out the Blockchain Trilemma, which (formulated by Vitalik) states that a crypto can only have two out of the following three:
-
+In PoS, we make the assumption that actors with a big personal stake in the blockchain should fundamentally be trusted over those without.77Different variants of PoS exist, all trying to tackle this while at the same time trying to figure out the Blockchain Trilemma, which (formulated by Vitalik) states that a crypto can only have two out of the following three:
 - Decentralization
-
 - Security
-
 - Scalability
 
 Some networks, in order to get greater scalability and speed up things, delegate responsibility of block validation to some other actor - we call this Delegated Proof of Stake (DPoS). One example is EOS, which has 21 "delegates" that have been voted into power by the rest of the blockchain. But now you've created more centralization. These delegates basically have a massive target on their backs.
 
-Some other networks use something called Bonded Proof of Stake (BPoS). This means that they set aside a portion of their funds, like a security deposit. Their voting power is proportional to the amount they're willing to set aside. Once the deposit is in place, it cannot be removed until a specified amount of time has passed. If these users are dishonest, they forfeit their deposit along with the privilege of participating in the consensus process. The problem is that you've reduced a user's ability to spend their coins by holding it hostage. Also, if you can trick the network and gain more, or do a looot more damage, in proportion to what you have staked in your deposit, there is still an incentive to do bad stuff (even if it is super hard or infeasible).
+Some other networks use something called Bonded Proof of Stake (BPoS). This means that they set aside a portion of their funds, like a security deposit. Their voting power is proportional to the amount they're willing to set aside. Once the deposit is in place, it cannot be removed until a specified  amount of time has passed. If these users are dishonest, they forfeit  their deposit along with the privilege of participating in the consensus process. The problem is that you've reduced a user's ability to spend their coins by holding it hostage. Also, if you can trick the network and gain more, or do a looot more damage, in proportion to what you have staked in your deposit, there is still an incentive to do bad stuff (even if it is super hard or infeasible).
 
 Algorand claims that it is "Pure" PoS because it does not suffer from these issues.
 
-- There is a lottery that takes place, where every single Algo can be chosen. You can be chosen to either be in the block proposal commitee or the block validation committee. The more Algos you have, regardless of how you've spread them out over your wallets, the higher the likelihood it is that you are chosen - hence, the PoS element.
+- There is a lottery that takes place, where every single Algo among those running the participatory nods can be chosen.  You can be chosen to either be in the block proposal commitee or the block validation committee. The more Algos you have, regardless of how you've spread them out over your wallets, the higher the likelihood it is that one of them are chosen since you have more Alos - hence, why we even call it a PoS in the first place.
 
-- A small subset of the blockchain are chosen. BUT! No one knows who they are! Because the lottery takes place by running a Verifiable Random Function. They are a magical cryptographic thing that means that if you win, you are able to prove to the rest of the network that you won, while also having proof that you won the lottery legitimately (you didn't "manufacture a golden ticket").
+- A small subset of the blockchain (of the participatory nodes) are chosen. BUT! No one knows who they are! Because the lottery takes place by running a Verifiable Random Function. They are a magical cryptographic thing that means that if you win, you are able to prove to the rest of the network that you won, while also having proof that you won the lottery legitimately (you didn't "manufacture a golden ticket"). It's not like there is a central authority telling each holder of the winning Algo.
 
-- Things move so fast. By the time everybody knows who has won the lottery, and they've painted a target on their backs, in the time it takes for a bad actor to try to find the owner and try to corrupt them, the network has already moved on to the next block! And we have a new set of committees. So the incentives to corrupt or attack any specific Algo holder is removed.
+- Things move so fast. By the time everybody knows who has won the lottery, and they've painted a target on their backs, in the time it wouuld take for a bad actor to try to find the owner and try to corrupt them, the person has already disseminated their opinion and the network has already moved on to the next block! And we have a new set of committees. So the incentives to corrupt or attack any specific Algo holder is removed.
 
-- Instead of assuming that a specific group of whales who we have delegated power to are supposed to be honest, we assume that at least 2/3 of the ENTIRE ECONOMY is honest. We are constantly taking a random subset of the economy and placing them on jury duty, and this is much more powerful. The only way to corrupt the blockchain is by malicious actors owning 2/3 of all Algos.
+- Instead of assuming that a specific group of whales who we have delegated power to are supposed to be honest, we assume that at least 2/3 of the ENTIRE ECONOMY is honest. We are constantly taking a random subset of the economy of the participatory nodes and placing them on jury duty, and this is much more powerful. The only way to corrupt the blockchain is by malicious actors owning more than 1/3 of all the participatory nodes' Algos.
 
 - Note that users are also free to spend their Algos at any time. There's no need to tie up a bunch of your coins indefinitely.
 
-Hence, Algorand calls itself the "Pure" Proof-of-Stake blockchain which has solved the Blockchain Trilemma.
+Hence, Algorand calls itself the "Pure" Proof-of-Stake blockchain.
 
 ## How is Algorand guaranteed to never fork?
 

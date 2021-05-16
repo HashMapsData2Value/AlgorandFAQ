@@ -251,11 +251,18 @@ https://www.algorand.com/ecosystem/use-cases
 
 ### Is there a tool I can use to create my own token?
 
-### How do I buy USDC?
+### How do I buy USD stable coins?
+
+### What is ISO 20022 and what does it mean that Algorand is part of setting it?
+https://en.wikipedia.org/wiki/ISO_20022
 
 ## Miscelleanous
 
-### Is Algorand in talks with Central Banks?
+### What is Algorand's connection with Central Banks?
+
+Algorand's COO stated in this [interview on 2021-04-27](https://www.youtube.com/watch?v=oX8D6TcQjXM) with Paul Barron Network that they are in talks with 15-20 central banks.
+
+Algorand is also, in its marketing and the blog content they produce, heavily slanted towards CBDCs, e.g. [this report](https://info.algorand.com/cbdc-algorand).
 
 ### What is the connection between Silvio and the SEC?
 

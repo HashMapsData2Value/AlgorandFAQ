@@ -33,11 +33,9 @@ On a more subjective note, the following have also been praised:
 - The quality of the developer docs.
 - The UI of the official mobile Algorand app.
 
-## How does Algorand solve the Blockchain Trilemma?
+## How does Algorand solve the Blockchain Trilemma? What does "PURE" Proof-of-Stake mean?
 
 [Refer to this talk](https://www.youtube.com/watch?v=Lbje18-zxc8) by Silvio Micali at the Algorand Boston Meetup.
-
-## What does "PURE" Proof-of-Stake mean?
 
 Blockchains are just blocks of transactions cryptographically chained together. Blocks containing these transactions are proposed to the network, validated by the network, until consensus has been reached that the specific block is "correct" and everybody can move on to the next block to add.
 
@@ -88,7 +86,7 @@ Tokens do not get split up. For NFTs, which are proofs of ownership, this is fun
 
 ## What are the drawbacks of Algorand?
 
-The following are things some detractors of Algorand often mention:
+The following threads discuss some of the things that are currently considered drawbacks:
 
 - https://www.reddit.com/r/AlgorandOfficial/comments/n5tykg/algorand_negatives/
 - https://www.reddit.com/r/AlgorandOfficial/comments/mghvrn/almost_seems_to_good_to_be_true_give_me_something/
@@ -274,7 +272,7 @@ Whatever you do **DO NOT SHARE YOUR SEED PHRASE!!!**.
 
 With that said, some services like Algodesk.io will require you to enter a seed phrase to a wallet if you want to create an Algorand Standard Asset (FT/NFT). It provides a web graphical user interface and abstracts away the underlying blockchain interactions. They, and others, claim that they do not store your keys, and only provide a dumb client-web app.
 
-The best practice here is to go to your wallet, create a new account (i.e., generate a NEW 24/25 seed phrase), and send the necessary amount (e.g., 0.5 Algo) to that account.
+The best practice here is to go to create a new account (i.e., generate a NEW 24/25 seed phrase), and send the necessary amount (e.g., 0.5 Algo) to that account.
 Then, you can enter the seed phrase for that into the NFT-minting service. After minting, you can transfer the asset to any other account you have. If, on the other hand, it is a scam, or it is unsecure, or your computer had gotten hacked just efore, you will only have lost the <0.5 Algos you put in. It also goes without saying that you should consider that account "tainted" and never use it to store any significant amount of Algos.
 
 But remember...

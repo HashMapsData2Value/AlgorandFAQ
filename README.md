@@ -90,6 +90,10 @@ He has been on the faculty at MIT, Electrical Engineering and Computer Science D
 
 ## What is Algorand's environmental impact?
 
+[Algorand is Carbon Neutral](https://algorand.foundation/news/carbon-neutral).
+
+Algorand uses a specific kind of Proof-of-Stake (PoS) in its block proposal and consensus mechanism which makes it far more efficient that not just the wildly inefficient Proof-of-Work, but also other blockchains that rely on PoS.
+
 ## Where can I talk to other Algonauts?
 
 ## Where is the Wikipedia Page?

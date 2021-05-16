@@ -96,9 +96,30 @@ Algorand uses a specific kind of Proof-of-Stake (PoS) in its block proposal and 
 
 ## Where can I talk to other Algonauts?
 
+**Reddit:**
+- [/r/AlgorandOfficial](https://www.reddit.com/r/AlgorandOfficial): The subreddit for official news and question, and is intentionally kept "serious" to ensure pertinent information gets out to the community. 
+- [/r/Algorand](https://www.reddit.com/r/Algorand): The unofficial subreddit, where price and trading discussion is allowed to take places. Not as serious as the official.
+- [/r/AlgoNFTMarketplace](https://www.reddit.com/r/AlgoNFTMarketplace/): Trade NFTs (Non-Fungible Tokenss).
+- [/r/WeAlgoTogether](https://www.reddit.com/r/WeAlgoTogether/): Subreddit for memes and low-effort (but fun) content
+
+**Discord:** 
+- [Algorand Discord](https://discord.com/invite/YgPTCVk): Come here to chat with people, especially if you wish to consult with developers and get feedback faster.
+
+**Twitter:**
+- https://twitter.com/Algorand
+- https://twitter.com/silviomicali
+- https://twitter.com/KeliCallaghan
+
+**Telegram:**
+- https://t.me/algorand
+
+**Github**
+- https://github.com/algorand/
+
 ## Where is the Wikipedia Page?
 
-It's currently in draft: https://en.wikipedia.org/wiki/Draft:Algorand
+The first draft was stopped: https://en.wikipedia.org/wiki/Draft:Algorand
+The second proposal is under reiew: https://en.wikipedia.org/wiki/Draft:Algorand_(cryptocurrency_platform)
 
 ## Why is Silvio and the team not Twitter verified?
 

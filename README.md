@@ -25,7 +25,7 @@ The heart of Algorand, and what makes it stick out, is its deceptively simple co
 - Layer 1 Smart Contracts, part of the consensus protocol
 - Algorand Standard Assets being first-class citizens (Fungible & Non-Fungible Tokens)
 - Carbon Neutrality
-- Automatic Staking
+- Easy Staking
  
 But the combination of all of these properties makes Algorand uniquely suited for a number of applications.
 

@@ -6,15 +6,15 @@ Note that Algorand has an [official FAQ on their website](https://algorand.found
 
 # Topics
 
-## Algorand - Overview
+# Algorand - Overview
 
-### What is Algorand?
+## What is Algorand?
 
 Algorand is a blockchain-based cryptocurrency platform that aims to be secure, scalable, and decentralized. The Algorand platform supports smart contract functionality and its consensus algorithm is based on a proof-of-stake and Byzantine Agreement protocol.[5][2][6][7][8] Algorand’s native cryptocurrency is called Algo.
 
 From the Wikipedia page [(currently in draft)](https://en.wikipedia.org/wiki/Draft:Algorand).
 
-### What are the benefits and Unique Selling Points of Algorand?
+## What are the benefits and Unique Selling Points of Algorand?
 
 The heart of Algorand, and what makes it stick out, is its deceptively simple consensus mechanism that results in Pure Proof of Stake. This allows it to solve the Blockchain Trilemma of Scaleable, Secure and Decentralized.
 
@@ -33,17 +33,17 @@ On a more subjective note, the following have also been praised:
 - The quality of the developer docs.
 - The UI of the official mobile Algorand app.
 
-### How does Algorand solve the Blockchain Trilemma?
+## How does Algorand solve the Blockchain Trilemma?
 
 [Refer to this talk](https://www.youtube.com/watch?v=Lbje18-zxc8) by Silvio Micali at the Algorand Boston Meetup.
 
-### How is Algorand guaranteed to never fork?
+## How is Algorand guaranteed to never fork?
 
 The probability of a network fork occurring is a function of a parameter that the team behind Algorand set at its creation. It was decided to set it to have a 1 in 1 000 000 000 000 000 000 (1/10^-18) risk of a fork. Note that the the age of the Universe is estimated at around 4.3 x 10^17 seconds. Thus, the probability of a fork taking place is pretty much non-existent. 
 
 Refer to the [paper](https://www.algorand.com/Algorand_%20A%20secure%20and%20efficient%20distributed%20ledger.pdf) for more information.
 
-### Okay, so it cannot fork. Why should I care?
+## Okay, so it cannot fork. Why should I care?
 
 Forks are very damaging to the blockchain. Any kind of suggestion or expectaton of a fork can divide a community and alter stakeholder incentives. The value of a blockchain, like any marketplace or network technology, is not proportional to the number of connected users but the square of that number (Metcalfe's Law). In other words, if a network is split into two, the value of each resulting half is 1/4th. 
 
@@ -52,13 +52,13 @@ If there are _n_ users, they can make _n_(_n_-1)/2 connections. Consider that 2 
 Tokens do not get split up. For NFTs, which are proofs of ownership, this is fundamental. Consider the intellectual property of a creative or inventor being represented on the blockchain by an NFT. A network fork would mean that the intellectual property would be split in two, and any transfer of the property to another entity would require two transactions. Even worse, two different entities (e.g., record label A and record label B) might each buy the NFT on each respective fork and confusion arises as to who is the actual owner.
 
 
-### What are the drawbacks of Algorand?
+## What are the drawbacks of Algorand?
 
-### Where can I view the metrics for the Algorand Mainnet?
+## Where can I view the metrics for the Algorand Mainnet?
 
 View them [here](https://metrics.algorand.org/).
 
-### Who are some noteworthy people associated with Algorand?
+## Who are some noteworthy people associated with Algorand?
 
 - Founder: Silvio Micali. Turing Award Winner (2012), RSA Award Winner (2004) Gödel Prize Winner (1993), ACM Fellow (2017). He is also known for his foundational work in Cryptography, including (but not limtied to) the fields of public-key cryposystems, pseudorandom functions, digital signatures, zero-knowledge proofs (co-inventor), oblivious transfers, and secure multiparty computaton. Currently a professor at MIT.
 - Advisor: Shafrira Goldwasser. Turing Award Winner (2012), Gödel Prize Winner (1993), Gödel Prize Winner (2001), RSA Award Winner (1998), ACM Grace Murray Hopper Award Winner (1996), Suffrage Science Award (2016)...
@@ -69,8 +69,7 @@ These are just a few examples of the many prominent people associated with Algor
 - [Algorand Inc.](https://www.algorand.com/about/our-team) 
 
 
-### Who is Silvio Micali?
-
+## Who is Silvio Micali?
 Silvio Micali is the founder of Algorand.
 
 He has been on the faculty at MIT, Electrical Engineering and Computer Science Department, since 1983. Silvio’s research interests are cryptography, zero knowledge, pseudorandom generation, secure protocols, and mechanism design and blockchain. In particular, Silvio is the co-inventor of probabilistic encryption, Zero-Knowledge Proofs, Verifiable Random Functions and many of the protocols that are the foundations of modern cryptography. 
@@ -81,37 +80,37 @@ He has been on the faculty at MIT, Electrical Engineering and Computer Science D
 
 
 
-### What is the difference between Algorand (inc) and Algorand the Foundation? 
+## What is the difference between Algorand (inc) and Algorand the Foundation? 
 
-### What is the tokenomics?
+## What is the tokenomics?
 
-### What is accelerated vesting?
+## What is accelerated vesting?
 
-### What is the strategy regarding marketing?
+## What is the strategy regarding marketing?
 
-### What is Algorand's environmental impact?
+## What is Algorand's environmental impact?
 
-### Where can I talk to other Algonauts?
+## Where can I talk to other Algonauts?
 
-### Where is the Wikipedia Page?
+## Where is the Wikipedia Page?
 
 It's currently in draft: https://en.wikipedia.org/wiki/Draft:Algorand
 
-### Why is Silvio and the team not Twitter verified?
+## Why is Silvio and the team not Twitter verified?
 
 Twitter's verification program is currently on hold: https://help.twitter.com/en/managing-your-account/about-twitter-verified-accounts
 
-## Tokens
+# Tokens
 
-### What is a token?
+## What is a token?
 
-### What is an ASA?
+## What is an ASA?
 
-### What is a Fungible Token?
+## What is a Fungible Token?
 
-### What is a Non-Fungible Token?
+## What is a Non-Fungible Token?
 
-### Why should I create tokens on Algorand specifically?
+## Why should I create tokens on Algorand specifically?
 
 Algorand has a number of advantages:
 
@@ -126,7 +125,7 @@ The first three benefits mean that an organization that wishes to mint thousands
 
 Refer to [this blog post](https://www.algorand.com/resources/blog/role-of-transaction-finality-speed-in-nft-minting/) for more information.
 
-### Why should I care about tokens (FTs and NFTs)?
+## Why should I care about tokens (FTs and NFTs)?
 
 The first Internet can be described as the Internet of Information - it allows us to reliably share data representing text, audio, video and more in a decentralized web of computers that stretches all over the world. One of the innovations that blockchain technologies give us is that it allows the digital sharing, storing and transacting of value.
 
@@ -154,13 +153,13 @@ Algorand also offers the freeze function. An asset being frozen means that it ca
 
 
 
-## Developer
+# Developer
 
-### How do I develop on Algorand?
+## How do I develop on Algorand?
 
-### What are Algorand Smart Contracts?
+## What are Algorand Smart Contracts?
 
-### How do I run a node?
+## How do I run a node?
 
 If you are planning to operate a node, you should know that there are different types of nodes: relay nodes and non-relay nodes. You can find more information about this here. You will probably want to run a participation node. The first thing you need to do is to set up a node. This is a simple copy and paste process. [Here](https://developer.algorand.org/docs/run-a-node/setup/install/) you can find a tutorial. For Windows there is an [exhttps://github.com/randlabs/algorand-windows-node/releasestable program](url) or you can [compile Algorand node software](https://developer.algorand.org/tutorials/compile-and-run-the-algorand-node-natively-windows/#1-environment-setup) for yourself and then run it.
 
@@ -175,16 +174,16 @@ You can find more tutorials here:
 - Tutorial Development using Raspberry Pi shows in the first two parts how to set up a participation node. ([Part 1](https://developer.algorand.org/tutorials/development-on-algorand-using-raspberry-pi-part-1/), [Part 2](https://developer.algorand.org/tutorials/development-on-algorand-using-raspberry-pi-part-2/)) 
 - [Participate in Consensus from Ledger Nano S/X](https://developer.algorand.org/tutorials/participate-consensus-ledger-nano/). 
 
-### Where can I view transactions and other activity on the blockchain?
+## Where can I view transactions and other activity on the blockchain?
 
 https://algoexplorer.io/
 
 
-## Wallet
+# Wallet
 
-### What is a wallet?
+## What is a wallet?
 
-### How do I keep my coins safe?
+## How do I keep my coins safe?
 
 **DO NOT SHARE YOUR SEED PHRASE!!!**.
 **DO NOT SHARE YOUR SEED PHRASE!!!**.
@@ -209,7 +208,7 @@ But remember...
 
 If you ever find yourself typing the words in your phrase, STOP! It should feel sketchy!
 
-### How do I keep my privacy on a public, permissionless blockchain like Algorand?
+## How do I keep my privacy on a public, permissionless blockchain like Algorand?
 
 As the question suggest, everything on Algorand is open. Unlike Monero or Z-Cash, there is no inherent mechanism for obfuscating transactions and their contents. This is by design, to avoid Algorand being banned by governments.
 
@@ -218,52 +217,51 @@ If you wish to send Algos from address A to address B, without any other observe
 From the PoV of law enforcement and tax agencies, they are free to reach out to the exchange and get your information. But to any observer on the blockchain, you will have maintained your privacy.
 
 
-## Staking
+# Staking
 
-### What does it mean to "stake"?
+## What does it mean to "stake"?
 
 
-
-### Where should I stake my ALGOs?
+## Where should I stake my ALGOs?
 
 Any arrangement where **you** own the keys will give the maximum amount of rewards. This includes the official mobile wallet and any hardware wallet (e.g. Ledger).
 
 
 
-### What is Governance staking?
+## What is Governance staking?
 You will receive governance rewards for locking a fixed number of ALGOs for at least 3 months and voting on each proposal in that quarter. Rewards are determined by the number of algos pledged and calculated as the ratio of total algos pledged to the total reward pool for that period. The document provides an example: "For example, in 2022, approximately 300 million algo will be allocated for Governance Rewards, which means approximately 75 million reward algo in each quarter." If only you commit your ALGOs to the governance process, you would get 75M ALGOs for that quarter. The more people participate, the less rewards for everyone. In 2022, participation rewards will be phased out and replaced with governance rewards. This also means that the staking rewards you get from simply holding ALGOs will be phased out for now. The governance process will be rolled out in Q4 2021, so there will be a brief opportunity to earn both staking and governance rewards for that quarter. Technical details on how to participate in the governance process will be announced in advance. However, you will be able to participate via the app. Anyone can participate in the governance process. You also have the option to delegate your voting rights to the foundation if you lack expertise in a topic or do not have time to look at the proposals beforehand. Later, other institutions will follow to which you can delegate your voting rights.
 
 For more information on governance: 
 - Website: [Decentralizing Algorand Governance](https://algorand.foundation/the-algo/algo-governance). [FAQ](https://algorand.foundation/gov-faq). 
 - Video: [April Community All-Hands: Decentralizing Algorand Governance](https://www.youtube.com/watch?v=-t7pARZYrr0), [Blockchain Acceleration Foundation: Decentralizing Algorand Governance](https://www.youtube.com/watch?v=FWRrEiYYNyA)
 
-## Ecosystem
+# Ecosystem
 
-### Where can I see a list of companies using Algorand?
+## Where can I see a list of companies using Algorand?
 
 https://www.algorand.com/ecosystem
 https://www.algorand.com/ecosystem/use-cases
 
 
-### Where can I buy Algorand?
+## Where can I buy Algorand?
 
-### Where do I buy NFTs?
+## Where do I buy NFTs?
 
-### Is there a tool I can use to create my own token?
+## Is there a tool I can use to create my own token?
 
-### How do I buy USD stable coins?
+## How do I buy USD stable coins?
 
-### What is ISO 20022 and what does it mean that Algorand is part of setting it?
+## What is ISO 20022 and what does it mean that Algorand is part of setting it?
 https://en.wikipedia.org/wiki/ISO_20022
 
-## Miscelleanous
+# Miscelleanous
 
-### What is Algorand's connection with Central Banks?
+## What is Algorand's connection with Central Banks?
 
 Algorand's COO stated in this [interview on 2021-04-27](https://www.youtube.com/watch?v=oX8D6TcQjXM) with Paul Barron Network that they are in talks with 15-20 central banks.
 
 Algorand is also, in its marketing and the blog content they produce, heavily slanted towards CBDCs, e.g. [this report](https://info.algorand.com/cbdc-algorand).
 
-### What is the connection between Silvio and the SEC?
+## What is the connection between Silvio and the SEC?
 
 The current head of the SEC, Gary Gensler, was previously a professor at MIT teaching the course [MIT 15.S12 Blockchain and Money](https://ocw.mit.edu/courses/sloan-school-of-management/15-s12-blockchain-and-money-fall-2018/). Silvio Micali was also at MIT at the same time and Gensler mentions him and Algorand on at least two occassions in the lecture series. Thus, it can be concluded that Gensler is aware of Algorand and its unique selling points.

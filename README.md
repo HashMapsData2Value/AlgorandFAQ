@@ -88,6 +88,11 @@ Tokens do not get split up. For NFTs, which are proofs of ownership, this is fun
 
 ## What are the drawbacks of Algorand?
 
+The following are things some detractors of Algorand often mention:
+
+- https://www.reddit.com/r/AlgorandOfficial/comments/n5tykg/algorand_negatives/
+- https://www.reddit.com/r/AlgorandOfficial/comments/mghvrn/almost_seems_to_good_to_be_true_give_me_something/
+
 ## Where can I view the metrics for the Algorand Mainnet?
 
 View them [here](https://metrics.algorand.org/).

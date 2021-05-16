@@ -53,7 +53,7 @@ Some other networks use something called Bonded Proof of Stake (BPoS). This mean
 
 Algorand claims that it is "Pure" PoS because it does not suffer from these issues.
 
-- There is a lottery that takes place, where every single Algo among those running the participatory nods can be chosen.  You can be chosen to either be in the block proposal commitee or the block validation committee. The more Algos you have, regardless of how you've spread them out over your wallets, the higher the likelihood it is that one of them are chosen since you have more Algos - hence, why we even call it a PoS in the first place.
+- There is a lottery that takes place, where every single Algo among those running the participatory nods can be chosen. And anyone is free to partake in the consensus. You can be chosen to either be in the block proposal commitee or the block validation committee. The more Algos you have, regardless of how you've spread them out over your wallets, the higher the likelihood it is that one of them are chosen since you have more Algos - hence, why we even call it a PoS in the first place.
 
 - A small subset of the blockchain (of the participatory nodes) are chosen. BUT! No one knows who they are! Because the lottery takes place by running a Verifiable Random Function. They are a magical cryptographic thing that means that if you win, you are able to prove to the rest of the network that you won, while also having proof that you won the lottery legitimately (you didn't "manufacture a golden ticket"). It's not that there is a central authority telling each holder of the winning Algo, everyone figures out for themselves if they won.
 

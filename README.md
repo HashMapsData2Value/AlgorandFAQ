@@ -27,7 +27,7 @@ The heart of Algorand, and what makes it stick out, is its deceptively simple co
 - Carbon Neutrality
 - Easy Staking
  
-But the combination of all of these properties makes Algorand uniquely suited for a number of applications.
+The combination of all of these properties makes Algorand uniquely suited for a number of applications.
 
 On a more subjective note, the following have also been praised:
 - The quality of the developer docs.
@@ -129,11 +129,19 @@ Twitter's verification program is currently on hold: https://help.twitter.com/en
 
 ## What is a token?
 
+A token is a blockchain primitive. Blockchains have a native currency, its _coin_, but it is also useful to be able to represent other things on the blockchain.
+
 ## What is an ASA?
+
+ASA stands for Algorand Standard Asset. It's the official Algorand name for tokens on its blockchain.
 
 ## What is a Fungible Token?
 
+Fungible means "interchangeable". A fungible token is an asset class whose amount is more than 1. Could be 10, 1000, 100000, 10^9, etc. Many different users can each own a part of the asset.
+
 ## What is a Non-Fungible Token?
+
+Non-Fungible means that there is no "interchangeability". Concretely, it means there is only 1 token in the asset class. If user A transacts that 1 token to user B, they have traded that entire asset.
 
 ## Why should I create tokens on Algorand specifically?
 
@@ -146,27 +154,32 @@ Algorand has a number of advantages:
 
 The last benefit is very important, as tokens - especially Non-Fungible Tokens - should only exist in one place, and with Algorand you can be confident whatever tokens you create will be the only ones in existence.
 
-The first three benefits mean that an organization that wishes to mint thousands, tens of thousands, or even millions of tokens can do so _reliabily_. In fact, the Italian[ SIAE launched over 4 million NFTs](https://www.algorand.com/ecosystem/use-cases/siae) on Algorand representing the creative rights of 100000+ creators it represents. Algorand was able to 
+The first three benefits mean that an organization that wishes to mint thousands, tens of thousands, or even millions of tokens can do so _reliabily_. In fact, the Italian[ SIAE launched over 4 million NFTs](https://www.algorand.com/ecosystem/use-cases/siae) on Algorand representing the creative rights of 100000+ creators it represents. Algorand was able to absorb that with no issues.
 
 Refer to [this blog post](https://www.algorand.com/resources/blog/role-of-transaction-finality-speed-in-nft-minting/) for more information.
 
-## Why should I care about tokens (FTs and NFTs)?
+## Why should I care about tokens (FTs and NFTs) at all? What's the big deal?
 
 The first Internet can be described as the Internet of Information - it allows us to reliably share data representing text, audio, video and more in a decentralized web of computers that stretches all over the world. One of the innovations that blockchain technologies give us is that it allows the digital sharing, storing and transacting of value.
 
 Algo, the native currency of Algorand, is the digital equivalent of "money". The fact that we could represent it digitally is a big achievement. But in this world, there are other things of value that you might own: property, vehicles, securities (e.g. stocks), commodities, membership reward points, intellectual property, etc - to name a few. Anything of value can be represented on the blockchain by minting a token of it.
 
-One might ask themselves why you'd want to do that, why not use traditional web and database technologies? There are three main advantages of representing these things on a blockchain like Algorand:
+One might ask themselves why you'd want to do that, why not use traditional web and database technologies? There are a two main advantages of representing these things on a blockchain:
 
 1) Atomic Swaps
 
 An atomic swap is a transaction where a set of coins or tokens are swaped for another set of coins or tokens in one single transaction such that one cannot be transferred without the other also being transferred.
 
-Consider buying a car second hand. There are two transfers that take place: money and ownership. The buy transfers money to the seller, and in return the seller transfers the ownership. The fomrer might involve the use of a bank, and the latter might involve a governmental agency in charge of vehicle registration.
+Consider buying a car second-hand in the "Pre-Blockchain World". There are two transfers that take place: money and ownership. The buyer transfers money to the seller, and in return the seller transfers the ownership. The former might involve the use of a bank, or it is just a straight up cash transaction. The latter might involve a governmental agency in charge of vehicle registration.
 
-Instead of having to perform two transfers, with as sophisticated blockchain technology like Algorand, this can be done in a _single transaction_, involving only the relevant parties. The buraucracy that comes with relying on a governmental agency can be offloaded almost entirely to the blockchain, and the economic rents extracted by the bank disappears as well.
+You might also consider the risk that the seller might take the money and disappear with it, without giving you the rights of the car, or even the car at all. In real life we try to solve this by meeting up in a public place, perhaps doing the transaction outside a police station.
 
-You might also consider the risk that the seller might take the money and disappear with it, without giving you the rights of the car, or even the car at all. The former happening would not be possible due to the nature of atomic swaps. The risk of the later remains, but at least, in the eyes of the post-Blockchain law the person would be committing grand theft auto.
+In the "Post-Blockchain World", this type of insecurity will no longer exist.  The money is represented as coins (Algos), and the ownership is represented as an NFT. Then, an atomic swap is made, using a smart contract, such that both transactions happen simultaneously, without the possibility of one transferring without the other also transferring. It is embedded as a functionality into the payment layer of society itself.
+
+This has some profound implications. It means that we do not have to put our trust into other people who might or might not have malicious intentions. It means we also do not have to rely on a trusted 3rd party to serve as an intermediary - it is a decentralized process only involving the two relevant parties. Middle-men have a tendency to store our data and collect economic rents that add to the cost.
+
+In fact, we don't even need to contact the governmental agency in charge of vehicle ownership registration - the ownership is public on the blockchain. If you extend this beyond just vehicles, but all kinds of property, a lot of governmental buraucracy can be cut. Note that just because the person transferred ownership, does not mean they will give you the keys (in our example). But if they were to refuse that, they would be commiting Grand Theft Auto in the eyes of the "Post-Blockchain Law". Not only can whatever remaining buraucracy can use the blockchain as their distributed ledger, but also law enforcement to enforce the rights of property owners.
+
 
 2) Control
 

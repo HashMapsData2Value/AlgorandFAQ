@@ -343,7 +343,7 @@ Consider the following situation. You wish to prove that you are vaccinated, but
 
 2. The healthcare institute in your issues an NFT asset in its public "vaccinations" account, and in one of the fields of the asset they store the value of y.
 
-3. You go to a country and they ask you to prove that you are indeed vaccinated. You give them the address. They say "okay, prove to us that this represents you by proving that you know the value x which produced y".
+3. You go to a country and they ask you to prove that you are indeed vaccinated. You give them the address to the NFT. They say "okay, prove to us that this represents you by convincing us that you know the value x which produced y".
 
 4. You engage in a series of random questions, in accordance to what is mentioned on the Wikipedia page. You are able to prove that you probably (up to an arbitrary level of certainty, i.e. 99%, 99.9%, 99.99%...) know the value x, without revealing x to the border official.
 

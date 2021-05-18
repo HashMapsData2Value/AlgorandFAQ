@@ -334,3 +334,23 @@ Algorand is also, in its marketing and the blog content they produce, heavily sl
 ## What is the connection between Silvio and the SEC?
 
 The current head of the SEC, Gary Gensler, was previously a professor at MIT teaching the course [MIT 15.S12 Blockchain and Money](https://ocw.mit.edu/courses/sloan-school-of-management/15-s12-blockchain-and-money-fall-2018/). Silvio Micali was also at MIT at the same time and Gensler mentions him and Algorand on at least two occassions in the lecture series. Thus, it can be concluded that Gensler is aware of Algorand and its unique selling points.
+
+## How can a public, permissiveless blockchain like Algorand be used to store sensitive data?
+
+Consider the following situation. You wish to prove that you are vaccinated, but in a way that does not involve your personal information being stored together with your vaccination status on a database. Using Zero-Knowledge Proofs (ZKP), it is possible to deal with this situation.
+
+1. You get vaccinated. You pick a random value "x" and generate a value f(x, g, p) = y and give that to the healthcare provider. f(x,g,p) = g^x mod p, where g is a generator and p a big prime number. In this scenario, we are using [the discrete-log](https://en.wikipedia.org/wiki/Zero-knowledge_proof#Discrete_log_of_a_given_value) example listed on Wikipedia. It is infeasible to calculate x backwards from y.
+
+2. The healthcare institute in your issues an NFT asset in its public "vaccinations" account, and in one of the fields of the asset they store the value of y.
+
+3. You go to a country and they ask you to prove that you are indeed vaccinated. You give them the address. They say "okay, prove to us that this represents you by proving that you know the value x which produced y".
+
+4. You engage in a series of random questions, in accordance to what is mentioned on the Wikipedia page. You are able to prove that you probably (up to an arbitrary level of certainty, i.e. 99%, 99.9%, 99.99%...) know the value x, without revealing x to the border official.
+
+5. They accept that you do probably know x and that you are vaccinated. Then they let you in.
+
+So long as ONLY you know x, there is no way for anyone else to use that vaccination certificate. You could request that the institute delete it, maybe because you suspect that x has been leaked. It will not delete it from existence, but it will be a sign for the healthcare insitute to let them know not no longer validate it to the rest of the world.
+
+On the other hand, assume that the healthcare institute gets hacked. Assuming that the healthcare provider did not (illegally) store that value y <=> HashMapsData2Value's SSN in some private database, there is no private information here that can be leaked, since everything is already on the public blockchian.
+
+Does this stop other entities you verify yourself to, e.g. other countries, from storing your identifying information & vaccination status together in their own databases? Databases which you probably have no access to? No. Of course, this is not something that can be prevented with traditional non-Blockchain-based databases.

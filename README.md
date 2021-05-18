@@ -349,7 +349,7 @@ Consider the following situation. You wish to prove that you are vaccinated, but
 
 5. They accept that you do probably know x and that you are vaccinated. Then they let you in.
 
-So long as ONLY you know x, there is no way for anyone else to use that vaccination certificate. You could request that the institute delete it, maybe because you suspect that x has been leaked. It will not delete it from existence, but it will be a sign for the healthcare insitute to let them know not no longer validate it to the rest of the world.
+So long as ONLY you know x, there is no way for anyone else to use that vaccination certificate. You could request that the institute delete it, maybe because you suspect that x has been leaked. It will not delete it from the history of the blockchain (since the blockchain is a public thing), but it will be an indication from the healthcare insitute to let the world know that it no longer is willing to validate it to the rest of the world. The vaccination certificate is no longer valid.
 
 On the other hand, assume that the healthcare institute gets hacked. Assuming that the healthcare provider did not (illegally) store that value y <=> HashMapsData2Value's SSN in some private database, there is no private information here that can be leaked, since everything is already on the public blockchian.
 

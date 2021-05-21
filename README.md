@@ -111,7 +111,7 @@ He has been on the faculty at MIT, Electrical Engineering and Computer Science D
 
 
 
-## What is the difference between Algorand Inc. and Algorand the Foundation? 
+## What is the difference between Algorand Inc. and the Algorand Foundation? 
 
 The Algorand Foundation and Algorand Inc operate independently from each other. 
 

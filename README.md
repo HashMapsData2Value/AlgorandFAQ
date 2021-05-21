@@ -125,7 +125,7 @@ He has been on the faculty at MIT, Electrical Engineering and Computer Science D
 
 Algorand uses a specific kind of Proof-of-Stake (PoS) in its block proposal and consensus mechanism which makes it far more efficient that not just the wildly inefficient Proof-of-Work, but also other blockchains that rely on PoS.
 
-## Where can I talk to other Algonauts?
+## I want to stay up to date on the latest, and talk to other Algonauts. Where do I go? 
 
 **Reddit:**
 - [/r/AlgorandOfficial](https://www.reddit.com/r/AlgorandOfficial): The subreddit for official news and question, and is intentionally kept "serious" to ensure pertinent information gets out to the community. 
@@ -134,18 +134,43 @@ Algorand uses a specific kind of Proof-of-Stake (PoS) in its block proposal and 
 - [/r/WeAlgoTogether](https://www.reddit.com/r/WeAlgoTogether/): Subreddit for memes and low-effort (but fun) content
 
 **Discord:** 
-- [Algorand Discord](https://discord.com/invite/YgPTCVk): Come here to chat with people, especially if you wish to consult with developers and get feedback faster.
+- [Algorand](https://discord.com/invite/YgPTCVk): Come here to chat with people, especially if you wish to consult with developers and get feedback faster.
+- [Algorand Foundation](https://discord.com/channels/491256308461207573/491256308461207575)
 
 **Twitter:**
 - https://twitter.com/Algorand
 - https://twitter.com/silviomicali
 - https://twitter.com/KeliCallaghan
+- https://twitter.com/AlgoFoundation
 
 **Telegram:**
 - https://t.me/algorand
 
+**Facebook:**
+- https://www.facebook.com/algorand/
+
+**Instagram:**
+- https://www.instagram.com/algorandofficial/
+- https://medium.com/algorand
+
+**Youtube:**
+- https://www.youtube.com/algorand
+- https://www.youtube.com/channel/UCYqAUajjZd0PuHyHslY_8Ww
+
+**LinkedIn:**
+- https://www.linkedin.com/company/algorand/
+- https://www.linkedin.com/company/algorandfoundation/
+
+**Algorand Forums**
+- https://community.algorand.org/
+
 **Github**
 - https://github.com/algorand/
+
+## 
+In addition to the places mentioned above,
+
+
 
 ## Where is the Wikipedia Page?
 

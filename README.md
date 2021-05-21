@@ -111,7 +111,12 @@ He has been on the faculty at MIT, Electrical Engineering and Computer Science D
 
 
 
-## What is the difference between Algorand (inc) and Algorand the Foundation? 
+## What is the difference between Algorand Inc. and Algorand the Foundation? 
+
+The Algorand Foundation and Algorand Inc operate independently from each other. 
+
+- The Algorand Foundation: a not-for-profit, community organisation. Focuses on protocol governance and token dynamics, along with supporting grassroots, open-source development on the Algorand ecosystem.
+- Algorand Inc: focuses on developing the Algorand Protocol on layer-1, and enabling Enterprise adoption of Algorand blockchain technology. 
 
 ## What is the tokenomics?
 
@@ -127,6 +132,19 @@ Algorand uses a specific kind of Proof-of-Stake (PoS) in its block proposal and 
 
 ## I want to stay up to date on the latest, and talk to other Algonauts. Where do I go? 
 
+**Algorand Forums**
+- https://community.algorand.org/
+
+**Facebook:**
+- https://www.facebook.com/algorand/
+
+**Github**
+- https://github.com/algorand/
+
+**Instagram:**
+- https://www.instagram.com/algorandofficial/
+- https://medium.com/algorand
+
 **Reddit:**
 - [/r/AlgorandOfficial](https://www.reddit.com/r/AlgorandOfficial): The subreddit for official news and question, and is intentionally kept "serious" to ensure pertinent information gets out to the community. 
 - [/r/Algorand](https://www.reddit.com/r/Algorand): The unofficial subreddit, where price and trading discussion is allowed to take places. Not as serious as the official.
@@ -137,40 +155,23 @@ Algorand uses a specific kind of Proof-of-Stake (PoS) in its block proposal and 
 - [Algorand](https://discord.com/invite/YgPTCVk): Come here to chat with people, especially if you wish to consult with developers and get feedback faster.
 - [Algorand Foundation](https://discord.com/channels/491256308461207573/491256308461207575)
 
+
+**LinkedIn:**
+- https://www.linkedin.com/company/algorand/
+- https://www.linkedin.com/company/algorandfoundation/
+
+**Telegram:**
+- https://t.me/algorand
+
 **Twitter:**
 - https://twitter.com/Algorand
 - https://twitter.com/silviomicali
 - https://twitter.com/KeliCallaghan
 - https://twitter.com/AlgoFoundation
 
-**Telegram:**
-- https://t.me/algorand
-
-**Facebook:**
-- https://www.facebook.com/algorand/
-
-**Instagram:**
-- https://www.instagram.com/algorandofficial/
-- https://medium.com/algorand
-
 **Youtube:**
 - https://www.youtube.com/algorand
 - https://www.youtube.com/channel/UCYqAUajjZd0PuHyHslY_8Ww
-
-**LinkedIn:**
-- https://www.linkedin.com/company/algorand/
-- https://www.linkedin.com/company/algorandfoundation/
-
-**Algorand Forums**
-- https://community.algorand.org/
-
-**Github**
-- https://github.com/algorand/
-
-## 
-In addition to the places mentioned above,
-
-
 
 ## Where is the Wikipedia Page?
 

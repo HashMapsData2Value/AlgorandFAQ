@@ -180,13 +180,15 @@ Algorand claims that it is "Pure" PoS because it does not suffer from these issu
 
 Hence, Algorand calls itself the "Pure" Proof-of-Stake blockchain.
 
-## How is Algorand guaranteed to never fork?
+
+## On Forking
+### How is Algorand guaranteed to never fork?
 
 The probability of a network fork occurring is a function of a parameter that the team behind Algorand set at its creation. It was decided to set it to have a 1 in 1 000 000 000 000 000 000 (1/10^-18) risk of a fork. Note that the the age of the Universe is estimated at around 4.3 x 10^17 seconds. Thus, the probability of a fork taking place is pretty much non-existent. 
 
 Refer to the [paper](https://www.algorand.com/Algorand_%20A%20secure%20and%20efficient%20distributed%20ledger.pdf) for more information.
 
-## Okay, so it cannot fork. Why should I care?
+### Okay, so it cannot fork. Why should I care?
 
 - Forks are very damaging to the blockchain. Any kind of suggestion or expectaton of a fork can divide a community and alter stakeholder incentives. The value of a blockchain, like any marketplace or network technology, is not proportional to the number of connected users but the square of that number (Metcalfe's Law). In other words, if a network is split into two, the value of each resulting half is 1/4th.  If there are _n_ users, they can make _n_(_n_-1)/2 connections. Consider that 2 users can make 1 connection, 5 users can make 10 connections, and 10 users can make 45 connections.
 

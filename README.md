@@ -16,6 +16,11 @@ Algorand is a blockchain-based cryptocurrency platform that aims to be secure, s
 
 From the Wikipedia page [(currently in draft)](https://en.wikipedia.org/wiki/Draft:Algorand).
 
+
+
+
+
+
 ## What are the benefits and Unique Selling Points of Algorand?
 
 The heart of Algorand, and what makes it stick out, is its deceptively simple consensus mechanism that results in Pure Proof of Stake. This allows it to solve the Blockchain Trilemma of Scaleable, Secure and Decentralized.
@@ -34,50 +39,6 @@ The combination of all of these properties makes Algorand uniquely suited for a 
 On a more subjective note, the following have also been praised:
 - The quality of the developer docs.
 - The UI of the official mobile Algorand app.
-
-## How does Algorand solve the Blockchain Trilemma? 
-
-[Refer to this talk](https://www.youtube.com/watch?v=Lbje18-zxc8) by Silvio Micali at the Algorand Boston Meetup.
-
-## What does "PURE" Proof-of-Stake mean?
-Blockchains are just blocks of transactions cryptographically chained together. Blocks containing these transactions are proposed to the network, validated by the network, until consensus has been reached that the specific block is "correct" and everybody can move on to the next block to add.
-
-The challenge is - who gets to propose blocks? Why should we trust them? What is stopping a malicious actor from taking over a majority of the validation and compromising the integrity of the network? E.g., by creating fake transactions, stealing money from others, etc.
-
-In PoS, we make the assumption that actors with a big personal stake in the blockchain should fundamentally be trusted over those without.77Different variants of PoS exist, all trying to tackle this while at the same time trying to figure out the Blockchain Trilemma, which (formulated by Vitalik) states that a crypto can only have two out of the following three:
-- Decentralization
-- Security
-- Scalability
-
-Some networks, in order to get greater scalability and speed up things, delegate responsibility of block validation to some other actor - we call this Delegated Proof of Stake (DPoS). One example is EOS, which has 21 "delegates" that have been voted into power by the rest of the blockchain. But now you've created more centralization. These delegates basically have a massive target on their backs.
-
-Some other networks use something called Bonded Proof of Stake (BPoS). This means that they set aside a portion of their funds, like a security deposit. Their voting power is proportional to the amount they're willing to set aside. Once the deposit is in place, it cannot be removed until a specified  amount of time has passed. If these users are dishonest, they forfeit  their deposit along with the privilege of participating in the consensus process. The problem is that you've reduced a user's ability to spend their coins by holding it hostage. Also, if you can trick the network and gain more, or do a looot more damage, in proportion to what you have staked in your deposit, there is still an incentive to do bad stuff (even if it is super hard or infeasible).
-
-Algorand claims that it is "Pure" PoS because it does not suffer from these issues.
-
-- There is a lottery that takes place, where every single Algo among those running the participatory nods can be chosen. And anyone is free to partake in the consensus. When a block is proposed to the blockchain, a series of committees of voters are selected to vote on the block proposal.  If a super majority of the votes are from honest participants, the block can be certified. Committees are made up of pseudorandomly selected accounts with voting power dependent on their online stake. Therefore, it is feasible and probable that some accounts will have a higher number of votes than other members on the committee. Using randomly selected committees allows the protocol to still be performant while allowing anyone in the network to participate. [For the details on the nitty gritty of this, refer to this paper.](https://www.algorand.com/Algorand%20Protocol.pdf)
-
-- A small subset of the blockchain (of the participatory nodes) are chosen. It's not that there is a central authority telling each holder of the winning Algo, rather, everyone figures out for themselves if they won. Because the lottery takes place by running a Verifiable Random Function. They are a magical cryptographic thing that means that if you win, you are able to prove to the rest of the network that you won, while also having proof that you won the lottery legitimately (you didn't "manufacture a golden ticket")..
-
-- The participants that have won are able to disseminated their opinion through the network and allow everybody to move on, that by the time a bad actor to try to find the owner and try to corrupt them, it is already too late. There is no point in trying to attack or corrupt a winner. In other words, the incentives to corrupt or attack any specific Algo holder is removed.
-
-- Instead of assuming that a specific group of whales who we have delegated power to are supposed to be honest (as in Delegated PoS), we assume that at least 2/3 of the ENTIRE ECONOMY is honest. We are constantly taking a random subset of the economy of the participatory nodes and placing them on jury duty, and this is much more powerful. The only way to corrupt the blockchain is by malicious actors owning more than 1/3 of all the participatory nodes' Algos.
-
-- Note that users running the participatory nodes are also free to spend their Algos at any time. There's no need to tie up a bunch of your coins indefinitely.
-
-Hence, Algorand calls itself the "Pure" Proof-of-Stake blockchain.
-
-## How is Algorand guaranteed to never fork?
-
-The probability of a network fork occurring is a function of a parameter that the team behind Algorand set at its creation. It was decided to set it to have a 1 in 1 000 000 000 000 000 000 (1/10^-18) risk of a fork. Note that the the age of the Universe is estimated at around 4.3 x 10^17 seconds. Thus, the probability of a fork taking place is pretty much non-existent. 
-
-Refer to the [paper](https://www.algorand.com/Algorand_%20A%20secure%20and%20efficient%20distributed%20ledger.pdf) for more information.
-
-## Okay, so it cannot fork. Why should I care?
-
-- Forks are very damaging to the blockchain. Any kind of suggestion or expectaton of a fork can divide a community and alter stakeholder incentives. The value of a blockchain, like any marketplace or network technology, is not proportional to the number of connected users but the square of that number (Metcalfe's Law). In other words, if a network is split into two, the value of each resulting half is 1/4th.  If there are _n_ users, they can make _n_(_n_-1)/2 connections. Consider that 2 users can make 1 connection, 5 users can make 10 connections, and 10 users can make 45 connections.
-
-- Tokens do not get split up. For NFTs, which can be used as proofs of ownership of some property (physical, intellectual, both), this is fundamental. Consider the intellectual property of a creative or inventor being represented on the blockchain by an NFT. A network fork would mean that the intellectual property would be split in two, and any transfer of the property to another entity would require two transactions. Even worse, two different entities (e.g., record label A and record label B) might each buy the NFT on each respective fork and confusion would arrise as to who is the actual owner.
 
 
 ## What are the drawbacks of Algorand?
@@ -183,6 +144,86 @@ The second proposal is under reiew: https://en.wikipedia.org/wiki/Draft:Algorand
 ## Why is Silvio and the team not Twitter verified?
 
 Twitter's verification program is currently on hold: https://help.twitter.com/en/managing-your-account/about-twitter-verified-accounts
+
+
+# Algorand - Protocol
+
+## How does Algorand solve the Blockchain Trilemma? 
+
+[Refer to this talk](https://www.youtube.com/watch?v=Lbje18-zxc8) by Silvio Micali at the Algorand Boston Meetup.
+
+## What does "PURE" Proof-of-Stake mean?
+Blockchains are just blocks of transactions cryptographically chained together. Blocks containing these transactions are proposed to the network, validated by the network, until consensus has been reached that the specific block is "correct" and everybody can move on to the next block to add.
+
+The challenge is - who gets to propose blocks? Why should we trust them? What is stopping a malicious actor from taking over a majority of the validation and compromising the integrity of the network? E.g., by creating fake transactions, stealing money from others, etc.
+
+In PoS, we make the assumption that actors with a big personal stake in the blockchain should fundamentally be trusted over those without.77Different variants of PoS exist, all trying to tackle this while at the same time trying to figure out the Blockchain Trilemma, which (formulated by Vitalik) states that a crypto can only have two out of the following three:
+- Decentralization
+- Security
+- Scalability
+
+Some networks, in order to get greater scalability and speed up things, delegate responsibility of block validation to some other actor - we call this Delegated Proof of Stake (DPoS). One example is EOS, which has 21 "delegates" that have been voted into power by the rest of the blockchain. But now you've created more centralization. These delegates basically have a massive target on their backs.
+
+Some other networks use something called Bonded Proof of Stake (BPoS). This means that they set aside a portion of their funds, like a security deposit. Their voting power is proportional to the amount they're willing to set aside. Once the deposit is in place, it cannot be removed until a specified  amount of time has passed. If these users are dishonest, they forfeit  their deposit along with the privilege of participating in the consensus process. The problem is that you've reduced a user's ability to spend their coins by holding it hostage. Also, if you can trick the network and gain more, or do a looot more damage, in proportion to what you have staked in your deposit, there is still an incentive to do bad stuff (even if it is super hard or infeasible).
+
+Algorand claims that it is "Pure" PoS because it does not suffer from these issues.
+
+- There is a lottery that takes place, where every single Algo among those running the participatory nods can be chosen. And anyone is free to partake in the consensus. When a block is proposed to the blockchain, a series of committees of voters are selected to vote on the block proposal.  If a super majority of the votes are from honest participants, the block can be certified. Committees are made up of pseudorandomly selected accounts with voting power dependent on their online stake. Therefore, it is feasible and probable that some accounts will have a higher number of votes than other members on the committee. Using randomly selected committees allows the protocol to still be performant while allowing anyone in the network to participate. [For the details on the nitty gritty of this, refer to this paper.](https://www.algorand.com/Algorand%20Protocol.pdf)
+
+- A small subset of the blockchain (of the participatory nodes) are chosen. It's not that there is a central authority telling each holder of the winning Algo, rather, everyone figures out for themselves if they won. Because the lottery takes place by running a Verifiable Random Function. They are a magical cryptographic thing that means that if you win, you are able to prove to the rest of the network that you won, while also having proof that you won the lottery legitimately (you didn't "manufacture a golden ticket")..
+
+- The participants that have won are able to disseminated their opinion through the network and allow everybody to move on, that by the time a bad actor to try to find the owner and try to corrupt them, it is already too late. There is no point in trying to attack or corrupt a winner. In other words, the incentives to corrupt or attack any specific Algo holder is removed.
+
+- Instead of assuming that a specific group of whales who we have delegated power to are supposed to be honest (as in Delegated PoS), we assume that at least 2/3 of the ENTIRE ECONOMY is honest. We are constantly taking a random subset of the economy of the participatory nodes and placing them on jury duty, and this is much more powerful. The only way to corrupt the blockchain is by malicious actors owning more than 1/3 of all the participatory nodes' Algos.
+
+- Note that users running the participatory nodes are also free to spend their Algos at any time. There's no need to tie up a bunch of your coins indefinitely.
+
+Hence, Algorand calls itself the "Pure" Proof-of-Stake blockchain.
+
+## How is Algorand guaranteed to never fork?
+
+The probability of a network fork occurring is a function of a parameter that the team behind Algorand set at its creation. It was decided to set it to have a 1 in 1 000 000 000 000 000 000 (1/10^-18) risk of a fork. Note that the the age of the Universe is estimated at around 4.3 x 10^17 seconds. Thus, the probability of a fork taking place is pretty much non-existent. 
+
+Refer to the [paper](https://www.algorand.com/Algorand_%20A%20secure%20and%20efficient%20distributed%20ledger.pdf) for more information.
+
+## Okay, so it cannot fork. Why should I care?
+
+- Forks are very damaging to the blockchain. Any kind of suggestion or expectaton of a fork can divide a community and alter stakeholder incentives. The value of a blockchain, like any marketplace or network technology, is not proportional to the number of connected users but the square of that number (Metcalfe's Law). In other words, if a network is split into two, the value of each resulting half is 1/4th.  If there are _n_ users, they can make _n_(_n_-1)/2 connections. Consider that 2 users can make 1 connection, 5 users can make 10 connections, and 10 users can make 45 connections.
+
+- Tokens do not get split up. For NFTs, which can be used as proofs of ownership of some property (physical, intellectual, both), this is fundamental. Consider the intellectual property of a creative or inventor being represented on the blockchain by an NFT. A network fork would mean that the intellectual property would be split in two, and any transfer of the property to another entity would require two transactions. Even worse, two different entities (e.g., record label A and record label B) might each buy the NFT on each respective fork and confusion would arrise as to who is the actual owner.
+
+
+## Regarding the Fee
+### Why is the fee set at 0.001 Algos?
+
+The fee, as it is currently implemented, is primarily to prevent adversaries spamming the network with fake transactions in order to bog it down. This is also why a certain amount of Algo needs to be kept to hold an asset.
+
+Algos are "actually" denominated in microAlgos - 1 microAlgos is the smallest unit of currency. The fee is set at 1000 microAlgos, but UIs present it as 0.001.
+
+Presumably, 1000 microAlgos seemed like a fair and round number at the time.
+
+
+### Where does the fee go?
+
+Unlike in many other blockchains, where the fee is used as a reward for node runners, this does not  happen. Running a Participation Node is not rewarded, and the entities currently running the whitelisted Relay Nodes are rewarded by the Algorand Foundation with Algo directly. Refer to the section on Nodes for more answers on questions regarding this.
+
+The fees are not "burnt", rather they all currently accumulate in the FeeSink account, which was specified in the genesis block. The FeeSink account can ONLY be sent to a Rewards account, from which rewards can be sent.
+
+### Can we change the fee?
+
+Yes, we can. It is specified in the Algorand protocol, and as such, can be changed like any other thing in the protocol. The community could vote on it and then the protocl could be changed.
+
+If Algorand goes 10x, we can reduce it to 100 microAlgos. If it goes 1000x, we can take it down to 1 microAlgo.
+
+Note that there are 10 billion Algos in total. If the price 1000x:ed from today's values (2021-05-23), it would have a market cap on the order of 10 trillion dollars, a considerable amount.
+
+
+## What is the procedure for updating the Algorand Protocol
+
+The following article explains:
+https://algorand.foundation/about-us/protocol-development
+
+
 
 # Tokens
 

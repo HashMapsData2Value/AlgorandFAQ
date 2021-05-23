@@ -209,7 +209,12 @@ Presumably, 1000 microAlgos seemed like a fair and round number at the time.
 
 Unlike in many other blockchains, where the fee is used as a reward for node runners, this does not  happen. Running a Participation Node is not rewarded, and the entities currently running the whitelisted Relay Nodes are rewarded by the Algorand Foundation with Algo directly. Refer to the section on Nodes for more answers on questions regarding this.
 
-The fees are not "burnt", rather they all currently accumulate in the FeeSink account, which was specified in the genesis block. The FeeSink account can ONLY be sent to a Rewards account, from which rewards can be sent.
+The fees are not "burnt", rather they all currently accumulate in the FeeSink account, which was specified in the genesis block. The FeeSink account can ONLY be sent to a RewardsPool account, from which rewards can be sent.
+
+FeeSink Address: [Y76M3MSY6DKBRHBL7C3NNDXGS5IIMQVQVUAB6MP4XEMMGVF2QWNPL226CA](https://algoexplorer.io/address/Y76M3MSY6DKBRHBL7C3NNDXGS5IIMQVQVUAB6MP4XEMMGVF2QWNPL226CA)
+RewardsPool Address: [737777777777777777777777777777777777777777777777777UFEJ2CI](https://algoexplorer.io/address/737777777777777777777777777777777777777777777777777UFEJ2CI)
+https://developer.algorand.org/docs/reference/algorand-networks/mainnet/#rewardspool-address
+
 
 ### Can we change the fee?
 
@@ -347,6 +352,8 @@ But remember...
 **DO NOT SHARE YOUR SEED PHRASE!!!**
 
 If you ever find yourself typing the words in your phrase, STOP! It should feel sketchy!
+
+
 
 ## How do I keep my privacy on a public, permissionless blockchain like Algorand?
 

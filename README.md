@@ -350,12 +350,20 @@ If you ever find yourself typing the words in your phrase, STOP! It should feel 
 
 ## How do I keep my privacy on a public, permissionless blockchain like Algorand?
 
-As the question suggest, everything on Algorand is open. Unlike Monero or Z-Cash, there is no inherent mechanism for obfuscating transactions and their contents.
+As the question suggest, everything on Algorand is open. Unlike Monero or Z-Cash, there is no inherent mechanism for obfuscating transactions and their contents. 
+If they wanted to they could add privacy features. The problem is that if Algorand is too privacy-preserving, it will be hurt its adoption, and perhaps even see it be banned.
 
-If you wish to send Algos from address A to address B, without any other observer being able to create the link, the best way to do so is to use an intermediary, like an exchange. Since the exchange processes thousands of transactions in and out, it will be difficult to pinpoint that it was you. Note that when you send from the exchange to account B, try to send it in multiple transactions of different amounts to create further obfuscation.
+If you wish to send Algos from address A to address B, without any other observer being able to create the link, the best way to do so is to use an intermediary, like an exchange. Since the exchange processes thousands of transactions in and out, it will be difficult to pinpoint that it was you. 
 
-From the PoV of law enforcement and tax agencies, they are free to reach out to the exchange and get your information. But to any observer on the blockchain, you will have maintained your privacy.
+You receive Algos in one account, perhaps one of many "receive" accounts you have, send it to the exchange, e.g. Coinbase, where it will blend in as one of thousands of transactions. Then, you send out a slightly different amount from your Coinbase account to your main "storage" account. Perhaps you would send it out in parts, over time, with the point being to make it difficult for anyone doing transaction graph to make a connection.
 
+For law enforcement, they are free to subpoena Coinbase for your information. And since Coinbase is a legitimate, trusted authority, you also feel confident sending your Algos to their custodial wallet. It's what is acceptable right now.
+
+## Will Algorand one day be more privacy-preserving?
+
+[Silvio has said that he believes in privacy, but that the timing is not right.](https://www.youtube.com/watch?v=zNdhgOk4-fE&t=3284s)
+
+Currently, the main concern is that blockchain could be used for illegal activity. However, if blockchain receives more adoption from business and citizens at large, the general understanding regarding blockchain will have evolved, and it might then be of greater priority to preserve the privacy of everyone's holdings and transactions.
 
 # Staking
 

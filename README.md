@@ -17,10 +17,6 @@ Algorand is a blockchain-based cryptocurrency platform that aims to be secure, s
 From the Wikipedia page [(currently in draft)](https://en.wikipedia.org/wiki/Draft:Algorand).
 
 
-
-
-
-
 ## What are the benefits and Unique Selling Points of Algorand?
 
 The heart of Algorand, and what makes it stick out, is its deceptively simple consensus mechanism that results in Pure Proof of Stake. This allows it to solve the Blockchain Trilemma of Scaleable, Secure and Decentralized.

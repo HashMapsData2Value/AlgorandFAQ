@@ -407,10 +407,11 @@ These require you to type in your secret phrase and are thus a ***LAST RESORT***
 ## What does it mean to "stake"?
 
 
-## Where should I stake my ALGOs?
+## Where should I stake my ALGO?
 
-Any arrangement where **you** own the keys will give the maximum amount of rewards. This includes the official mobile wallet and any hardware wallet (e.g. Ledger).
+Any arrangement where **you** own the keys will ensure you get 100% of the rewards. This includes the official mobile wallet and any hardware wallet (e.g. Ledger).
 
+Some exchanges run various schemes where they might or might not add to that sum of rewards. It is up to you to understand the specifics your exchange. Some, e.g. Coinbase PRO (not to be confused with normal Coinbase) gives no rewards at all. In some cases the exchange might be speculating that the price of ALGO will go down and needs ALGO to short it, so it will offer higher rewards. 
 
 
 ## What is Governance staking?

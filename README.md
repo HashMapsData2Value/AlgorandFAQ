@@ -370,6 +370,38 @@ For law enforcement, they are free to subpoena Coinbase for your information. An
 
 Currently, the main concern is that blockchain could be used for illegal activity. However, if blockchain receives more adoption from business and citizens at large, the general understanding regarding blockchain will have evolved, and it might then be of greater priority to preserve the privacy of everyone's holdings and transactions.
 
+
+## What's the deal with Algorand, BIP39 and Ledger hardware wallets?
+
+When you create an account, e.g. on the official mobile app, you will receive a 25 word seed phrase. The final 25th word is a checksum derived from the initial 24 and is only a way to make quickly verify whether the address is correctly formatted or not.
+
+However, while Algorand uses the BIP-39 wordlist (which maps each word to a number from 1 to 2048), but it does not use the same mnemonic generation scheme as many other cryptocurrencies.
+
+This means that the recovery phrase you get for your Ledger Nano hardware wallet cannot be directly entered into an Algorand software wallet (with the 25th word checksum calculated), as the derivation path is different.
+
+This is an issue if you lose your Ledger Nano, or something happens to it, and you quickly need to reach or transfer the ALGO from your accounts - you will have to get your hands on another Ledger Nano and recovery from that. Which can take days, weeks or even months depending on your location.
+
+The following threads have discussed this:
+https://www.reddit.com/r/AlgorandOfficial/comments/nocvff/algorand_official_wallet_does_not_use_the/
+https://www.reddit.com/r/AlgorandOfficial/comments/mckb2f/no_bip39_compatible_algorand_wallet/
+https://www.reddit.com/r/AlgorandOfficial/comments/nrusdc/what_happens_to_my_algos_if_i_lose_my_ledger/
+
+Members of the community have contributed with the following tools to assist you in the conversion, at least until the feature has been added to the official app and other Algorand-native tools.
+
+***WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING***
+
+***NOTE THAT YOU USE THESE AT YOUR OWN RISK! WE IN THE MOD TEAM ASSUME NO RESPONSIBILITY FOR ANY TOOL OUT THERE!***
+
+These require you to type in your secret phrase and are thus a ***LAST RESORT***. 
+- Be sure to have a new account ready, e.g. one generated with the official mobile wallet app. Make sure to keep the Algorand-compliant phrase stored somewhere safe.
+- Disconnect your computer from the Internet to ensure that no traffic leaves your computer.
+- *If* you manage to access your ALGO be QUICK to transfer them to the new account.
+- BEFORE you turn on the Internet again, CLOSE the browser window and make sure to overwrite the clipboard in case you did a copy-paste.
+
+/u/abeliabedelia: https://goplay.space/#BhrW4QZ3Sty 
+/u/Ok-Cryptographer2706: https://algorand.oortnet.com/
+https://github.com/Coinomi/bip39-coinomi (added support for Algorand)
+
 # Staking
 
 ## What does it mean to "stake"?

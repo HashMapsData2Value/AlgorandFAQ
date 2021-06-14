@@ -398,9 +398,9 @@ These require you to type in your secret phrase and are thus a ***LAST RESORT***
 - *If* you manage to access your ALGO be QUICK to transfer them to the new account.
 - BEFORE you turn on the Internet again, CLOSE the browser window and make sure to overwrite the clipboard in case you did a copy-paste.
 
-/u/abeliabedelia: https://goplay.space/#BhrW4QZ3Sty  <- Grab the code, then compile and run on [Go](https://golang.org/) LOCALLY!
-/u/Ok-Cryptographer2706: https://algorand.oortnet.com/
-https://github.com/Coinomi/bip39-coinomi (added support for Algorand)
+- /u/abeliabedelia: https://goplay.space/#BhrW4QZ3Sty  <- Grab the code, then compile and run on [Go](https://golang.org/) LOCALLY!
+- /u/Ok-Cryptographer2706: https://algorand.oortnet.com/
+- https://github.com/Coinomi/bip39-coinomi (claims to have added support for Algorand)
 
 # Staking
 

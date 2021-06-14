@@ -7,6 +7,13 @@ Note that Algorand has an [official FAQ on their website](https://algorand.found
 It has not been vetted or endorsed by Algorand Inc. or the Algorand Foundation.
 
 # Topics
+- Algorand - Overview
+- Algorand - Protocol
+- Tokens
+- Developer
+- Wallet
+- Ecosystem
+- Miscellaneous
 
 # Algorand - Overview
 

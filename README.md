@@ -7,13 +7,14 @@ Note that Algorand has an [official FAQ on their website](https://algorand.found
 It has not been vetted or endorsed by Algorand Inc. or the Algorand Foundation.
 
 # Topics
-- Algorand - Overview
-- Algorand - Protocol
-- Tokens
-- Developer
-- Wallet
-- Ecosystem
-- Miscellaneous
+- [Algorand - Overview](https://github.com/HashMapsData2Value/AlgorandFAQ/blob/main/README.md#algorand---overview)
+- [Algorand - Protocol](https://github.com/HashMapsData2Value/AlgorandFAQ/blob/main/README.md#algorand---protocol)
+- [Tokens](https://github.com/HashMapsData2Value/AlgorandFAQ/blob/main/README.md#tokens)
+- [Developer](https://github.com/HashMapsData2Value/AlgorandFAQ/blob/main/README.md#developer)
+- [Wallet](https://github.com/HashMapsData2Value/AlgorandFAQ/blob/main/README.md#wallet)
+- [Staking](https://github.com/HashMapsData2Value/AlgorandFAQ/blob/main/README.md#staking)
+- [Ecosystem](https://github.com/HashMapsData2Value/AlgorandFAQ/blob/main/README.md#ecosystem)
+- [Miscellaneous](https://github.com/HashMapsData2Value/AlgorandFAQ/blob/main/README.md#miscelleanous)
 
 # Algorand - Overview
 
@@ -21,7 +22,7 @@ It has not been vetted or endorsed by Algorand Inc. or the Algorand Foundation.
 
 Algorand is a blockchain-based cryptocurrency platform that aims to be secure, scalable, and decentralized. The Algorand platform supports smart contract functionality and its consensus algorithm is based on a proof-of-stake and Byzantine Agreement protocol.[5][2][6][7][8] Algorand’s native cryptocurrency is called Algo.
 
-From the Wikipedia page [(currently in draft)](https://en.wikipedia.org/wiki/Draft:Algorand).
+From the [Wikipedia page](https://en.wikipedia.org/wiki/Algorand_(cryptocurrency_platform)).
 
 
 ## What are the benefits and Unique Selling Points of Algorand?
@@ -141,8 +142,10 @@ Algorand uses a specific kind of Proof-of-Stake (PoS) in its block proposal and 
 
 ## Where is the Wikipedia Page?
 
-The first draft was stopped: https://en.wikipedia.org/wiki/Draft:Algorand
-The second proposal is under reiew: https://en.wikipedia.org/wiki/Draft:Algorand_(cryptocurrency_platform)
+~~The first draft was stopped: https://en.wikipedia.org/wiki/Draft:Algorand
+The second proposal is under reiew: https://en.wikipedia.org/wiki/Draft:Algorand_(cryptocurrency_platform)~~
+
+Update: It's up: https://en.wikipedia.org/wiki/Algorand_(cryptocurrency_platform)
 
 ## Why is Silvio and the team not Twitter verified?
 

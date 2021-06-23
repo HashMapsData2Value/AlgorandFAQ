@@ -235,6 +235,8 @@ Note that there are 10 billion Algos in total. If the price 1000x:ed from today'
 
 ## What is the procedure for updating the Algorand Protocol
 
+Taken from [the following](https://raw.githubusercontent.com/algorandfoundation/specs/master/overview/Algorand_v1_spec-2.pdf).
+
 The Foundation governs the development of the blockchain, and updates to the core blockchainprotocol are done in a few steps:
 
 1. Algorand  Foundation  announces  and  posts  a  specification  of  the  protocol  in  a  public  git repository.  The URL of the repository commit is used as a “protocol version” identifier.  This URL must contain a hash that corresponds to the git commit.

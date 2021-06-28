@@ -49,6 +49,7 @@ On a more subjective note, the following have also been praised:
 
 The following threads discuss some of the things that are currently considered drawbacks:
 
+- https://www.reddit.com/r/AlgorandOfficial/comments/o9lll6/why_should_we_not_buy_algorand/
 - https://www.reddit.com/r/AlgorandOfficial/comments/n5tykg/algorand_negatives/
 - https://www.reddit.com/r/AlgorandOfficial/comments/mghvrn/almost_seems_to_good_to_be_true_give_me_something/
 

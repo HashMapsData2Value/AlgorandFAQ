@@ -245,6 +245,19 @@ So, with bitcoin, even if you send out your transaction, and it gets accepted by
 
 Thus, Bitcoin has much much much longer transaction finality. Even if you could stuff a lot lot more transactions into a Bitcoin block, you are still left with no one being confident that their transaction even having gone through until a significant time later.
 
+### How is the transactions per seconds metric decided?
+Put simply, each block needs to be:
+- proposed,
+- validated
+- shared across the network. 
+
+Each block can contain a certain number of transactions. The size of a block will affect the time required for the mentioned steps. 
+
+Note that it is not simply a case of making a block "biggier". If it is made too big (in an effort to contain more), it will affect the metrics of each step - some of which are dependent on network bottlenecks, other by the minimum computer hardware is exptected to be required to participate in the steps mentioned. 
+
+Currently, participation in the consensus is determined by participation nodes that can be run on hardware as simple as a Raspberry Pi 4. To speed up the flow of information, powerful relay nodes are used to "gossip" the network packets around the world. This division of labour means that it is possible to scale the performance of the system with better compute and networking hardware, while the consensus itself remains simple and easy for anyone to run. By keeping the barrier of entry low, decentrality is maintained.
+
+You might test out different configurations and realise that your system can handle around 115000 transactions per block, and have the block time be as low as 2.5 seconds. 115000 transactions per block / 2.5 seconds per block = 46000 transactions per second.
 
 ## Regarding the Fee
 ### Why is the fee set at 0.001 Algos?

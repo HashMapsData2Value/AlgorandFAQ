@@ -203,6 +203,7 @@ Refer to the [paper](https://www.algorand.com/Algorand_%20A%20secure%20and%20eff
 
 - Algorand do not "soft fork" either as part of its consensus mechanism, meaning that it has instant transactional finality.
 
+## Regarding Transactions
 
 ### What is transaction finality?
 
@@ -246,7 +247,7 @@ So, with bitcoin, even if you send out your transaction, and it gets accepted by
 Thus, Bitcoin has much much much longer transaction finality. Even if you could stuff a lot lot more transactions into a Bitcoin block, you are still left with no one being confident that their transaction even having gone through until a significant time later.
 
 ### How is the transactions per seconds metric decided?
-Put simply, each block needs to be:
+Put simply, in each block round, a block needs to be:
 - proposed,
 - validated
 - shared across the network. 
@@ -259,8 +260,9 @@ Currently, participation in the consensus is determined by participation nodes t
 
 You might test out different configurations and realise that your system can handle around 115000 transactions per block, and have the block time be as low as 2.5 seconds. 115000 transactions per block / 2.5 seconds per block = 46000 transactions per second.
 
-## Regarding the Fee
-### Why is the fee set at 0.001 Algos?
+It is also worth pointing out that making the block time too fast is not ideal either. If it is too fast, certain off-chain IT systems relying on on-chain balances will not be able to work properly as the state of the blockchain will be changing too fast for them to be able to keep up. 
+
+### Why is the transaction fee set at 0.001 Algos?
 
 The fee, as it is currently implemented, is primarily to prevent adversaries spamming the network with fake transactions in order to bog it down. This is also why a certain amount of Algo needs to be kept to hold an asset.
 
@@ -268,8 +270,7 @@ Algos are "actually" denominated in microAlgos - 1 microAlgos is the smallest un
 
 Presumably, 1000 microAlgos seemed like a fair and round number at the time.
 
-
-### Where does the fee go?
+### Where does the transaction fee go?
 
 Unlike in many other blockchains, where the fee is used as a reward for node runners, this does not  happen. Running a Participation Node is not rewarded, and the entities currently running the whitelisted Relay Nodes are rewarded by the Algorand Foundation with Algo directly. Refer to the section on Nodes for more answers on questions regarding this.
 

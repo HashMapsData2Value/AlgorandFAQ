@@ -204,6 +204,41 @@ Refer to the [paper](https://www.algorand.com/Algorand_%20A%20secure%20and%20eff
 - Algorand do not "soft fork" either as part of its consensus mechanism, meaning that it has instant transactional finality.
 
 
+### What is transaction finality?
+
+So transaction finality means "how long do I have to wait until I am sure my transaction went through?". Blockchains = blocks of transactions, chained together. 
+
+You could imagine a blockchain like a book or ledger, where each page contains transactions that look like this: "transfer 10 coins from Alice to Bob, signed Alice". Everyone in the world is in possession of the same book, so we can all see what transactions have been made, what people have, etc.
+
+This is all well and good, if you want to know what happened in the past. The problem comes when we need to add a new page of transactions into this book. This is where blockchains differ.
+
+Imagine that you are in a big hall with a bunch of people and you all need to agree on a new page (an analogy for computers in a network). You have a transaction you wish to make, so you yell out into this garbled mess that you wish to send 10 coins to your friend.
+
+If you are a *block proposer,* you are listening to these transactions and trying to write them down on a piece of paper. Then, once you've finished your paper, you try to pass it around to everyone. Because you might have been a dishonest actor, there will be *block validators* that will double check everything. For example, you might have forged a signature, and they need to make sure you are not sending someone else's money to yourself. Or, you might be spending more money than you actually have!  
+
+Or you give slightly different pages to different group, with the differences being that in one you transact your 10 coins to Charlie, and in the other you transacted the same coins to Douglas. So the validators also need to talk to each other and come to some kind of consensus on which one to go for and which one to avoid. Consensus needs to be REACHED, and it needs to be global too! You don't want a one guy in Chile to add one page to their ledger, and someone in Indonesia to add a different page to their ledger. That is called **forking**.
+
+There's also a question of *who gets to be the block proposer*, whose blocks we trust. You have all the people in the entire
+
+Algorand has a very unique property in that it doesn't fork. Basically, ONE block proposer is picked, and they self-select themselves by running a lottery the. They get to propose ONE block that they share with the world. Similarly, a committee of say a 1000 are chosen by a random process to validate the block. This random mechanism (the RAND in Algorand) means there is always new groups of people. The randomness isn't completely random though, we want the likelihood of anyone being given the privilege to make these very important decisions to be based on how much stake they have in this economy, i.e. by how much Algo they own. The more Algo you have, the more we trust you not to screw over everybody, either by being a bad proposer or by validating fraudulent blocks.
+
+Through this process, we can be sure that if our transaction gets into the block proposer's block, and the block in its entirety gets confirmed by the validators as a legit block, we know that our transaction has "made it". THAT page with our transaction was added to the book, and that version of the book has been accepted by the world. It's done.
+
+However, if you look at Bitcoin, it is not this simple. First of all, block proposers are not randomly picked, they have to compete with each other by solving a cryptographic puzzle. One person will win and they will distribute their block of transactions + the proof of it. Let's say that your transaction was added into block alpha, which is in the process of being shared with the world. At almost the same time, another block beta gets released by a different miner who solved the puzzle. Now, it's a race - will block alpha or block beta be accepted as the block to go ahead with? 
+
+The way it gets solved is that as soon as a miner gets the next block, let's say it is alpha, they have a block of new transactions they are trying to send out. So they immediately start trying to solve this difficult puzzle to add a block to a chain that includes all previous blocks + block alpha. If we assume that 60% of the miners heard of alpha first, and the rest of the 40% heard of beta first, it is more likely that the block after will be on top of a chain that includes alpha. It's not guaranteed, but the assumption is that it is.
+
+Let's say that happens. A miner solves the puzzle with a block "delta" (+ block alpha, + all previous blocks...) and distributes that. The miners see this and continue all over again.
+
+Meanwhile, the miners that accepted block beta are still trying to build on top of it, but they are fewer and they are seeing that the rest of the world is converging on delta-alpha-.... So they abandon the fork of the chain that has block beta and instead accept delta-alpha.... and start to work on top of that. By work I mean mining, solving the cryptographic puzzle. It's expensive too so they're very incentivized to NOT build on it.
+
+Now, what does that mean for the people who had their transactions in block beta? It means that those transactions disappear. No one will have lost any coins, it'll rather be as if the transactions had never been proposed in the first place! It's like in movies when you have time travel, different timelines, and so on and eventually one wins out and no one will have any recollection of the others.
+
+So, with bitcoin, even if you send out your transaction, and it gets accepted by a miner, you have no way of knowing if it will get included. You have to wait. And wait. And wait. It might be that after the majority of miners have agreed to build upon the block with your transaction + 3 more blocks, and are now working on the 5th, only then can you be VERY sure.
+
+Thus, Bitcoin has much much much longer transaction finality. Even if you could stuff a lot lot more transactions into a Bitcoin block, you are still left with no one being confident that their transaction even having gone through until a significant time later.
+
+
 ## Regarding the Fee
 ### Why is the fee set at 0.001 Algos?
 

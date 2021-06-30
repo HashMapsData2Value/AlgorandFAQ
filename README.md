@@ -206,7 +206,11 @@ Refer to the [paper](https://www.algorand.com/Algorand_%20A%20secure%20and%20eff
 
 ### What is transaction finality?
 
-So transaction finality means "how long do I have to wait until I am sure my transaction went through?". Blockchains = blocks of transactions, chained together. 
+So transaction finality means "how long do I have to wait until I am sure my transaction went through?". 
+
+**TLDR**: Blockchains = blocks of transactions, chained together on top of each other. When someone makes a transaction, it gets included in a block. With Algorand, you know immediately if the block containing your transaction has "won" and been accepted by the world at large. With something like Bitcoin, you cannot be sure until several blocks in, which can take hours.
+
+A longer answer is as follows.
 
 You could imagine a blockchain like a book or ledger, where each page contains transactions that look like this: "transfer 10 coins from Alice to Bob, signed Alice". Everyone in the world is in possession of the same book, so we can all see what transactions have been made, what people have, etc.
 
@@ -225,7 +229,7 @@ Algorand has a very unique property in that it doesn't fork. Basically, ONE bloc
 Through this process, we can be sure that if our transaction gets into the block proposer's block, and the block in its entirety gets confirmed by the validators as a legit block, we know that our transaction has "made it". THAT page with our transaction was added to the book, and that version of the book has been accepted by the world. It's done.
 
 
-As a counter example, Bitcoin has notoriously long transaction finality. 
+As a counter example, Bitcoin and its Nakamoto Consensus has notoriously long transaction finality. 
 
 First of all, block proposers are not randomly picked, they have to compete with each other by solving a cryptographic puzzle. One person will win and they will distribute their block of transactions + the proof of it. Let's say that your transaction was added into block alpha, which is in the process of being shared with the world. At almost the same time, another block beta gets released by a different miner who solved the puzzle. Now, it's a race - will block alpha or block beta be accepted as the block to go ahead with? 
 
@@ -237,7 +241,7 @@ Meanwhile, the miners that accepted block beta are still trying to build on top 
 
 Now, what does that mean for the people who had their transactions in block beta? It means that those transactions disappear. No one will have lost any coins, it'll rather be as if the transactions had never been proposed in the first place! It's like in movies when you have time travel, different timelines, and so on and eventually one wins out and no one will have any recollection of the others.
 
-So, with bitcoin, even if you send out your transaction, and it gets accepted by a miner, you have no way of knowing if it will get included. You have to wait. And wait. And wait. It might be that after the majority of miners have agreed to build upon the block with your transaction + 3 more blocks, and are now working on the 5th, only then can you be VERY sure.
+So, with bitcoin, even if you send out your transaction, and it gets accepted by a miner, you have no way of knowing if it will get included. You have to wait. And wait. And wait. It might be that after the majority of miners have agreed to build upon the block with your transaction + 5 more blocks, and are now working on the 7th, only then can you be VERY sure.
 
 Thus, Bitcoin has much much much longer transaction finality. Even if you could stuff a lot lot more transactions into a Bitcoin block, you are still left with no one being confident that their transaction even having gone through until a significant time later.
 

@@ -246,7 +246,7 @@ So, with bitcoin, even if you send out your transaction, and it gets accepted by
 
 Thus, Bitcoin has much much much longer transaction finality. Even if you could stuff a lot lot more transactions into a Bitcoin block, you are still left with no one being confident that their transaction even having gone through until a significant time later.
 
-### How is the transactions per seconds metric decided?
+### How is the transactions per seconds (TPS) metric decided?
 Put simply, in each block round, a block needs to be:
 - proposed,
 - validated
@@ -260,7 +260,13 @@ Currently, participation in the consensus is determined by participation nodes t
 
 You might test out different configurations and realise that your system can handle around 115000 transactions per block, and have the block time be as low as 2.5 seconds. 115000 transactions per block / 2.5 seconds per block = 46000 transactions per second.
 
-It is also worth pointing out that making the block time too fast is not ideal either. If it is too fast, certain off-chain IT systems relying on on-chain balances will not be able to work properly as the state of the blockchain will be changing too fast for them to be able to keep up. 
+It is also worth pointing out that making the block time too fast is not ideal either. If it is too fast, certain off-chain IT systems relying on on-chain balances will not be able to work properly as the state of the blockchain will be changing too fast for them to be able to keep up.
+
+#### How will co-chains affect the TPS?
+
+It is expected that there will be additional co-chains running alongside the main network, offered to for example countries to run their Central Bank Digital Currencies (CBDCs), for large industry consortiums, or to other entities/arrangements. These co-chains will be permissioned and will be much freer to set the parameters of their blockchains. For example, they might demand very powerful hardware and run on high performant private networks. They might make certain assumptions on the consumers of the blockchain data, and they might eschew certain functionality. 
+
+These factors mean that the co-chains could reach a lot higher theoretical TPS, with the number of transactions inter-chain being a smaller part of that.
 
 ### Why is the transaction fee set at 0.001 Algos?
 

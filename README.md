@@ -224,7 +224,10 @@ Algorand has a very unique property in that it doesn't fork. Basically, ONE bloc
 
 Through this process, we can be sure that if our transaction gets into the block proposer's block, and the block in its entirety gets confirmed by the validators as a legit block, we know that our transaction has "made it". THAT page with our transaction was added to the book, and that version of the book has been accepted by the world. It's done.
 
-However, if you look at Bitcoin, it is not this simple. First of all, block proposers are not randomly picked, they have to compete with each other by solving a cryptographic puzzle. One person will win and they will distribute their block of transactions + the proof of it. Let's say that your transaction was added into block alpha, which is in the process of being shared with the world. At almost the same time, another block beta gets released by a different miner who solved the puzzle. Now, it's a race - will block alpha or block beta be accepted as the block to go ahead with? 
+
+As a counter example, Bitcoin has notoriously long transaction finality. 
+
+First of all, block proposers are not randomly picked, they have to compete with each other by solving a cryptographic puzzle. One person will win and they will distribute their block of transactions + the proof of it. Let's say that your transaction was added into block alpha, which is in the process of being shared with the world. At almost the same time, another block beta gets released by a different miner who solved the puzzle. Now, it's a race - will block alpha or block beta be accepted as the block to go ahead with? 
 
 The way it gets solved is that as soon as a miner gets the next block, let's say it is alpha, they have a block of new transactions they are trying to send out. So they immediately start trying to solve this difficult puzzle to add a block to a chain that includes all previous blocks + block alpha. If we assume that 60% of the miners heard of alpha first, and the rest of the 40% heard of beta first, it is more likely that the block after will be on top of a chain that includes alpha. It's not guaranteed, but the assumption is that it is.
 

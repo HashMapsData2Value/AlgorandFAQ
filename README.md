@@ -379,7 +379,56 @@ Algorand also offers the freeze function. An asset being frozen means that it ca
 
 ## How do I develop on Algorand?
 
-## What are Algorand Smart Contracts?
+Check out the [Developer Portal](https://developer.algorand.org/).
+
+## Smart Contracts
+
+### What are smart contracts?
+
+The basic operation any blockchain since Bitcoin can do is the _transaction_, the transferal of coins from one party to another.
+
+Smart contracts allows you to add _logic_ regarding how a transaction could take place. A smart contract can be in charge of tokens, have its own account, store information, be given control over some other account, and more.
+
+One common non-digital analogy given is that of a vending machine. A vendine machine is a form of "smart contract" that specifies the following logic: 
+- Pick a choice of drink and provide the proper amount of money. These serve as your input. 
+- If the amount of money match the cost of the product, receive product. Transaction success.
+- If the amount of money provided is too low, the transaction fails and you receive your money again (if you provided any).
+- If the amount of money provided is too high, the transaction succeed but you receive the difference.
+
+The vending machine, unless broken, will NOT for example:
+- Randomly give out a product for no reason.
+- Fail to give a product even if the money is correct.
+- Give out the wrong product.
+- Give out 2+ products if only the money for 1 product was provided.
+
+
+### What is TEAL?
+
+TEAL stands for Transaction Execution Approval Language. The Algorand-native smart contract language.
+
+### Do I have to use TEAL?
+
+No, there are other languages you can use:
+- [PyTEAL](https://developer.algorand.org/docs/features/asc1/teal/pyteal/): provides Python bindings around TEAL.
+- [Reach](reach.sh): allows you to write code that can be compiled to either Algorand or Ethereum (Solidity). Provides formal verification. 
+- [Clarity](https://clarity-lang.org/): originally used to bring smart contract to Bitcoin. Is decideable.
+- [Tealang](https://github.com/pzbitskiy/tealang): Aims to be a high-level language on top of TEAL, providing Go/JS/Python-like syntax.
+
+### What is the AVM?
+
+AVM = Algorand Virtual Machine
+
+The AVM is the execution environment in which smart contracts are evaluated, run on the nodes of the block proposer and the block validation committees.
+
+### Is TEAL Turing Complete?
+
+With the TEAL v4 (AVM v0.9) update came loops, recursion and more, making the TEAL language itself became TC. However, there are execution limits based on the opcodes (specific operations/methods that can be called) that mean that limit in practice what can be done.
+
+### Does Algorand have "gas"?
+
+In some languages, like Ethereum, since there is an understanding that smart contracts consume computation, in order to compensate a node runner, some kind of reward should be given to the node runner.
+
+Algorand does not have gas. Noderunners of participation nodes do not collect any fee. To prevent smart contracts that run away and take up too much resources, affecting the performance of the network itself, there are execution limits.
 
 ## How do I run a node?
 

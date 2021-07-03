@@ -207,7 +207,7 @@ Hence, Algorand calls itself the "Pure" Proof-of-Stake blockchain.
 
 - In Algorand, we do have relay nodes, and these have much higher hardware requirements, especially when it comes to networking. However, these are "dumb gossipers", they only contribute to speeding up the Algorand network. They do NOT take part in the consensus itself.
 
-### Does Algorand suffer from "frontrunning" and "Miner Extractable Value"?
+### Does Algorand suffer from "front-running" and "Miner Extractable Value"?
 
 Miner Extractable Value (MEV) is a problem that Algorand is able to mitigate.
 

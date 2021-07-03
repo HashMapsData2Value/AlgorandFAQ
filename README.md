@@ -4,7 +4,7 @@ Welcome to the FAQ page for the /r/AlgorandOfficial subreddit.
 
 Note that Algorand has an [official FAQ on their website](https://algorand.foundation/faq) and you are encouraged to check it out. This FAQ was compiled or written by the mods of the official subreddit on their own initiative. 
 
-**It has not been vetted or endorsed by Algorand Inc. or the Algorand Foundation**. You are encouraged to do your own research.
+**It has not been vetted or endorsed by Algorand Inc. or the Algorand Foundation**. Do Your Own Research (DYOR)!
 
 # Topics
 - [Algorand - Overview](https://github.com/HashMapsData2Value/AlgorandFAQ/blob/main/README.md#algorand---overview)
@@ -69,7 +69,9 @@ These are just a few examples of the many prominent people associated with Algor
 
 
 ## Who is Silvio Micali?
-Silvio Micali is the founder of Algorand.
+Silvio Micali is the founder of Algorand. 
+
+In 2017, Professor Micali published the [original Algorand paper](https://arxiv.org/abs/1607.01341v9) alongside Professor Jing Chen (陈婧).
 
 He has been on the faculty at MIT, Electrical Engineering and Computer Science Department, since 1983. Silvio’s research interests are cryptography, zero knowledge, pseudorandom generation, secure protocols, and mechanism design and blockchain. In particular, Silvio is the co-inventor of probabilistic encryption, Zero-Knowledge Proofs, Verifiable Random Functions and many of the protocols that are the foundations of modern cryptography. 
 

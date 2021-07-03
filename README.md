@@ -211,11 +211,11 @@ Miner Extractable Value (MEV) is a problem that Algorand is able to mitigate.
 
 What is MEV? Consider a dApp that auctions out tickets to an event. You wish to put a bid, so you announce a transaction on the blockchain. A miner (in Proof-of-Work terminology, but generally anyone eligible to aggregate up pending transactions and propose a block containing it) sees this and declines to include your transaction. Instead, the miner itself goes to buy the ticket up, so they can then sell it to you at a higher price. Or, consider an auction where you are bidding on a house. One of the opposing bidders bribes the miners to avoid including you or any other bid for the house, so that they may get it for cheaper without competition.
 
-This problem exists because block proposers can arbitrarily choose which transactions to include in a block.
+This problem fundamentally exists because block proposers can arbitrarily choose which transactions to include in a block. In theory, in something like Ethereum, miners are supposed to go off of who pays the highest transaction fee, but there is no way to enforce this.
 
-Note however that front running requires some aspect of planning, of predictability regarding who will be the block proposer in the coming rounds. A malicious actor needs to know beforehand who the block proposer(s) is/are going to be, so they can collude with them, if the miners themselves are not the bad actors.
+Note however that front running requires some aspect of planning, of predictability regarding who will be the block proposer in the coming rounds. A malicious actor needs to know *before* a round who the block proposer(s) is/are going to be, so they can collude with them. Even if the miners themselves are the bad actors, they still need to be sure they will indeed be in a position of power the next coming rounds.
 
-In Algorand, the block proposer is always random each round. There is no way for anyone to know whether or not they will be the block proposer before it happens. The ability to do front running and for someone to "extract value" out of their privileged position is thus massively mitigated. And as more and more join in on Algorand participation, the group of entities that would need to be contacted for bribing grows making it more difficult. 
+In Algorand, the block proposer is **always random each round**. There is no way for anyone to know whether or not they will be the block proposer before it happens. The ability to do front running and for someone to "extract value" out of their privileged position is thus massively mitigated. And as more and more join in on Algorand participation, the group of entities that would need to be contacted for bribing grows, making it more difficult. 
 
 ## On Forking
 ### How is Algorand guaranteed to never fork?

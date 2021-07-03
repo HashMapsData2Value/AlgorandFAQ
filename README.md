@@ -155,10 +155,6 @@ Twitter's verification program is currently on hold: https://help.twitter.com/en
 
 # Algorand - Protocol
 
-## How does Algorand solve the Blockchain Trilemma? 
-
-[Refer to this talk](https://www.youtube.com/watch?v=Lbje18-zxc8) by Silvio Micali at the Algorand Boston Meetup.
-
 ## What does "PURE" Proof-of-Stake mean?
 Blockchains are just blocks of transactions cryptographically chained together. Blocks containing these transactions are proposed to the network, validated by the network, until consensus has been reached that the specific block is "correct" and everybody can move on to the next block to add.
 
@@ -187,6 +183,28 @@ Algorand claims that it is "Pure" PoS because it does not suffer from these issu
 
 Hence, Algorand calls itself the "Pure" Proof-of-Stake blockchain.
 
+
+### How does Algorand solve the Blockchain Trilemma? 
+
+[Refer to this talk](https://www.youtube.com/watch?v=Lbje18-zxc8) by Silvio Micali at the Algorand Boston Meetup.
+
+**SECURITY:** 
+- Random selection of block proposer and block validators, with likelihood based on Algo stake. No way to know beforehand ever if you will be put into position of privilege, which secures against corruption. Note that everyone runs a "lottery" (a verified random function) on their own devices, to see if they were "selected". 
+
+- Furthermore, in the "same breathe" that the lottery winners announce themselves to the world, they are also proposing the block/voting on a block (block validation step). This means that there is no incentive for a malicious actor to target these people, because once they have made their announcement and paint huge targets on their backs, they have already lost their power as the blockchain will continue on to the next round. Instead, a malicious actor would have to prevent the entire network from gossipping those messages, but history has shown that even a powerful entity like the United States government was unable to prevent Wikileaks' documents from being virally shared.
+
+**SCALABILITY:** 
+
+- Fixed commitee sizes at around ~1000 entities (simplified), regardless of how the network scales with users. It means you get the benefits that a centralized blockchain has, since it's a relatively small number of entities that have to reach consensus with each other in each round, without the drawbacks that come with centralized blockchains due to the previous point about randomness.
+
+- This is going off of the assumption that 2/3 of "the economy" (the participation nodes and the relative stake they have) is made up of honest actors, and that we are grabbing a random sample of that. This is not as strong of an assumption as, for example, the assumption that 1/2 of Bitcoin miners are honest actors. But Algorand has bunch of other benefits, such as a much lower barrier of entry to take part in consensus in the first place.
+
+**DECENTRALITY:** 
+
+- No heavy mining. In fact, computing the verified random function (i.e., running the "lottery") is trival. Thus, a participation node involved in consensus can be run on very simple hardware, e.g. a Raspberry Pi 4, and as consumer electronics improves over time, the cost of such a device will decrease as well. This lowers barriers of entry and ensures decentralization (as well as being good for the environment), with the bottleneck placed at actually spreading the messages around the network. 
+
+- In Algorand, we do have relay nodes, and these have much higher hardware requirements, especially when it comes to networking. However, these are "dumb gossipers", they only contribute to speeding up the Algorand network. They do NOT take part in the consensus itself.
+
 ### Does Algorand suffer from "frontrunning" and "Miner Extractable Value"?
 
 Miner Extractable Value (MEV) is a problem that Algorand is able to mitigate.
@@ -197,7 +215,7 @@ This problem exists because block proposers can arbitrarily choose which transac
 
 Note however that front running requires some aspect of planning, of predictability regarding who will be the block proposer in the coming rounds. A malicious actor needs to know beforehand who the block proposer(s) is/are going to be, so they can collude with them, if the miners themselves are not the bad actors.
 
-In Algorand, the block proposer is always random each round. There is no way for anyone to know whether or not they will be the block proposer before it happens. The ability to do front running and for someone to "extract value" out of their privileged position is thus massively mitigated.  
+In Algorand, the block proposer is always random each round. There is no way for anyone to know whether or not they will be the block proposer before it happens. The ability to do front running and for someone to "extract value" out of their privileged position is thus massively mitigated. And as more and more join in on Algorand participation, the group of entities that would need to be contacted for bribing grows making it more difficult. 
 
 ## On Forking
 ### How is Algorand guaranteed to never fork?

@@ -197,7 +197,7 @@ This problem exists because block proposers can arbitrarily choose which transac
 
 Note however that front running requires some aspect of planning, of predictability regarding who will be the block proposer in the coming rounds. A malicious actor needs to know beforehand who the block proposer(s) is/are going to be, so they can collude with them, if the miners themselves are not the bad actors.
 
-In Algorand, the block proposer is always random each round. There is no way for anyone to know whether or not they will be the block proposer before it happens. The ability to do front running and for someone to "extract value" out of their privileged position is thus massively mitigate.  
+In Algorand, the block proposer is always random each round. There is no way for anyone to know whether or not they will be the block proposer before it happens. The ability to do front running and for someone to "extract value" out of their privileged position is thus massively mitigated.  
 
 ## On Forking
 ### How is Algorand guaranteed to never fork?

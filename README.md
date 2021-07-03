@@ -189,9 +189,9 @@ Hence, Algorand calls itself the "Pure" Proof-of-Stake blockchain.
 [Refer to this talk](https://www.youtube.com/watch?v=Lbje18-zxc8) by Silvio Micali at the Algorand Boston Meetup.
 
 **SECURITY:** 
-- Random selection of block proposer and block validators, with likelihood based on Algo stake. No way to know beforehand ever if you will be put into position of privilege, which secures against corruption. Note that everyone runs a "lottery" (a verified random function) on their own devices, to see if they were "selected". 
+- Random selection of block proposer and block validators, with likelihood based on Algo stake. No way to know beforehand ever if you will be put into position of privilege, which secures against corruption. 
 
-- Furthermore, in the "same breathe" that the lottery winners announce themselves to the world, they are also proposing the block/voting on a block (block validation step). This means that there is no incentive for a malicious actor to target these people, because once they have made their announcement and paint huge targets on their backs, they have already lost their power as the blockchain will continue on to the next round. Instead, a malicious actor would have to prevent the entire network from gossipping those messages, but history has shown that even a powerful entity like the United States government was unable to prevent Wikileaks' documents from being virally shared.
+- Note that everyone runs a "lottery" (a verified random function) on their own devices, to see if they were "selected", and in the "same breathe" that the lottery winners announce themselves to the world, they are also proposing the block/voting on a block (block validation step). This means that there is no incentive for a malicious actor to target these people, because once they have made their announcement and paint huge targets on their backs, they have already lost their power as the blockchain will continue on to the next round. Instead, a malicious actor would have to prevent the entire network from gossipping those messages, but history has shown that even a powerful entity like the United States government was unable to prevent Wikileaks' documents from being virally shared.
 
 **SCALABILITY:** 
 

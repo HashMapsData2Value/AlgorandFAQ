@@ -4,7 +4,7 @@ Welcome to the FAQ page for the /r/AlgorandOfficial subreddit.
 
 Note that Algorand has an [official FAQ on their website](https://algorand.foundation/faq) and you are encouraged to check it out. This FAQ was compiled or written by the mods of the official subreddit on their own initiative. 
 
-It has not been vetted or endorsed by Algorand Inc. or the Algorand Foundation.
+**It has not been vetted or endorsed by Algorand Inc. or the Algorand Foundation**. You are encouraged to do your own research.
 
 # Topics
 - [Algorand - Overview](https://github.com/HashMapsData2Value/AlgorandFAQ/blob/main/README.md#algorand---overview)

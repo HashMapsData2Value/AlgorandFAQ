@@ -187,6 +187,17 @@ Algorand claims that it is "Pure" PoS because it does not suffer from these issu
 
 Hence, Algorand calls itself the "Pure" Proof-of-Stake blockchain.
 
+### Does Algorand suffer from "frontrunning" and "Miner Extractable Value"?
+
+Miner Extractable Value (MEV) is a problem that Algorand is able to mitigate.
+
+What is MEV? Consider a dApp that auctions out tickets to an event. You wish to put a bid, so you announce a transaction on the blockchain. A miner (in Proof-of-Work terminology, but generally anyone eligible to aggregate up pending transactions and propose a block containing it) sees this and declines to include your transaction. Instead, the miner itself goes to buy the ticket up, so they can then sell it to you at a higher price. Or, consider an auction where you are bidding on a house. One of the opposing bidders bribes the miners to avoid including you or any other bid for the house, so that they may get it for cheaper without competition.
+
+This problem exists because block proposers can arbitrarily choose which transactions to include in a block.
+
+Note however that front running requires some aspect of planning, of predictability regarding who will be the block proposer in the coming rounds. A malicious actor needs to know beforehand who the block proposer(s) is/are going to be, so they can collude with them, if the miners themselves are not the bad actors.
+
+In Algorand, the block proposer is always random each round. There is no way for anyone to know whether or not they will be the block proposer before it happens. The ability to do front running and for someone to "extract value" out of their privileged position is thus massively mitigate.  
 
 ## On Forking
 ### How is Algorand guaranteed to never fork?

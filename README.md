@@ -643,7 +643,7 @@ With blockchain, a central bank would not have to engage in this elaborate dance
 
 Crypto means a lot of things to a lot of people. It is true that Bitcoin has its roots in the cypherpun world and in specific political movements. Bitcoin was a child of the Great Depression, and in his/her/their first transaction of Bitcoin, Satoshi quoted a New York Times headline in the transaction note field: "Chancellor on brink of second bailout for banks".
 
-Blockchain technologies can either usher in a new world, with a borderless economy, where the citizens of the world are not trapped by centralized "digital empires" owned by few; or enable a level of totalitarianism never seen before: the complete supervision of all financial activity in a country. It is very important that it is done right. Central Bank Digital Currencies _will_ be implemented, and people need to be educated on them to be able to
+Blockchain technologies can either usher in a new world, with a borderless economy, where the citizens of the world are not trapped by centralized "digital empires" owned by few; or enable a level of totalitarianism never seen before: the complete supervision of all financial activity in a country. It is very important that it is done right. Central Bank Digital Currencies _will_ be implemented, and people need to be educated on them to even be in a position to make any kinds of demands regarding the fairness, transparency, etc; of their national blockchains.
 
 With that said, the team behind Algorand has chosen to market itself towards central banks and first tier financial insitutions. These are really looking to address the settlement issues that are inherent to the current financial system, and Algorand has chosen to offer themselves as a choice.
 

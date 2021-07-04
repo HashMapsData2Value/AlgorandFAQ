@@ -12,7 +12,7 @@ Note that Algorand has an [official FAQ on their website](https://algorand.found
 - [Tokens](https://github.com/HashMapsData2Value/AlgorandFAQ/blob/main/README.md#tokens)
 - [Developer](https://github.com/HashMapsData2Value/AlgorandFAQ/blob/main/README.md#developer)
 - [Wallet](https://github.com/HashMapsData2Value/AlgorandFAQ/blob/main/README.md#wallet)
-- [Staking](https://github.com/HashMapsData2Value/AlgorandFAQ/blob/main/README.md#staking)
+- [Network](https://github.com/HashMapsData2Value/AlgorandFAQ/blob/main/README.md#network)
 - [Ecosystem](https://github.com/HashMapsData2Value/AlgorandFAQ/blob/main/README.md#ecosystem)
 - [Miscellaneous](https://github.com/HashMapsData2Value/AlgorandFAQ/blob/main/README.md#miscelleanous)
 
@@ -561,12 +561,16 @@ These require you to type in your secret phrase and are thus a ***LAST RESORT***
 - /u/Ok-Cryptographer2706: https://algorand.oortnet.com/
 - https://github.com/Coinomi/bip39-coinomi (claims to have added support for Algorand)
 
-# Staking
+# Network
+
+## How many nodes are participating in consensus?
+
+The current number can be viewed on the Algorand website: https://metrics.algorand.org/
 
 ## What does it mean to "stake"?
 
 
-## Where should I stake my ALGO?
+## Where should I store my ALGO?
 
 Any arrangement where **you** own the keys will ensure you get 100% of the rewards. This includes the official mobile wallet and any hardware wallet (e.g. Ledger).
 

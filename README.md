@@ -14,6 +14,7 @@ Note that Algorand has an [official FAQ on their website](https://algorand.found
 - [Wallet](https://github.com/HashMapsData2Value/AlgorandFAQ/blob/main/README.md#wallet)
 - [Network](https://github.com/HashMapsData2Value/AlgorandFAQ/blob/main/README.md#network)
 - [Ecosystem](https://github.com/HashMapsData2Value/AlgorandFAQ/blob/main/README.md#ecosystem)
+- [CBDCs](https://github.com/HashMapsData2Value/AlgorandFAQ/blob/main/README.md#cbdcs)
 - [Miscellaneous](https://github.com/HashMapsData2Value/AlgorandFAQ/blob/main/README.md#miscelleanous)
 
 # Algorand - Overview
@@ -603,13 +604,89 @@ https://www.algorand.com/ecosystem/use-cases
 ## What is ISO 20022 and what does it mean that Algorand is part of setting it?
 https://en.wikipedia.org/wiki/ISO_20022
 
-# Miscelleanous
+# CBDCs
 
-## What is Algorand's connection with Central Banks?
+## What is a CBDC?
+
+CBDC stands for Central Bank Digital Currency. Basically, a cryptocurrency created/managed by the central bank of a country.
+
+## Why would a Central Bank wish to institute a CBDC?
+
+For thousands of years, humans relied on physical objects to do transactions of value with each other. With the advent of the Internet, this has changed.
+
+The criteria for good money are:
+- scarcity
+- durability
+- divisibility
+- portability
+- uniformity
+- acceptability
+
+Physical goods are inherently "scarce" due to physics. If someone gives something to someone else, they by default no longer have it. On the other hand, with the demand for online purchases, cash has ceased to be "portable", in the sense that it is not possible to easily send it.
+
+The advent of digital payment services and online banking has been very good for the economy, with the global e-commerce market valued in 10+ trillions of USD. However, the way things are setup are FAR from ideal. 
+
+Money exists as entries in a database in banks. It is not "inherently scarce" in the way physical goods are, because digital information can be copy/pasted and manipulated ad infinitum. We trust that our banks do not make up money out of thin air.
+
+Consider making a transaction online. If you and the recipient both share the same bank, we trust the bank to perform the relevant database operations. If however you have two different banks, those banks need to talk to each other. One way is to have the banks keep accounts for each other at each other's banks, such that a transaction from you to the other person entails a transaction from you to the bank's account in your bank, and then the other bank handling things with your recipient's account.
+
+This gets very tricky very fast. Two banks might have thousands of transactions per day between each other, and keeping track of that is very wasteful. So it is better to simply handle transactions a few times per day, or maybe even once, and only the "sum difference" of all the transactions. But you also need to consider that there can be many banks in a jurisdiction. So a solution then is to operate a centralized database managed by the central bank, for _settling_ funds.
+
+Of course, this is difficult to do across jurisdictions, between antions and currencies. Every bank cannot have an account with every bank, and trust every bank. Instead, a transaction from one bank to another internationally might need to go through a number of intermediary banks, who also charge for that work, resulting in transaction fees. Not to mention, slow speeds.
+
+Satoshi Nakamoto was the first to solve this issue with Bitcoin and his/her/their contribution: Nakamoto Consensus. Blockchains are the truly Internet-native way to store and transact value, without relying on trusted parties.
+
+With blockchain, a central bank would not have to engage in this elaborate dance. Managing fiscal policy will also  be easier. Transactions can flow freely without any trusted 3rd parties.
+
+
+## I thought Crypto was about creating a new world and smashing our institutions, not enabling them further?
+
+Crypto means a lot of things to a lot of people. It is true that Bitcoin has its roots in the cypherpun world and in specific political movements. Bitcoin was a child of the Great Depression, and in his/her/their first transaction of Bitcoin, Satoshi quoted a New York Times headline in the transaction note field: "Chancellor on brink of second bailout for banks".
+
+Blockchain technologies can either usher in a new world, with a borderless economy, where the citizens of the world are not trapped by centralized "digital empires" owned by few; or enable a level of totalitarianism never seen before: the complete supervision of all financial activity in a country. It is very important that it is done right. Central Bank Digital Currencies _will_ be implemented, and people need to be educated on them to be able to
+
+With that said, the team behind Algorand has chosen to market itself towards central banks and first tier financial insitutions. These are really looking to address the settlement issues that are inherent to the current financial system, and Algorand has chosen to offer themselves as a choice.
+
+## What is Algorand's connection with CBDCs?
 
 Algorand's COO stated in this [interview on 2021-04-27](https://www.youtube.com/watch?v=oX8D6TcQjXM) with Paul Barron Network that they are in talks with 15-20 central banks.
 
-Algorand is also, in its marketing and the blog content they produce, heavily slanted towards CBDCs, e.g. [this report](https://info.algorand.com/cbdc-algorand).
+Algorand is also, in its marketing and the blog content they produce, orienting themselves as an obvious CBDC candidate, e.g. [this report](https://info.algorand.com/cbdc-algorand).
+
+## How could you institute a CBDC on Algorand?
+
+There are two ways CBDCs could be created with Algorand:
+
+### As a stablecoin (fungible token) on the main chain. 
+
+When a fungible token is minted, there is the option to "partially" mint it by specifying a Reserve Address. A max total number is set and some of it is minted it, the Reserve Address is free to mint it. The [total is an uint64](https://developer.algorand.org/docs/reference/transactions/#total), so a maximum number of 2^64 tokens (\~1.8\*10\^19) can be specified. Then, the CBDC is free to inflate or deflate the circulating supply by adding or taking tokens out of circulation.
+
+The advantage of doing this is that the CBDC automatically inherits the strength of the Algorand mainnet, which include the many participation nodes and the ecosystem that is emerging. The disadvantage is that, while using the ASA fungible token addresses gives the CBDC some control, holding and transacting the CBDC token will still require the ALGO currency, which the central bank has little to no control over. Furthermore, there are specific design decisions of the Algorand protocol that the CBDC will also have little to no control over, e.g. regarding privacy, aspects affecting hardware requirements, and so on.
+
+### As a co-chain. 
+
+A separate blockchain would be set up based off of the Algorand protocol. Instead of 10B ALGO, the CBDC would mint their own native token, and have full control over all aspects of the blockchain. They could specifiy who gets to participate in consensus (permissioned), how the protocol should look like, and so forth.
+
+To illustrate, consider that ALGO serves the following purpose in the mainchain:
+
+- stake in consensus, for the VRF (PoS)
+- vote for governance/protocol upgrades
+- transaction fee (spam prevention, for rewards later)
+- ASA opt-in (spam prevention)
+- smart contract opt-in (spam prevention)
+- money
+
+It is entirely conceivable that a CBDC might want to create multiple native coins relevant across these areas.
+
+Other aspects of the Algorand protocol that a CBDC might be interested in playing with:
+
+- privacy of transactions
+- inflation of coin over time
+- minimum expected hardware requirements (e.g. the smart contract opcode execution limits)
+
+There are also advantages for the mainchain, in that transactions will be off-loaded and kept off chain. The mainchain is set to be able to handle 46k transactions (~4b a day).
+
+# Miscelleanous
 
 ## What is the connection between Silvio and the SEC?
 

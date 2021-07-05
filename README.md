@@ -492,8 +492,64 @@ https://algoexplorer.io/
 
 ## What is a wallet?
 
-A wallet can mean many things, the term is used.
+On Algorand, there are accounts. These accounts can hold a balance and tokens, participate in consensus, and more.
 
+Each account has a public address and a private key. The private key is associated with a set of phrases, 25 of them. These phrases are taken from [BIP-39](https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt) English wordlist.
+
+Each word is associated with a number between 1 and 2048, and 24 words can be randomly chosen, with a 25th word calculated from the first 24 as a checksum. (Meaning that if you type in one of the first 24 words incorrectly, you will get an error.) This means there are as many as 2048^24 different combinations of seedphrases, or roughly 3 * 10^79. As a point of comparison, some estimates place the number of atoms in the entire Universe at ~10^80. 
+
+The seed phrase is associated with the private key that is used to sign transactions and other activity from your account. The public key (with which the account address is associated with) can be used to verify that signature, such that others can confirm it was indeed you who authorized a certain transaction.
+
+While the terminology can be somewhat confusing, as people use the same words in different contexts to refer to different things. For example, a "user", "wallet", "account", "public key", etc could refer to the same things or different things in different context. [Algorand's official developer docs even has a note and an Interpretation Guide about this](https://developer.algorand.org/docs/features/accounts/#a-note-about-term-usage-in-these-docs).
+
+But roughly, it can be said that a wallet is the interface with which a user will interact with their account on the blockchain.
+
+### How are accounts created?
+
+1. Generate the seed phrase. 
+2. Generate a public account
+3. Get anyone with ALGO to send ALGO to that account
+
+Congratulations.
+
+### I don't understand this seed phrase stuff, could you elaborate?
+
+First of all, **BE VERY CAREFUL WHAT YOU DO WITH YOUR SEED PHRASE**. Guard it with everything, because anyone who has it can recreate your wallet anywhere!!!
+
+This also means that, if you download the official Algorand map, generate a seed phrase, write it down, and then somehow lose your phone, you can always recreate your wallet on a second phone. There are also wallets like MyAlgo, which are accessed in your browser.
+
+### I still don't understand this seed phrase stuff, how can I have multiple wallets? And those wallets have different passworsd? It's terribly confusing...
+
+From the perspective of the blockchain, even if you have inputed your seed phrase into multiple wallets, there is only one account.
+
+To give an illustrative analogy, consider a treasure map, like those supposedly used by pirates. To give a true sense of scale, let's imagine that we are space pirates instead.
+
+We take our treasure, board into our space ship and take off from Earth into the stars. We find a remote area of the universe and dump the treasure there, perhaps in the orbit of a star, in a galaxy far far far away. The "space coordinates" of that treasure are written down on a piece of paper, to serve as the map with the big "X for treasure" on it. 
+
+When you get back to Earth, you go to your home and deposit the map into a safe with a password. The map represents your seed phrase, the password-protected safe your wallet.
+
+You are free to make a copy of your map and store it in a second safe. You can do this however many times you want. However, there will always only be one treasure. And if anyone gets their hands on a map, they are free to jump into their space ship and collect your treasure. If they do, they can then travel off to some other random place in the universe and dump it there, making their own map for this new location.
+
+Note that it is also possible for anyone to stumble upon your treasure (i.e., generate the same seedphrase that you have)... but the risk of it happening is astronomically low. (Unless you did not generate the seedphrase in a truly random way.)
+
+### How does Algorand nodes actually store account data?
+
+Anyone in possession of the entire blockchain, from genesis to the current block, can calculate exactly the current "financial state of the world" in Algorand.
+
+However, Algorand uses a system called [Vault](https://www.mit.edu/~yossigi/vault.pdf) to optimize the storage of network data, and the bootstrapping costs for participants.
+
+Here is the abstract:
+
+> Decentralized cryptocurrencies rely on participants to keep track of the state of the system in order to verify newtransactions. As the number of users and transactions grows,this requirement becomes a significant burden, requiring users todownload, verify, and store a large amount of data to participate.
+
+> Vault is a new cryptocurrency design based on Algorand thatminimizes these storage and bootstrapping costs for participants.Vault’s design is based on Algorand’s proof-of-stake consensusprotocol and uses several techniques to achieve its goals. 
+
+> First, Vault decouples the storage of recent transactions from thestorage of account balances, which enables Vault to delete old account state. Second, Vault allows sharding state acrossparticipants in a way that preserves strong security guarantees. Finally, Vault introduces the notion of stamping certificates, which allow a new client to catch up securely and efficiently in a proof-of-stake system without having to verify every single block.
+
+> Experiments with a prototype implementation of Vault’s datastructures show that Vault’s design reduces the bandwidth costof joining the network as a full client by 99.7% compared to Bitcoin and 90.5% compared to Ethereum when downloading aledger containing 500 million transactions.
+
+
+### I have inputed my seed phrase into mult
 
 ## How do I keep my coins safe?
 
@@ -533,7 +589,7 @@ You receive Algos in one account, perhaps one of many "receive" accounts you hav
 
 For law enforcement, they are free to subpoena Coinbase for your information. And since Coinbase is a legitimate, trusted authority, you also feel confident sending your Algos to their custodial wallet. It's what is acceptable right now.
 
-## Will Algorand one day be more privacy-preserving?
+### Will Algorand one day be more privacy-preserving?
 
 [Silvio has said that he believes in privacy, but that the timing is not right.](https://www.youtube.com/watch?v=zNdhgOk4-fE&t=3284s)
 

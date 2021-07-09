@@ -518,7 +518,7 @@ First of all, **BE VERY CAREFUL WHAT YOU DO WITH YOUR SEED PHRASE**. Guard it wi
 
 This also means that, if you download the official Algorand map, generate a seed phrase, write it down, and then somehow lose your phone, you can always recreate your wallet on a second phone. There are also wallets like MyAlgo, which are accessed in your browser.
 
-### I still don't understand this seed phrase stuff, how can I have multiple wallets? And those wallets have different passworsd? It's terribly confusing...
+### I have inputed my seed phrase into multiple wallets, how does that work? How can I have multiple wallets with the same seed phrase? And those wallets have different passwords, how can they control the same funds?
 
 From the perspective of the blockchain, even if you have inputed your seed phrase into multiple wallets, there is only one account.
 
@@ -549,7 +549,6 @@ Here is the abstract:
 > Experiments with a prototype implementation of Vault’s datastructures show that Vault’s design reduces the bandwidth costof joining the network as a full client by 99.7% compared to Bitcoin and 90.5% compared to Ethereum when downloading aledger containing 500 million transactions.
 
 
-### I have inputed my seed phrase into mult
 
 ## How do I keep my coins safe?
 

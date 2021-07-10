@@ -512,11 +512,11 @@ But roughly, it can be said that a wallet is the interface with which a user wil
 
 Congratulations.
 
-### I don't understand this seed phrase stuff, could you elaborate?
+### I don't understand this seed phrase stuff, could you elaborate? What should I do with it?
 
-First of all, **BE VERY CAREFUL WHAT YOU DO WITH YOUR SEED PHRASE**. Guard it with everything, because anyone who has it can recreate your wallet anywhere!!!
+First of all, **BE VERY CAREFUL WHAT YOU DO WITH YOUR SEED PHRASE**. Keep it written in different places, guard it with everything, because anyone who has it can recreate your wallet anywhere!!!
 
-This also means that, if you download the official Algorand map, generate a seed phrase, write it down, and then somehow lose your phone, you can always recreate your wallet on a second phone. There are also wallets like MyAlgo, which are accessed in your browser.
+If you download the official Algorand app, generate a seed phrase, write it down, and then somehow lose your phone, you can always recreate your wallet on a second phone. There are also wallets like MyAlgo, which are accessed in your browser.
 
 ### I have inputed my seed phrase into multiple wallets, how does that work? How can I have multiple wallets with the same seed phrase? And those wallets have different passwords, how can they control the same funds?
 

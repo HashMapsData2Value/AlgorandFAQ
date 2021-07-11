@@ -499,9 +499,9 @@ But roughly, it can be said that a wallet is the interface with which a user wil
 
 ### How are accounts created?
 
-1. Generate the seed phrase. 
-2. Generate a public address.
-3. Get anyone with ALGO to send ALGO to that account
+1. Generate the seed phrase, 25 words. We assume that no one has ever generated that exact combination.
+2. Get the public address for which that seed phrase corresponds to.
+3. Get anyone with ALGO to send ALGO to that account. This could be yourself from an exchange.
 
 Congratulations.
 

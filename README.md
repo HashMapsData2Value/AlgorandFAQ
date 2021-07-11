@@ -75,9 +75,9 @@ In 2017, Professor Micali published the [original Algorand paper](https://arxiv.
 
 He has been on the faculty at MIT, Electrical Engineering and Computer Science Department, since 1983. Silvio’s research interests are cryptography, zero knowledge, pseudorandom generation, secure protocols, and mechanism design and blockchain. In particular, Silvio is the co-inventor of probabilistic encryption, Zero-Knowledge Proofs, Verifiable Random Functions and many of the protocols that are the foundations of modern cryptography. 
 
-[Silvio Micali | The Path to Algorand](https://www.youtube.com/watch?v=QOMpPZZeguQ)
-[Silvio Micali's Lecture on Algorand](https://www.youtube.com/watch?v=NykZ-ZSKkxM)
-[Silvio Micali: Cryptocurrency, Blockchain, Algorand, Bitcoin & Ethereum | Lex Fridman Podcast #168](https://www.youtube.com/watch?v=zNdhgOk4-fE)
+- [Silvio Micali | The Path to Algorand](https://www.youtube.com/watch?v=QOMpPZZeguQ)
+- [Silvio Micali's Lecture on Algorand](https://www.youtube.com/watch?v=NykZ-ZSKkxM)
+- [Silvio Micali: Cryptocurrency, Blockchain, Algorand, Bitcoin & Ethereum | Lex Fridman Podcast #168](https://www.youtube.com/watch?v=zNdhgOk4-fE)
 
 
 
@@ -155,7 +155,7 @@ Twitter's verification program was halted for some time. It is now up, but suffe
 
 # Algorand - Protocol
 
-## Pure Proof of Stake
+## Pure Proof-of-Stake
 
 ### What does "PURE" Proof-of-Stake mean?
 Blockchains are just blocks of transactions cryptographically chained together. Blocks containing these transactions are proposed to the network, validated by the network, until consensus has been reached that the specific block is "correct" and everybody can move on to the next block to add.

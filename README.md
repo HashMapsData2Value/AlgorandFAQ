@@ -27,7 +27,7 @@ From the [Wikipedia page](https://en.wikipedia.org/wiki/Algorand_(cryptocurrency
 
 ## What are the benefits and Unique Selling Points of Algorand?
 
-The heart of Algorand, and what makes it stick out, is its deceptively simple consensus mechanism that results in Pure Proof of Stake. This allows it to solve the "Blockchain Trilemma" as defined by Vitalik Buterin, co-founder of Ethereum and de-facto spokesperson. (For more on this part, refer to the section on Pure Proof of Stake.)
+The heart of Algorand, and what makes it stick out, is its deceptively simple consensus mechanism that results in Pure Proof of Stake. This allows it to solve the "Blockchain Trilemma" as defined by Vitalik Buterin, co-founder of Ethereum and de-facto spokesperson. (For more on this part, refer to the [section on Pure Proof-of-Stake](https://github.com/HashMapsData2Value/AlgorandFAQ/blob/main/README.md#pure-proof-of-stake).)
 
 - Transactions per Second: ~1k (by end of 2021 -> 46k) 
 - Transaction Finality: ~4.5s (by end of 2021 -> ~2.5s)
@@ -78,8 +78,6 @@ He has been on the faculty at MIT, Electrical Engineering and Computer Science D
 - [Silvio Micali | The Path to Algorand](https://www.youtube.com/watch?v=QOMpPZZeguQ)
 - [Silvio Micali's Lecture on Algorand](https://www.youtube.com/watch?v=NykZ-ZSKkxM)
 - [Silvio Micali: Cryptocurrency, Blockchain, Algorand, Bitcoin & Ethereum | Lex Fridman Podcast #168](https://www.youtube.com/watch?v=zNdhgOk4-fE)
-
-
 
 ## What is the difference between Algorand Inc. and the Algorand Foundation? 
 

@@ -160,7 +160,7 @@ Blockchains are just blocks of transactions cryptographically chained together. 
 
 The challenge is - who gets to propose blocks? Why should we trust them? What is stopping a malicious actor from taking over a majority of the validation and compromising the integrity of the network? E.g., by creating fake transactions, stealing money from others, etc.
 
-In PoS, we make the assumption that actors with a big personal stake in the blockchain should fundamentally be trusted over those without. Different variants of PoS exist, all trying to tackle this while at the same time trying to figure out the Blockchain Trilemma, which (formulated by Vitalik) states that a crypto can only have two out of the following three:
+In PoS, we make the assumption that actors with a big personal stake in the blockchain should fundamentally be trusted over those without. Different variants of PoS exist, all trying to tackle this while at the same time trying to figure out the Blockchain Trilemma, which ([formulated by Vitalik](https://vitalik.ca/general/2021/04/07/sharding.html)) states that a crypto can only have two out of the following three:
 - Decentralization
 - Security
 - Scalability

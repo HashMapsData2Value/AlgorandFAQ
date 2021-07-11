@@ -500,7 +500,7 @@ But roughly, it can be said that a wallet is the interface with which a user wil
 ### How are accounts created?
 
 1. Generate the seed phrase. 
-2. Generate a public account
+2. Generate a public address.
 3. Get anyone with ALGO to send ALGO to that account
 
 Congratulations.

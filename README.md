@@ -21,14 +21,13 @@ Note that Algorand has an [official FAQ on their website](https://algorand.found
 
 ## What is Algorand?
 
-Algorand is a blockchain-based cryptocurrency platform that aims to be secure, scalable, and decentralized. The Algorand platform supports smart contract functionality and its consensus algorithm is based on a proof-of-stake and Byzantine Agreement protocol.[5][2][6][7][8] Algorand’s native cryptocurrency is called Algo.
+Algorand is a blockchain-based cryptocurrency platform that aims to be secure, scalable, and decentralized. The Algorand platform supports smart contract functionality and its consensus algorithm is based on a proof-of-stake and Byzantine Agreement protocol. Algorand’s native cryptocurrency is called Algo.
 
 From the [Wikipedia page](https://en.wikipedia.org/wiki/Algorand_(cryptocurrency_platform)).
 
-
 ## What are the benefits and Unique Selling Points of Algorand?
 
-The heart of Algorand, and what makes it stick out, is its deceptively simple consensus mechanism that results in Pure Proof of Stake. This allows it to solve the Blockchain Trilemma of Scaleable, Secure and Decentralized.
+The heart of Algorand, and what makes it stick out, is its deceptively simple consensus mechanism that results in Pure Proof of Stake. This allows it to solve the "Blockchain Trilemma" as defined by Vitalik Buterin, co-founder of Ethereum and de-facto spokesperson. (For more on this part, refer to the section on Pure Proof of Stake.)
 
 - Transactions per Second: ~1k (by end of 2021 -> 46k) 
 - Transaction Finality: ~4.5s (by end of 2021 -> ~2.5s)
@@ -41,7 +40,7 @@ The heart of Algorand, and what makes it stick out, is its deceptively simple co
  
 The combination of all of these properties makes Algorand uniquely suited for a number of applications.
 
-On a more subjective note, the following have also been praised:
+On a more subjective note, the following have also been praised by users on our subreddit:
 - The quality of the developer docs.
 - The UI of the official mobile Algorand app.
 
@@ -150,26 +149,20 @@ Algorand uses a specific kind of Proof-of-Stake (PoS) in its block proposal and 
 - https://www.youtube.com/algorand
 - https://www.youtube.com/channel/UCYqAUajjZd0PuHyHslY_8Ww
 
-## Where is the Wikipedia Page?
-
-~~The first draft was stopped: https://en.wikipedia.org/wiki/Draft:Algorand
-The second proposal is under reiew: https://en.wikipedia.org/wiki/Draft:Algorand_(cryptocurrency_platform)~~
-
-Update: It's up: https://en.wikipedia.org/wiki/Algorand_(cryptocurrency_platform)
-
 ## Why is Silvio and the team not Twitter verified?
 
-Twitter's verification program is currently on hold: https://help.twitter.com/en/managing-your-account/about-twitter-verified-accounts
-
+Twitter's verification program was halted for some time. It is now up, but suffering from a big backlog.
 
 # Algorand - Protocol
 
-## What does "PURE" Proof-of-Stake mean?
+## Pure Proof of Stake
+
+### What does "PURE" Proof-of-Stake mean?
 Blockchains are just blocks of transactions cryptographically chained together. Blocks containing these transactions are proposed to the network, validated by the network, until consensus has been reached that the specific block is "correct" and everybody can move on to the next block to add.
 
 The challenge is - who gets to propose blocks? Why should we trust them? What is stopping a malicious actor from taking over a majority of the validation and compromising the integrity of the network? E.g., by creating fake transactions, stealing money from others, etc.
 
-In PoS, we make the assumption that actors with a big personal stake in the blockchain should fundamentally be trusted over those without.77Different variants of PoS exist, all trying to tackle this while at the same time trying to figure out the Blockchain Trilemma, which (formulated by Vitalik) states that a crypto can only have two out of the following three:
+In PoS, we make the assumption that actors with a big personal stake in the blockchain should fundamentally be trusted over those without. Different variants of PoS exist, all trying to tackle this while at the same time trying to figure out the Blockchain Trilemma, which (formulated by Vitalik) states that a crypto can only have two out of the following three:
 - Decentralization
 - Security
 - Scalability
@@ -212,7 +205,9 @@ Hence, Algorand calls itself the "Pure" Proof-of-Stake blockchain.
 
 - No heavy mining. In fact, computing the verified random function (i.e., running the "lottery") is trival. Thus, a participation node involved in consensus can be run on very simple hardware, e.g. a Raspberry Pi 4, and as consumer electronics improves over time, the cost of such a device will decrease as well. This lowers barriers of entry and ensures decentralization (as well as being good for the environment), with the bottleneck placed at actually spreading the messages around the network. 
 
-- In Algorand, we do have relay nodes, and these have much higher hardware requirements, especially when it comes to networking. However, these are "dumb gossipers", they only contribute to speeding up the Algorand network. They do NOT take part in the consensus itself.
+- In Algorand, we do have relay nodes, and these have much higher hardware requirements, especially when it comes to networking. However, these are "dumb gossipers", they only contribute to speeding up the Algorand network. They do NOT take part in the consensus itself. 
+ 
+- Note however that the relay nodes are currently whitelisted (only their IPs are explicitly allowed to serve as relay nodes) by Algorand. They are composed of early investors. Obviously this is a big point against decentralization, even though relay nodes are separate from the consensus mechanism itself, and is being addressed. The Algorand Foundation have announced a [pilot programme for community relay node running](https://algorand.foundation/news/community-relay-node-running-pilot/) as a first step toward allowing the community at large to run a relay node.  
 
 ### Does Algorand suffer from "front-running" and "Miner Extractable Value"?
 
@@ -235,7 +230,7 @@ Refer to the [paper](https://www.algorand.com/Algorand_%20A%20secure%20and%20eff
 
 ### Okay, so it cannot fork. Why should I care?
 
-- Hard forks are very damaging to the blockchain. Any kind of suggestion or expectaton of a fork can divide a community and alter stakeholder incentives. The value of a blockchain, like any marketplace or network technology, is not proportional to the number of connected users but the square of that number (Metcalfe's Law). In other words, if a network is split into two, the value of each resulting half is 1/4th.  If there are _n_ users, they can make _n_(_n_-1)/2 connections. Consider that 2 users can make 1 connection, 5 users can make 10 connections, and 10 users can make 45 connections.
+- Hard forks can be very damaging to the blockchain. Any kind of suggestion or expectaton of a fork can divide a community and alter stakeholder incentives. The value of a blockchain, like any marketplace or network technology, is not proportional to the number of connected users but the square of that number (Metcalfe's Law). In other words, if a network is split into two, the value of each resulting half is 1/4th.  If there are _n_ users, they can make _n_(_n_-1)/2 connections. Consider that 2 users can make 1 connection, 5 users can make 10 connections, and 10 users can make 45 connections.
 
 - Following a hard fork, tokens exist in multiple places. If you cannot fork, there will always only be ONE version of a token. For NFTs, which can be used as proofs of ownership of some property (physical, intellectual, both), this is fundamental. Consider the intellectual property of a creative or inventor being represented on the blockchain by an NFT. A network fork would mean that the intellectual property would be split in two, and any transfer of the property to another entity would require two transactions. Even worse, two different entities (e.g., record label A and record label B) might each buy the NFT on each respective fork and confusion would arrise as to who is the actual owner. Or consider a USD stablecoin that can be exchanged for real $ fiat - suddenly, the company behind it has to decide on which fork they will reimburse.
 
@@ -292,7 +287,7 @@ Put simply, in each block round, a block needs to be:
 
 Each block can contain a certain number of transactions. The size of a block will affect the time required for the mentioned steps. 
 
-Note that it is not simply a case of making a block "biggier". If it is made too big (in an effort to contain more), it will affect the metrics of each step - some of which are dependent on network bottlenecks, other by the minimum computer hardware is exptected to be required to participate in the steps mentioned. 
+Note that it is not simply a case of making a block "bigger". If it is made too big (in an effort to contain more), it will affect the metrics of each step - some of which are dependent on network bottlenecks, other by the minimum computer hardware is exptected to be required to participate in the steps mentioned. 
 
 Currently, participation in the consensus is determined by participation nodes that can be run on hardware as simple as a Raspberry Pi 4. To speed up the flow of information, powerful relay nodes are used to "gossip" the network packets around the world. This division of labour means that it is possible to scale the performance of the system with better compute and networking hardware, while the consensus itself remains simple and easy for anyone to run. By keeping the barrier of entry low, decentrality is maintained.
 
@@ -470,7 +465,7 @@ Algorand does not have gas. Noderunners of participation nodes do not collect an
 
 ## How do I run a node?
 
-If you are planning to operate a node, you should know that there are different types of nodes: relay nodes and non-relay nodes. You can find more information about this here. You will probably want to run a participation node. The first thing you need to do is to set up a node. This is a simple copy and paste process. [Here](https://developer.algorand.org/docs/run-a-node/setup/install/) you can find a tutorial. For Windows there is an [exhttps://github.com/randlabs/algorand-windows-node/releasestable program](url) or you can [compile Algorand node software](https://developer.algorand.org/tutorials/compile-and-run-the-algorand-node-natively-windows/#1-environment-setup) for yourself and then run it.
+If you are planning to operate a node, you should know that there are different types of nodes: relay nodes and non-relay nodes. You can find more information about this here. You will probably want to run a participation node. The first thing you need to do is to set up a node. This is a simple copy and paste process. [Here](https://developer.algorand.org/docs/run-a-node/setup/install/) you can find a tutorial. For Windows there is an [example program](https://github.com/randlabs/algorand-windows-node) or you can [compile Algorand node software](https://developer.algorand.org/tutorials/compile-and-run-the-algorand-node-natively-windows/#1-environment-setup) for yourself and then run it.
 
 To participate in the consensus protocol, one must also register a participation key and perform a key registration transaction. [Here](https://developer.algorand.org/docs/run-a-node/participate/) you can find more information. This is again a simple copy and paste process, but there are some small changes you need to make, adding your address and changing roundFirstValid and roundLastValid at addpartkey and firstvalid and lastvalid at changeonlinestatus to a block number in the future. For security reasons I would recommend to authorize the key registration transaction offline on a different machine than the participation node.
 
@@ -496,7 +491,7 @@ On Algorand, there are accounts. These accounts can hold a balance and tokens, p
 
 Each account has a public address and a private key. The private key is associated with a set of phrases, 25 of them. These phrases are taken from [BIP-39](https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt) English wordlist.
 
-Each word is associated with a number between 1 and 2048, and 24 words can be randomly chosen, with a 25th word calculated from the first 24 as a checksum. (Meaning that if you type in one of the first 24 words incorrectly, you will get an error.) This means there are as many as 2048^24 different combinations of seedphrases, or roughly 3 * 10^79. As a point of comparison, some estimates place the number of atoms in the entire Universe at ~10^80. 
+Each word is associated with a number between 1 and 2048, and 24 words can be randomly chosen, with a 25th word calculated from the first 24 as a checksum. (Meaning that if you type in one of the first 24 words incorrectly, you will get an error.) This means there are as many as 2048^24 different combinations of seedphrases, or roughly 3 * 10^79. As a point of comparison, some estimates place the number of atoms in the entire known Universe at ~10^80. 
 
 The seed phrase is associated with the private key that is used to sign transactions and other activity from your account. The public key (with which the account address is associated with) can be used to verify that signature, such that others can confirm it was indeed you who authorized a certain transaction.
 
@@ -542,7 +537,7 @@ Here is the abstract:
 
 > Decentralized cryptocurrencies rely on participants to keep track of the state of the system in order to verify newtransactions. As the number of users and transactions grows,this requirement becomes a significant burden, requiring users todownload, verify, and store a large amount of data to participate.
 
-> Vault is a new cryptocurrency design based on Algorand thatminimizes these storage and bootstrapping costs for participants.Vault’s design is based on Algorand’s proof-of-stake consensusprotocol and uses several techniques to achieve its goals. 
+> Vault is a new cryptocurrency design based on Algorand that minimizes these storage and bootstrapping costs for participants.Vault’s design is based on Algorand’s proof-of-stake consensusprotocol and uses several techniques to achieve its goals. 
 
 > First, Vault decouples the storage of recent transactions from thestorage of account balances, which enables Vault to delete old account state. Second, Vault allows sharding state acrossparticipants in a way that preserves strong security guarantees. Finally, Vault introduces the notion of stamping certificates, which allow a new client to catch up securely and efficiently in a proof-of-stake system without having to verify every single block.
 

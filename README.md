@@ -487,7 +487,7 @@ https://algoexplorer.io/
 
 On Algorand, there are accounts. These accounts can hold a balance and tokens, participate in consensus, and more.
 
-Each account has a public address and a private key. The private key is associated with a set of phrases, 25 of them. These phrases are taken from [BIP-39](https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt) English wordlist.
+Each account has a public address and a private key. The private key is associated with a set of words, 25 of them. These words are taken from [BIP-39](https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt) English wordlist.
 
 Each word is associated with a number between 1 and 2048, and 24 words can be randomly chosen, with a 25th word calculated from the first 24 as a checksum. (Meaning that if you type in one of the first 24 words incorrectly, you will get an error.) This means there are as many as 2048^24 different combinations of seedphrases, or roughly 3 * 10^79. As a point of comparison, some estimates place the number of atoms in the entire known Universe at ~10^80. 
 

@@ -295,7 +295,7 @@ It is also worth pointing out that making the block time too fast is not ideal e
 
 #### How will co-chains affect the TPS?
 
-It is expected that there will be additional co-chains running alongside the main network, offered to for example countries to run their Central Bank Digital Currencies (CBDCs), for large industry consortiums, or to other entities/arrangements. These co-chains will be permissioned and will be much freer to set the parameters of their blockchains. For example, they might demand very powerful hardware and run on high performant private networks. They might make certain assumptions on the consumers of the blockchain data, and they might eschew certain functionality. 
+It is expected that there will be additional co-chains running alongside the main network, offered to for example countries to run their [Central Bank Digital Currencies (CBDCs)](https://github.com/HashMapsData2Value/AlgorandFAQ/blob/main/README.md#cbdcs), for large industry consortiums, or to other entities/arrangements. These co-chains will be permissioned and will be much freer to set the parameters of their blockchains. For example, they might demand very powerful hardware and run on high performant private networks. They might make certain assumptions on the consumers of the blockchain data, and they might eschew certain functionality. 
 
 These factors mean that the co-chains could reach a lot higher theoretical TPS, with the number of transactions inter-chain being a smaller part of that.
 

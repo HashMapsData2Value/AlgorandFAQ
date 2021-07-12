@@ -620,7 +620,7 @@ These require you to type in your secret phrase and are thus a ***LAST RESORT***
 
 ## Help, I am trying to send Algo from one account to another but it is giving a "minimum balance" error!
 
-You need to keep 0.1 Algo per ASA opted into, as well as some for each (stateful) smart contract opted into. There is also a [minimum balance of 0.1 Algo necessary for basic functionality](https://developer.algorand.org/docs/features/accounts/#minimum-balance). Note that the Algo are still there in your account.
+You need to keep 0.1 Algo per ASA opted into, as well as some for each (stateful) smart contract opted into. There is also a [minimum balance of 0.1 Algo necessary for basic functionality](https://developer.algorand.org/docs/features/accounts/#minimum-balance). Any transaction that results in your account possessing less Algo than required will not be considered valid by the network and fail. 
 
 The solution is to either transact less, or to opt-out of the ASAs and/or smart contracts.
 

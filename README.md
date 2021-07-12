@@ -542,7 +542,6 @@ Here is the abstract:
 > Experiments with a prototype implementation of Vault’s datastructures show that Vault’s design reduces the bandwidth costof joining the network as a full client by 99.7% compared to Bitcoin and 90.5% compared to Ethereum when downloading aledger containing 500 million transactions.
 
 
-
 ## How do I keep my coins safe?
 
 **DO NOT SHARE YOUR SEED PHRASE!!!**.
@@ -617,6 +616,17 @@ These require you to type in your secret phrase and are thus a ***LAST RESORT***
 - /u/abeliabedelia: https://goplay.space/#BhrW4QZ3Sty  <- Grab the code, then compile and run on [Go](https://golang.org/) LOCALLY!
 - /u/Ok-Cryptographer2706: https://algorand.oortnet.com/
 - https://github.com/Coinomi/bip39-coinomi (claims to have added support for Algorand)
+
+
+## Help, I am trying to send Algo from one account to another but it is giving a "minimum balance" error!
+
+You need to keep 0.1 Algo per ASA opted into, as well as some for each (stateful) smart contract opted into. There is also a [minimum balance of 0.1 Algo necessary for basic functionality](https://developer.algorand.org/docs/features/accounts/#minimum-balance). Note that the Algo are still there in your account.
+
+The solution is to either transact less, or to opt-out of the ASAs and/or smart contracts.
+
+In a blockchain there is a need to keep track of every transaction that has ever taken place, and the holdings of every account as a result of those transactions, If there was no "stake" in opting into ASAs and SCs, adversaries could mint a lot of assets and clog up storage that way. Now you need to keep some Algo, and there is also a limit to how many ASAs one account can contain.
+
+In the future, if the price of Algo goes, these limits can be lowered.
 
 # Network
 

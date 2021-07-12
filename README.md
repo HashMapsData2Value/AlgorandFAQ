@@ -697,7 +697,7 @@ With blockchain, a central bank would not have to engage in this elaborate dance
 
 ## I thought Crypto was about creating a new world and smashing our institutions, not enabling them further?
 
-Crypto means a lot of things to a lot of people. It is true that Bitcoin has its roots in the cypherpun world and in specific political movements. Bitcoin was a child of the Great Depression, and in his/her/their first transaction of Bitcoin, Satoshi quoted a New York Times headline in the transaction note field: "Chancellor on brink of second bailout for banks".
+Crypto means a lot of things to a lot of people. It is true that Bitcoin has its roots in the cypherpunk world and in specific political movements. Bitcoin was a child of the Great Regression, and in his/her/their first transaction of Bitcoin, Satoshi quoted a New York Times headline in the transaction note field: "Chancellor on brink of second bailout for banks".
 
 Blockchain technologies can either usher in a new world, with a borderless economy, where the citizens of the world are not trapped by centralized "digital empires" owned by few; or enable a level of totalitarianism never seen before: the complete supervision of all financial activity in a country. It is very important that it is done right. Central Bank Digital Currencies _will_ be implemented, and people need to be educated on them to even be in a position to make any kinds of demands regarding the fairness, transparency, etc; of their national blockchains.
 

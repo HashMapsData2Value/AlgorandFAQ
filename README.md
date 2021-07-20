@@ -590,16 +590,16 @@ Currently, the main concern is that blockchain could be used for illegal activit
 
 When you create an account, e.g. on the official mobile app, you will receive a 25 word seed phrase. The final 25th word is a checksum derived from the initial 24 and is only a way to make quickly verify whether the address is correctly formatted or not.
 
-However, while Algorand uses the BIP-39 wordlist (which maps each word to a number from 1 to 2048), but it does not use the same mnemonic generation scheme as many other cryptocurrencies.
+However, while Algorand uses the BIP-39 wordlist (which maps each word to a number from 1 to 2048), it **does not use the same mnemonic generation scheme as many other cryptocurrencies.**
 
 This means that the recovery phrase you get for your Ledger Nano hardware wallet cannot be directly entered into an Algorand software wallet (with the 25th word checksum calculated), as the derivation path is different.
 
 This is an issue if you lose your Ledger Nano, or something happens to it, and you quickly need to reach or transfer the ALGO from your accounts - you will have to get your hands on another Ledger Nano and recovery from that. Which can take days, weeks or even months depending on your location.
 
 The following threads have discussed this:
-https://www.reddit.com/r/AlgorandOfficial/comments/nocvff/algorand_official_wallet_does_not_use_the/
-https://www.reddit.com/r/AlgorandOfficial/comments/mckb2f/no_bip39_compatible_algorand_wallet/
-https://www.reddit.com/r/AlgorandOfficial/comments/nrusdc/what_happens_to_my_algos_if_i_lose_my_ledger/
+- https://www.reddit.com/r/AlgorandOfficial/comments/nocvff/algorand_official_wallet_does_not_use_the/
+- https://www.reddit.com/r/AlgorandOfficial/comments/mckb2f/no_bip39_compatible_algorand_wallet/
+- https://www.reddit.com/r/AlgorandOfficial/comments/nrusdc/what_happens_to_my_algos_if_i_lose_my_ledger/
 
 Members of the community have contributed with the following tools to assist you in the conversion, at least until the feature has been added to the official app and other Algorand-native tools.
 

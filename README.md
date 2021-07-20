@@ -771,26 +771,26 @@ From the [Ecosystems page](https://www.algorand.com/ecosystem):
 [![Screenshot of the Ecosystem Overview Page](https://raw.githubusercontent.com/HashMapsData2Value/AlgorandFAQ/main/2021-07-20%2022_18_48-Ecosystem%20Overview%20_%20Algorand.png)](https://www.algorand.com/ecosystem)
 
 **University Partners:**
-- Massachusett Institute of Technology (MIT)
-- Peking University/北京大学
-- Stony Brook University
-- Sapienza Università di Roma
-- Imperial College London - Centre for Blockchains and Cryptotechnologies
-- Imperial College Business School
-- Università degli Studi di Salerno
-- University of Waterloo
-- Tel Aviv University
-- (UCLA) Berkeley - Hackbridge
-- Tsinghua University/清华大学
+- [Massachusett Institute of Technology (MIT)](https://web.mit.edu/)
+- [Peking University/北京大学](https://english.pku.edu.cn/)
+- [Stony Brook University](https://www.stonybrook.edu/)
+- [Sapienza Università di Roma](https://www.uniroma1.it/en/pagina-strutturale/home)
+- [Imperial College London - Centre for Blockchains and Cryptotechnologies](https://www.imperial.ac.uk/cryptocurrency/)
+- [Imperial College Business School](https://www.imperial.ac.uk/business-school/)
+- [Università degli Studi di Salerno](http://www.unisa.it/)
+- [University of Waterloo](https://uwaterloo.ca/)
+- [Tel Aviv University](https://english.tau.ac.il/)
+- [(UCLA) Berkeley](https://www.berkeley.edu/) - Hackbridge
+- [Tsinghua University/清华大学](https://www.tsinghua.edu.cn/en/index.htm)
 - Universita ... ?
-- Cambridge University - CUCES
-- HULT International Business School
-- Warwick Entrepreneurs
-- OXVC (Oxford Venture Capital Network)
-- TiE Atlanta
-- UCLFinTech (University College London)
-- LSESU Business & Investment Group (London School of Economics)
-- LUUCABS (Leeds University Union - Cryptocurrency & Blockchain Society)
+- Cambridge University - [CUCES?](https://www.ceb.cam.ac.uk/undergraduates/cuces-chem-eng-soc)
+- [HULT International Business School](https://www.hult.edu/)
+- [Warwick Entrepreneurs](https://www.entrepreneurs-warwick.com/)
+- [OXVC (Oxford Venture Capital Network)](https://oxvcnetwork.com/)
+- [TiE Atlanta](https://hub.tie.org/c/tieatlanta)
+- [UCLFinTech (University College London)](https://uclfintechsociety.com/)
+- [LSESU Business & Investment Group (London School of Economics)](https://www.lsesu.com/)
+- [LUUCABS (Leeds University Union - Cryptocurrency & Blockchain Society)](https://www.linkedin.com/company/luucabsoc/)
 
 **Key Partners:**
 - [3.0 Capital](https://www.crunchbase.com/organization/3-0-capital)

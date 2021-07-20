@@ -764,4 +764,59 @@ There are also advantages for the mainchain, in that transactions will be off-lo
 
 The current head of the SEC, Gary Gensler, was previously a professor at MIT teaching the course [MIT 15.S12 Blockchain and Money](https://ocw.mit.edu/courses/sloan-school-of-management/15-s12-blockchain-and-money-fall-2018/). Silvio Micali was also at MIT at the same time and Gensler mentions him and Algorand on at least two occassions in the lecture series. Thus, it can be concluded that Gensler is aware of Algorand and its unique selling points.
 
-## I understand that
+## Who are Algorand's "University Partners" and "Key Stakeholders"?
+
+From the [Ecosystems page](https://www.algorand.com/ecosystem):
+
+[![Screenshot of the Ecosystem Overview Page](https://raw.githubusercontent.com/HashMapsData2Value/AlgorandFAQ/main/2021-07-20%2022_18_48-Ecosystem%20Overview%20_%20Algorand.png)](https://www.algorand.com/ecosystem)
+
+**University Partners:**
+- Massachusett Institute of Technology (MIT)
+- Peking University/北京大学
+- Stony Brook University
+- Sapienza Università di Roma
+- Imperial College London - Centre for Blockchains and Cryptotechnologies
+- Imperial College Business School
+- Università degli Studi di Salerno
+- University of Waterloo
+- Tel Aviv University
+- (UCLA) Berkeley - Hackbridge
+- Tsinghua University/清华大学
+- Universita ... ?
+- Cambridge University - CUCES
+- HULT International Business School
+- Warwick Entrepreneurs
+- OXVC (Oxford Venture Capital Network)
+- TiE Atlanta
+- UCLFinTech (University College London)
+- LSESU Business & Investment Group (London School of Economics)
+- LUUCABS (Leeds University Union - Cryptocurrency & Blockchain Society)
+
+**Key Partners:**
+- [3.0 Capital](https://www.crunchbase.com/organization/3-0-capital)
+- [11-11 Ventures](http://11-11ventures.com/)
+- [AlgoInvestor](https://www.algo-investor.com/)
+- [Lvna Capital](https://lvnacapital.com/)
+- [Amber Ai Group](https://www.ambergroup.io/)
+- [Applied Crypto Ventures](https://sites.google.com/appliedcrypto.vc/acvcfund/acvc)
+- [Arrington XRP Capital](https://arringtonxrpcapital.com/)
+- [Bixin Capital](http://bixincapital.com/)
+- [P2P Capital](https://www.p2pcap.com/)
+- [Union Square Ventures](https://www.usv.com/)
+- [Brainchild (Kal Vepuri)](https://www.bloomberg.com/profile/person/20094835)
+- [CPChain - Cyber Physical Chain](https://cpchain.io/)
+- [Cumberland Advisors](https://www.cumber.com/)
+- [Eterna](https://www.eternacapital.com/)
+- [CMB International Ltd](https://www.cmbi.com.hk/en-US/)
+- [Foundation Capital](https://foundationcapital.com/)
+- [Genesis Capital](https://genesis-capital.com/)
+- [Hex Capital](https://hex-capitals.com/)
+- [Neo Global Capital](https://www.ngc.fund/)
+- [IMO Ventures](https://www.imo.vc/)
+- [MetaStable Capital](https://www.metastablecapital.com/)
+- Kosmos
+
+
+
+
+

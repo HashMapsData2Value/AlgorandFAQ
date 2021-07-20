@@ -768,7 +768,7 @@ The current head of the SEC, Gary Gensler, was previously a professor at MIT tea
 
 From the [Ecosystems page](https://www.algorand.com/ecosystem):
 
-[![Screenshot of the Ecosystem Overview Page](https://raw.githubusercontent.com/HashMapsData2Value/AlgorandFAQ/main/2021-07-20%2022_18_48-Ecosystem%20Overview%20_%20Algorand.png)](https://www.algorand.com/ecosystem)
+[![Screenshot of the Ecosystem Overview Page](https://raw.githubusercontent.com/HashMapsData2Value/AlgorandFAQ/main/media/Ecosystem%20Overview%20Algorand.png)](https://www.algorand.com/ecosystem)
 
 **University Partners:**
 - [Massachusett Institute of Technology (MIT)](https://web.mit.edu/)

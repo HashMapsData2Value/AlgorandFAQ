@@ -583,7 +583,7 @@ For law enforcement, they are free to subpoena Coinbase for your information. An
 
 [Silvio has said that he believes in privacy, but that the timing is not right.](https://www.youtube.com/watch?v=zNdhgOk4-fE&t=3284s)
 
-Currently, the main concern is that blockchain could be used for illegal activity. However, if blockchain receives more adoption from business and citizens at large, the general understanding regarding blockchain will have evolved, and it might then be of greater priority to preserve the privacy of everyone's holdings and transactions.
+Currently, there is a huge concern from the establishment (government, law enforcement, tax agencies, etc) that a private blockchain technology could be used for illegal activity (trafficking, terrorism, money laundering, etc). However, if blockchain receives more adoption from business and citizens at large, the general understanding regarding blockchain will have evolved, and it might then be of greater priority to preserve the privacy of everyone's holdings and transactions, as the ratio of legitimate vs illegitimate activity on the blockchain will be different.
 
 
 ## What's the deal with Algorand, BIP39 and Ledger hardware wallets?

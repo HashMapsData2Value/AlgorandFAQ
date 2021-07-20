@@ -814,8 +814,16 @@ From the [Ecosystems page](https://www.algorand.com/ecosystem):
 - [Neo Global Capital](https://www.ngc.fund/)
 - [IMO Ventures](https://www.imo.vc/)
 - [MetaStable Capital](https://www.metastablecapital.com/)
-- Kosmos
-
+- [Kosmos Asset Management](http://www.kosmoscapital.com/)
+- [Lemniscap](https://lemniscap.com/)
+- [SparkPool](https://www.sparkpool.com/en/)
+- [Nirvana Capital](http://nirvana.capital/)
+- [新湃资本 NewStyle Capital](https://www.linkedin.com/company/newstylecapital/about/)
+- [Pillar Venture Capital](https://www.pillar.vc/portfolio/)
+- [QCP Capital](https://qcp.capital/)
+- [Polybius Capital](https://www.polybiuscapital.com/)
+- [回向基金 Transference Fund](https://www.crunchbase.com/organization/transference-fund)
+- Mosaic (Link?)
 
 
 

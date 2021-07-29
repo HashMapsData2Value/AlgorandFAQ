@@ -826,5 +826,6 @@ From the [Ecosystems page](https://www.algorand.com/ecosystem):
 - Mosaic (Link?)
 
 
+An interactive map can be found here: https://www.zeemaps.com/view?group=4173941&x=-1425.746026&y=37.108757&z=15
 
 

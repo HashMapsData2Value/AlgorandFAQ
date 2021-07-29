@@ -780,7 +780,7 @@ From the [Ecosystems page](https://www.algorand.com/ecosystem):
 - [Università degli Studi di Salerno](http://www.unisa.it/)
 - [University of Waterloo](https://uwaterloo.ca/)
 - [Tel Aviv University](https://english.tau.ac.il/)
-- [(UCLA) Berkeley](https://www.berkeley.edu/) - Hackbridge
+- [UC Berkeley](https://www.berkeley.edu/) - Hackbridge
 - [Tsinghua University/清华大学](https://www.tsinghua.edu.cn/en/index.htm)
 - [Università della Svizzera italiana](https://www.usi.ch/en)
 - Cambridge University - [CUCES?](https://www.ceb.cam.ac.uk/undergraduates/cuces-chem-eng-soc)

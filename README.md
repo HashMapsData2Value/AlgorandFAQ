@@ -782,7 +782,7 @@ From the [Ecosystems page](https://www.algorand.com/ecosystem):
 - [Tel Aviv University](https://english.tau.ac.il/)
 - [(UCLA) Berkeley](https://www.berkeley.edu/) - Hackbridge
 - [Tsinghua University/清华大学](https://www.tsinghua.edu.cn/en/index.htm)
-- Universita ... ?
+- [Università della Svizzera italiana](https://www.usi.ch/en)
 - Cambridge University - [CUCES?](https://www.ceb.cam.ac.uk/undergraduates/cuces-chem-eng-soc)
 - [HULT International Business School](https://www.hult.edu/)
 - [Warwick Entrepreneurs](https://www.entrepreneurs-warwick.com/)

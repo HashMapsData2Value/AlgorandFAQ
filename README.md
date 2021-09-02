@@ -829,3 +829,11 @@ From the [Ecosystems page](https://www.algorand.com/ecosystem):
 An interactive map can be found here: https://www.zeemaps.com/view?group=4173941&x=-1425.746026&y=37.108757&z=15
 
 
+## Algorand vs Solana?
+
+A number of threads have been made regarding this:
+- [ALGORAND V SOLANA](https://www.reddit.com/r/AlgorandOfficial/comments/pfypbo/algorand_v_solana/) (/u/begoodifalwaysright)
+- [Algorand Vs. Solana](https://www.reddit.com/r/AlgorandOfficial/comments/ogdlz4/algorand_vs_solana/) (/u/DoU92)
+- [Algorand vs Solana?](https://www.reddit.com/r/AlgorandOfficial/comments/n1ybp1/algorand_vs_solana/) (/u/quickswitch123)
+- [Solana vs algorand](https://www.reddit.com/r/AlgorandOfficial/comments/lq566t/solana_vs_algorand/) (/u/mavestic)
+- [Solana vs Algorand](https://www.reddit.com/r/AlgorandOfficial/comments/lyplrl/solana_vs_algorand/) (/u/ewemalts)

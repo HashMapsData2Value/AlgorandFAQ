@@ -658,6 +658,7 @@ For more information on governance:
 https://www.algorand.com/ecosystem
 https://www.algorand.com/ecosystem/use-cases
 
+Also, user /u/BioRobotTch compiled [the following thread](https://www.reddit.com/r/AlgorandOfficial/comments/pfo434/algorand_ecosystem_of_applications/).
 
 ## Where can I buy Algorand?
 

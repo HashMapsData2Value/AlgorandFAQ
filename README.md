@@ -309,7 +309,7 @@ Presumably, 1000 microAlgos seemed like a fair and round number at the time.
 
 ### Where does the transaction fee go?
 
-Unlike in many other blockchains, where the fee is used as a reward for node runners, this does not  happen. Running a Participation Node is not rewarded, and the entities currently running the whitelisted Relay Nodes are rewarded by the Algorand Foundation with Algo directly. Refer to the section on Nodes for more answers on questions regarding this.
+Unlike in many other blockchains, where the fee is used as a reward for block proposers and verifiers, this does not happen. Running a Participation Node is not rewarded, and the entities currently running the whitelisted Relay Nodes are rewarded by the Algorand Foundation with Algo directly. However, it is presumed that Relay Nodes will receive a portion of the transaction fees. Refer to the section on Nodes for more answers on questions regarding this.
 
 The fees are not "burnt", rather they all currently accumulate in the FeeSink account, which was specified in the genesis block. The FeeSink account can ONLY be sent to a RewardsPool account, from which rewards can be sent.
 

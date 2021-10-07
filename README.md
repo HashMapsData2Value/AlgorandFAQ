@@ -94,10 +94,6 @@ The smallest divisible unit of Algo is the microAlgo, of which 10^6 make up one 
 
 The long-term Algo Dynamics can be [viewed here](https://algorand.foundation/the-algo/algo-dynamics).
 
-## What is accelerated vesting?
-
-Algorand has a distribution schedule that ends in 2030, meaning that all 10 billion Algo (10^16 µAlgo) will be fully circulated out of dormacy. However, if the price of Algo goes up quickly, more automatically get dispersed, accelerating that timeline. The calculation is done by taking the 30 day moving average price of Algo and comparing it to the current price. If the 30 day MA is lower than the current price, accelerated vesting will be triggered, releasing more tokens.
-
 ## What is Algorand's environmental impact?
 
 [Algorand is Carbon Neutral](https://algorand.foundation/news/carbon-neutral).

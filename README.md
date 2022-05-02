@@ -761,6 +761,10 @@ There are also advantages for the mainchain, in that transactions will be off-lo
 
 The current head of the SEC, Gary Gensler, was previously a professor at MIT teaching the course [MIT 15.S12 Blockchain and Money](https://ocw.mit.edu/courses/sloan-school-of-management/15-s12-blockchain-and-money-fall-2018/). Silvio Micali was also at MIT at the same time and Gensler mentions him and Algorand on at least two occassions in the lecture series. Thus, it can be concluded that Gensler is aware of Algorand and its unique selling points.
 
+## What role did DARPA have in the development of Algorand?
+
+The American Defense Advanced Research Projects Agency (DARPA) provided Silvio with a grant. This was stated by Barry Finkelstein [in this video](https://www.youtube.com/watch?v=0_xQwCWxbgE&t=179s).
+
 ## Who are Algorand's "University Partners" and "Key Stakeholders"?
 
 From the [Ecosystems page](https://www.algorand.com/ecosystem):

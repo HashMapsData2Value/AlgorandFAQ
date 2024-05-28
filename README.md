@@ -207,7 +207,7 @@ Hence, Algorand calls itself the "Pure" Proof-of-Stake blockchain.
 
 Miner Extractable Value (MEV) is a problem that Algorand is able to mitigate, though not get rid off completely.
 
-What is MEV? Consider a dApp that auctions out tickets to an event. You wish to put a bid, so you announce a transaction on the blockchain. A miner (in Proof-of-Work terminology, but generally anyone eligible to aggregate up pending transactions and propose a block containing it) sees this and declines to include your transaction. Instead, the miner itself goes to buy the ticket up, so they can then sell it to you at a higher price. Or, consider an auction where you are bidding on a house. One of the oppnoyosing bidders bribes the miners to avoid including you or any other bid for the house, so that they may get it for cheaper without competition.
+What is MEV? Consider a dApp that auctions out tickets to an event. You wish to put a bid, so you announce a transaction on the blockchain. A miner (in Proof-of-Work terminology, but generally anyone eligible to aggregate up pending transactions and propose a block containing it) sees this and declines to include your transaction. Instead, the miner itself goes to buy the ticket up, so they can then sell it to you at a higher price. Or, consider an auction where you are bidding on a house. One of the oppnsing bidders bribes the miners to avoid including you or any other bid for the house, so that they may get it for cheaper without competition.
 
 This problem fundamentally exists because block proposers can arbitrarily choose which transactions to include in a block. In theory, in something like Ethereum, miners are supposed to go off of who pays the highest transaction fee, but there is no way to enforce this.
 

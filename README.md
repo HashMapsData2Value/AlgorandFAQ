@@ -29,11 +29,12 @@ From the [Wikipedia page](https://en.wikipedia.org/wiki/Algorand_(cryptocurrency
 
 The heart of Algorand, and what makes it stick out, is its deceptively simple consensus mechanism that results in Pure Proof of Stake. This allows it to solve the "Blockchain Trilemma" as defined by Vitalik Buterin, co-founder of Ethereum and de-facto spokesperson. (For more on this part, refer to the [section on Pure Proof-of-Stake](https://github.com/HashMapsData2Value/AlgorandFAQ/blob/main/README.md#pure-proof-of-stake).)
 
-- Transactions per Second: ~1k (by end of 2021 -> 46k) 
-- Transaction Finality: ~4.5s (by end of 2021 -> ~2.5s)
-- Transaction Cost: 1000 microAlgos/0.001 Algos, approximately $0.0015 or 0.15 cents (2021-05-14).
+- Transactions per Second: max recorded ~10k
+- Block Cadence: ~2.8s
+- Transaction Finality: Instant!
+- Transaction Cost: 1000 microAlgos/0.001 Algos.
 - Guaranteed to never fork!
-- Layer 1 Smart Contracts, part of the consensus protocol
+- Smart Contracts
 - Algorand Standard Assets being first-class citizens (Fungible & Non-Fungible Tokens)
 - Carbon Neutrality
 - Easy Staking
@@ -44,29 +45,14 @@ On a more subjective note, the following have also been praised by users on our 
 - The quality of the developer docs.
 - The UI of the official mobile Algorand app.
 
-
 ## What are the drawbacks of Algorand?
 
-The following threads discuss some of the things that are currently considered drawbacks:
-
-- https://www.reddit.com/r/AlgorandOfficial/comments/o9lll6/why_should_we_not_buy_algorand/
-- https://www.reddit.com/r/AlgorandOfficial/comments/n5tykg/algorand_negatives/
-- https://www.reddit.com/r/AlgorandOfficial/comments/mghvrn/almost_seems_to_good_to_be_true_give_me_something/
+- Lack of staking rewards (about to change)
+- Reliance on Relay Nodes (migration to P2P ongoing)
 
 ## Where can I view the metrics for the Algorand Mainnet?
 
 View them [here](https://metrics.algorand.org/).
-
-## Who are some noteworthy people associated with Algorand?
-
-- Founder: Silvio Micali. Turing Award Winner (2012), RSA Award Winner (2004) Gödel Prize Winner (1993), ACM Fellow (2017). He is also known for his foundational work in Cryptography, including (but not limtied to) the fields of public-key cryposystems, pseudorandom functions, digital signatures, zero-knowledge proofs (co-inventor), oblivious transfers, and secure multiparty computaton. Currently a professor at MIT.
-- Advisor: Shafrira Goldwasser. Turing Award Winner (2012), Gödel Prize Winner (1993), Gödel Prize Winner (2001), RSA Award Winner (1998), ACM Grace Murray Hopper Award Winner (1996), Suffrage Science Award (2016)...
-- Advisor: Paul Milgrom. Nobel Prize (2020).
-
-These are just a few examples of the many prominent people associated with Algorand. The explore the list of people more, refer to the following pages: 
-- [Algorand Foundation](https://algorand.foundation/about-us/who-we-are) 
-- [Algorand Inc.](https://www.algorand.com/about/our-team) 
-
 
 ## Who is Silvio Micali?
 Silvio Micali is the founder of Algorand. 
@@ -75,35 +61,35 @@ In 2017, Professor Micali published the [original Algorand paper](https://arxiv.
 
 He has been on the faculty at MIT, Electrical Engineering and Computer Science Department, since 1983. Silvio’s research interests are cryptography, zero knowledge, pseudorandom generation, secure protocols, and mechanism design and blockchain. In particular, Silvio is the co-inventor of probabilistic encryption, Zero-Knowledge Proofs, Verifiable Random Functions and many of the protocols that are the foundations of modern cryptography. 
 
-- [Silvio Micali | The Path to Algorand](https://www.youtube.com/watch?v=QOMpPZZeguQ)
 - [Silvio Micali's Lecture on Algorand](https://www.youtube.com/watch?v=NykZ-ZSKkxM)
 - [Silvio Micali: Cryptocurrency, Blockchain, Algorand, Bitcoin & Ethereum | Lex Fridman Podcast #168](https://www.youtube.com/watch?v=zNdhgOk4-fE)
 
-## What is the difference between Algorand Inc. and the Algorand Foundation? 
+## What is the difference between Algorand Technologies and the Algorand Foundation? 
 
-The Algorand Foundation and Algorand Inc operate independently from each other. 
+The Algorand Foundation and Algorand Technologies operate independently from each other. 
 
-- The Algorand Foundation: a not-for-profit, community organisation. Focuses on protocol governance and token dynamics, along with supporting grassroots, open-source development on the Algorand ecosystem.
-- Algorand Inc: focuses on developing the Algorand Protocol on layer-1, and enabling Enterprise adoption of Algorand blockchain technology. 
+- The Algorand Technologies: a not-for-profit, community organisation. Focuses on protocol governance and token dynamics, along with supporting grassroots, open-source development on the Algorand ecosystem. Is increasingly involved with protocol development.
+- Algorand Inc: a for-profit company historically focused on developing the Algorand protocol, and enabling Enterprise adoption of Algorand blockchain technology. 
 
-## What is the tokenomics and distribution schedule?
+## What is the tokenomics?
 
 10 billion Algo were minted at the start and represent the fixed and immutable maximum supply of Algo.
 
 The smallest divisible unit of Algo is the microAlgo, of which 10^6 make up one Algo.
 
-The long-term Algo Dynamics can be [viewed here](https://algorand.foundation/the-algo/algo-dynamics).
-
 ## What is Algorand's environmental impact?
 
-[Algorand is Carbon Neutral](https://algorand.foundation/news/carbon-neutral).
+[Algorand is Carbon Neutral](https://algorand.co/technology/sustainability). The Foundation regualrly offsets the carbon impact using carbon credits on-chain.
 
-Algorand uses a specific kind of Proof-of-Stake (PoS) in its block proposal and consensus mechanism which makes it far more efficient that not just the wildly inefficient Proof-of-Work, but also other blockchains that rely on PoS.
+Algorand uses a specific kind of Proof-of-Stake (PoS) in its block proposal and consensus mechanism which makes it far more efficient than not just the wildly inefficient Proof-of-Work, but also many other blockchains that rely on PoS.
 
 ## I want to stay up to date on the latest, and talk to other Algonauts. Where do I go? 
 
 **Algorand Forums**
 - https://community.algorand.org/
+
+**BlueSky**
+- https://go.bsky.app/C3N5UpS BlueSky Algorand starter
 
 **Facebook:**
 - https://www.facebook.com/algorand/
@@ -134,18 +120,16 @@ Algorand uses a specific kind of Proof-of-Stake (PoS) in its block proposal and 
 - https://t.me/algorand
 
 **Twitter:**
+- https://x.com/AlgoFamily
 - https://twitter.com/Algorand
+- https://x.com/JohnAlanWoods
 - https://twitter.com/silviomicali
-- https://twitter.com/KeliCallaghan
+- https://x.com/StaciW_DC
 - https://twitter.com/AlgoFoundation
 
 **Youtube:**
 - https://www.youtube.com/algorand
 - https://www.youtube.com/channel/UCYqAUajjZd0PuHyHslY_8Ww
-
-## Why is Silvio and the team not Twitter verified?
-
-Twitter's verification program was halted for some time. It is now up, but suffering from a big backlog.
 
 # Algorand - Protocol
 
@@ -236,7 +220,7 @@ Refer to the [paper](https://www.algorand.com/Algorand_%20A%20secure%20and%20eff
 
 ### What is transaction finality?
 
-So transaction finality means "how long do I have to wait until I am sure my transaction went through?". 
+So transaction finality means "how long do I have to wait until I can be reasonably sure that the block containing my transaction will not be reverted". 
 
 **TLDR**: Blockchains = blocks of transactions, chained together on top of each other. When someone makes a transaction, it gets included in a block. With Algorand, you know immediately if the block containing your transaction has "won" and been accepted by the world at large. With something like Bitcoin, you cannot be sure until several blocks in, which can take hours.
 
@@ -290,12 +274,6 @@ Currently, participation in the consensus is determined by participation nodes t
 You might test out different configurations and realise that your system can handle around 115000 transactions per block, and have the block time be as low as 2.5 seconds. 115000 transactions per block / 2.5 seconds per block = 46000 transactions per second.
 
 It is also worth pointing out that making the block time too fast is not ideal either. If it is too fast, certain off-chain IT systems relying on on-chain balances will not be able to work properly as the state of the blockchain will be changing too fast for them to be able to keep up.
-
-#### How will co-chains affect the TPS?
-
-It is expected that there will be additional co-chains running alongside the main network, offered to for example countries to run their [Central Bank Digital Currencies (CBDCs)](https://github.com/HashMapsData2Value/AlgorandFAQ/blob/main/README.md#cbdcs), for large industry consortiums, or to other entities/arrangements. These co-chains will be permissioned and will be much freer to set the parameters of their blockchains. For example, they might demand very powerful hardware and run on high performant private networks. They might make certain assumptions on the consumers of the blockchain data, and they might eschew certain functionality. 
-
-These factors mean that the co-chains could reach a lot higher theoretical TPS, with the number of transactions inter-chain being a smaller part of that.
 
 ### Why is the transaction fee set at 0.001 Algos?
 
@@ -437,11 +415,11 @@ TEAL stands for Transaction Execution Approval Language. The Algorand-native sma
 
 ### Do I have to use TEAL?
 
-No, there are other languages you can use:
-- [PyTEAL](https://developer.algorand.org/docs/features/asc1/teal/pyteal/): provides Python bindings around TEAL.
-- [Reach](reach.sh): allows you to write code that can be compiled to either Algorand or Ethereum (Solidity). Provides formal verification. 
-- [Clarity](https://clarity-lang.org/): originally used to bring smart contract to Bitcoin. Is decideable.
-- [Tealang](https://github.com/pzbitskiy/tealang): Aims to be a high-level language on top of TEAL, providing Go/JS/Python-like syntax.
+No, we encourage you to use PuYa:
+- [Algorand Python](https://algorandfoundation.github.io/puya/)
+- [Algorand Typescript](https://github.com/algorandfoundation/TEALScript)
+
+Easiest done through [Algokit](https://developer.algorand.org/docs/get-started/algokit/).
 
 ### What is the AVM?
 
@@ -467,7 +445,7 @@ To participate in the consensus protocol, one must also register a participation
 
 In case someone wonders how much the costs are. u/cysec_ uses Linode to host his participation node. The cost is currently 20 USD/EUR per month (Shared CPU - Linode 4GB). You can also run a participation node using a Raspberry Pi. At least two CPU cores and 4 GB of RAM are recommended. Hardware requirements may increase over time.
 
-Currently there are no rewards for running a participation node.
+Currently there are no rewards for running a participation node but this will soon change.
 
 You can find more tutorials here: 
 - Here a Youtube tutorial from a community member: https://youtu.be/ahCqIE7Ih_0, https://youtu.be/sbGoXaWOIcA.
@@ -476,8 +454,9 @@ You can find more tutorials here:
 
 ## Where can I view transactions and other activity on the blockchain?
 
-https://algoexplorer.io/
-
+- [Allo Explorer](http://allo.info)
+- [Pera Explorer](https://explorer.perawallet.app)
+- 
 
 # Wallet
 
@@ -653,10 +632,8 @@ For more information on governance:
 
 ## Where can I see a list of companies using Algorand?
 
-https://www.algorand.com/ecosystem
-https://www.algorand.com/ecosystem/use-cases
-
-Also, user /u/BioRobotTch compiled [the following thread](https://www.reddit.com/r/AlgorandOfficial/comments/pfo434/algorand_ecosystem_of_applications/).
+- https://algorand.co/case-studies
+- https://algorand.co/ecosystem/overview
 
 ## Where can I buy Algorand?
 
@@ -666,14 +643,7 @@ At the big exchanges, like Coinbase.
 
 Currently you have to do it by trust on Reddit, Discord, Telegram, etc. DEX:es are coming.
 
-## Is there a tool I can use to create my own token?
-
-You can do it in the [MyAlgo browser wallet](https://wallet.myalgo.com/).
-
 ## How do I buy USD stable coins?
-
-## What is ISO 20022 and what does it mean that Algorand is part of setting it?
-https://en.wikipedia.org/wiki/ISO_20022
 
 # CBDCs
 
@@ -717,126 +687,3 @@ Crypto means a lot of things to a lot of people. It is true that Bitcoin has its
 Blockchain technologies can either usher in a new world, with a borderless economy, where the citizens of the world are not trapped by centralized "digital empires" owned by few; or enable a level of totalitarianism never seen before: the complete supervision of all financial activity in a country. It is very important that it is done right. Central Bank Digital Currencies _will_ be implemented, and people need to be educated on them to even be in a position to make any kinds of demands regarding the fairness, transparency, etc; of their national blockchains.
 
 With that said, the team behind Algorand has chosen to market itself towards central banks and first tier financial insitutions. These are really looking to address the settlement issues that are inherent to the current financial system, and Algorand has chosen to offer themselves as a choice.
-
-## What is Algorand's connection with CBDCs?
-
-Algorand's COO stated in this [interview on 2021-04-27](https://www.youtube.com/watch?v=oX8D6TcQjXM) with Paul Barron Network that they are in talks with 15-20 central banks.
-
-Algorand is also, in its marketing and the blog content they produce, orienting themselves as an obvious CBDC candidate, e.g. [this report](https://info.algorand.com/cbdc-algorand).
-
-## How could you institute a CBDC on Algorand?
-
-There are two ways CBDCs could be created with Algorand:
-
-### As a stablecoin (fungible token) on the main chain. 
-
-When a fungible token is minted, there is the option to "partially" mint it by specifying a Reserve Address. A max total number is set and some of it is minted it, the Reserve Address is free to mint it. The [total is an uint64](https://developer.algorand.org/docs/reference/transactions/#total), so a maximum number of 2^64 tokens (\~1.8\*10\^19) can be specified. Then, the CBDC is free to inflate or deflate the circulating supply by adding or taking tokens out of circulation.
-
-The advantage of doing this is that the CBDC automatically inherits the strength of the Algorand mainnet, which include the many participation nodes and the ecosystem that is emerging. The disadvantage is that, while using the ASA fungible token addresses gives the CBDC some control, holding and transacting the CBDC token will still require the ALGO currency, which the central bank has little to no control over. Furthermore, there are specific design decisions of the Algorand protocol that the CBDC will also have little to no control over, e.g. regarding privacy, aspects affecting hardware requirements, and so on.
-
-### As a co-chain. 
-
-A separate blockchain would be set up based off of the Algorand protocol. Instead of 10B ALGO, the CBDC would mint their own native token, and have full control over all aspects of the blockchain. They could specifiy who gets to participate in consensus (permissioned), how the protocol should look like, and so forth.
-
-To illustrate, consider that ALGO serves the following purpose in the mainchain:
-
-- stake in consensus, for the VRF (PoS)
-- vote for governance/protocol upgrades
-- transaction fee (spam prevention, for rewards later)
-- ASA opt-in (spam prevention)
-- smart contract opt-in (spam prevention)
-- money
-
-It is entirely conceivable that a CBDC might want to create multiple native coins relevant across these areas.
-
-Other aspects of the Algorand protocol that a CBDC might be interested in playing with:
-
-- privacy of transactions
-- inflation of coin over time
-- minimum expected hardware requirements (e.g. the smart contract opcode execution limits)
-
-There are also advantages for the mainchain, in that transactions will be off-loaded and kept off chain. The mainchain is set to be able to handle 46k transactions (~4b a day).
-
-# Miscelleanous
-
-## What is the connection between Silvio and the SEC?
-
-The current head of the SEC, Gary Gensler, was previously a professor at MIT teaching the course [MIT 15.S12 Blockchain and Money](https://ocw.mit.edu/courses/sloan-school-of-management/15-s12-blockchain-and-money-fall-2018/). Silvio Micali was also at MIT at the same time and Gensler mentions him and Algorand on at least two occassions in the lecture series. Thus, it can be concluded that Gensler is aware of Algorand and its unique selling points.
-
-## What role did DARPA have in the development of Algorand?
-
-The American Defense Advanced Research Projects Agency (DARPA) provided Silvio with a grant. This was stated by Barry Finkelstein [in this video](https://www.youtube.com/watch?v=0_xQwCWxbgE&t=179s).
-
-## Who are Algorand's "University Partners" and "Key Stakeholders"?
-
-From the [Ecosystems page](https://www.algorand.com/ecosystem):
-
-[![Screenshot of the Ecosystem Overview Page](https://raw.githubusercontent.com/HashMapsData2Value/AlgorandFAQ/main/media/Ecosystem%20Overview%20Algorand.png)](https://www.algorand.com/ecosystem)
-
-**University Partners:**
-- [Massachusett Institute of Technology (MIT)](https://web.mit.edu/)
-- [Peking University/北京大学](https://english.pku.edu.cn/)
-- [Stony Brook University](https://www.stonybrook.edu/)
-- [Sapienza Università di Roma](https://www.uniroma1.it/en/pagina-strutturale/home)
-- [Imperial College London - Centre for Blockchains and Cryptotechnologies](https://www.imperial.ac.uk/cryptocurrency/)
-- [Imperial College Business School](https://www.imperial.ac.uk/business-school/)
-- [Università degli Studi di Salerno](http://www.unisa.it/)
-- [University of Waterloo](https://uwaterloo.ca/)
-- [Tel Aviv University](https://english.tau.ac.il/)
-- [UC Berkeley](https://www.berkeley.edu/) - Hackbridge
-- [Tsinghua University/清华大学](https://www.tsinghua.edu.cn/en/index.htm)
-- [Università della Svizzera italiana](https://www.usi.ch/en)
-- Cambridge University - [CUCES?](https://www.ceb.cam.ac.uk/undergraduates/cuces-chem-eng-soc)
-- [HULT International Business School](https://www.hult.edu/)
-- [Warwick Entrepreneurs](https://www.entrepreneurs-warwick.com/)
-- [OXVC (Oxford Venture Capital Network)](https://oxvcnetwork.com/)
-- [TiE Atlanta](https://hub.tie.org/c/tieatlanta)
-- [UCLFinTech (University College London)](https://uclfintechsociety.com/)
-- [LSESU Business & Investment Group (London School of Economics)](https://www.lsesu.com/)
-- [LUUCABS (Leeds University Union - Cryptocurrency & Blockchain Society)](https://www.linkedin.com/company/luucabsoc/)
-
-**Key Partners:**
-- [3.0 Capital](https://www.crunchbase.com/organization/3-0-capital)
-- [11-11 Ventures](http://11-11ventures.com/)
-- [AlgoInvestor](https://www.algo-investor.com/)
-- [Lvna Capital](https://lvnacapital.com/)
-- [Amber Ai Group](https://www.ambergroup.io/)
-- [Applied Crypto Ventures](https://sites.google.com/appliedcrypto.vc/acvcfund/acvc)
-- [Arrington XRP Capital](https://arringtonxrpcapital.com/)
-- [Bixin Capital](http://bixincapital.com/)
-- [P2P Capital](https://www.p2pcap.com/)
-- [Union Square Ventures](https://www.usv.com/)
-- [Brainchild (Kal Vepuri)](https://www.bloomberg.com/profile/person/20094835)
-- [CPChain - Cyber Physical Chain](https://cpchain.io/)
-- [Cumberland Advisors](https://www.cumber.com/)
-- [Eterna](https://www.eternacapital.com/)
-- [CMB International Ltd](https://www.cmbi.com.hk/en-US/)
-- [Foundation Capital](https://foundationcapital.com/)
-- [Genesis Capital](https://genesis-capital.com/)
-- [Hex Capital](https://hex-capitals.com/)
-- [Neo Global Capital](https://www.ngc.fund/)
-- [IMO Ventures](https://www.imo.vc/)
-- [MetaStable Capital](https://www.metastablecapital.com/)
-- [Kosmos Asset Management](http://www.kosmoscapital.com/)
-- [Lemniscap](https://lemniscap.com/)
-- [SparkPool](https://www.sparkpool.com/en/)
-- [Nirvana Capital](http://nirvana.capital/)
-- [新湃资本 NewStyle Capital](https://www.linkedin.com/company/newstylecapital/about/)
-- [Pillar Venture Capital](https://www.pillar.vc/portfolio/)
-- [QCP Capital](https://qcp.capital/)
-- [Polybius Capital](https://www.polybiuscapital.com/)
-- [回向基金 Transference Fund](https://www.crunchbase.com/organization/transference-fund)
-- Mosaic (Link?)
-
-
-An interactive map can be found here: https://www.zeemaps.com/view?group=4173941&x=-1425.746026&y=37.108757&z=15
-
-
-## Algorand vs Solana?
-
-A number of threads have been made regarding this:
-- [ALGORAND V SOLANA](https://www.reddit.com/r/AlgorandOfficial/comments/pfypbo/algorand_v_solana/) (/u/begoodifalwaysright)
-- [Algorand Vs. Solana](https://www.reddit.com/r/AlgorandOfficial/comments/ogdlz4/algorand_vs_solana/) (/u/DoU92)
-- [Algorand vs Solana?](https://www.reddit.com/r/AlgorandOfficial/comments/n1ybp1/algorand_vs_solana/) (/u/quickswitch123)
-- [Solana vs algorand](https://www.reddit.com/r/AlgorandOfficial/comments/lq566t/solana_vs_algorand/) (/u/mavestic)
-- [Solana vs Algorand](https://www.reddit.com/r/AlgorandOfficial/comments/lyplrl/solana_vs_algorand/) (/u/ewemalts)
